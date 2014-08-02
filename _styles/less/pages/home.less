@@ -1,0 +1,99 @@
+@charset "UTF-8";
+
+#number-groups {
+	height: 210px;
+	& > div {
+		width: 24%;
+		float: left;
+		h3 {
+			font-size: 106px;
+			float: left;
+			width: 40%;
+			.osextrabold;
+		}
+		h4 {
+			font-size: 26px;
+			float: right;
+			margin-top: 67px;
+			.os;
+		}
+		h5 {
+			font-size: 14px;
+			line-height: 20px;
+			margin: 115px 0 27px;
+			.os;
+			clear: both;
+		}
+	}
+	.one {
+		margin-left: 10%;
+		margin-right: 4%;
+		color: @yellow;
+		h3, h4 {
+			color: @yellow;
+		}
+		h4 {
+			width: 60%;
+		}
+	}
+	.two {
+		margin-right: 4%;
+		color: @blue;
+		h3, h4 {
+			color: @blue;
+		}
+		h4 {
+			width: 60%;			
+		}
+	}
+	.three {
+		margin-right: 10%;
+		color: @grey;
+		h2 {
+			width: 57%;
+		}
+		h3 {
+			width: 55%;
+		}
+		h4 {
+			width: 44%;
+		}
+	}
+}
+
+#article {
+	margin: 110px 10% 20px;
+	img {
+		float: left;
+		width: 20%;
+	}
+	.article-text {
+		float: right;
+		width: 78%;
+		h5 {
+			.os;
+			font-size: 24px;
+			line-height: 40px;	
+			color: @grey;
+			text-transform: uppercase;
+		}
+		p {
+			.os; 
+			font-size: 18px;
+			line-height: 25px;
+			color: @grey;
+			padding-bottom: 0;
+			&.by {
+				text-transform: uppercase;
+				font-size: 14px;
+				color: @blue;
+				.osbold;
+				line-height: 20px;
+			}
+		}
+		.textlink {
+			float: right;
+			margin-top: 20px;
+		}
+	}
+}

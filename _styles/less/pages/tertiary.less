@@ -1,0 +1,71 @@
+@charset "UTF-8";
+
+.h1margin {
+	margin-left: 10%;
+}
+
+#trustee-thumbs {
+	width: 80%;
+	margin: 0 10%;
+	.trustee {
+		width: 10.5%;
+		margin-right: .68%;
+		float: left;
+		&:last-child {
+			margin-right: 0;
+		}
+		img {
+			width: 100%;
+			&:hover {
+				opacity: .8;
+				.transition();
+			}
+		}
+		h3 {
+			.osextrabold;
+			font-size: 15px;
+			text-transform: uppercase;
+			margin: 5px 0 0;
+			a {
+				text-decoration: none;
+				color: @yellow;
+				&:hover {
+					color: @grey;
+				}
+			}
+		}
+		.district, .bio {
+			margin-top: 8px;
+			display: inline-block;
+			color: @yellow;
+			text-transform: uppercase;
+			text-decoration: none;
+			font-size: 12px;
+			letter-spacing: 3px;
+			border-bottom: 1px solid @yellow;
+			cursor: pointer;
+			.osextrabold;
+			&:hover {
+				color: @grey;
+				border-bottom: 1px solid @grey;
+			}
+		}
+	}
+}
+
+#map {
+	img {
+		width: 80%;
+		margin: 40px 10% 60px;
+	}
+	&.showDistrictOne {
+		background: url("/_images/map-district1.png") no-repeat center center transparent;
+		img {
+			display: none;
+		}
+	}
+}
+
+#content {
+	margin-bottom: 50px;
+}

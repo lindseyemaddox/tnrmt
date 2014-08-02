@@ -1,0 +1,138 @@
+@charset "UTF-8";
+
+/******** START COLORS *********/
+
+@yellow: 	#f8d346;
+@blue:		#7bb1d2;
+@grey:		#626262;
+@light:		#bcbdc0;
+
+/********  END COLORS *********/
+
+/******** START TYPE *********/
+
+body {
+	max-width: 1440px;
+	margin: 0 auto;
+}
+
+.textlink {
+	letter-spacing: 5px;
+	text-transform: uppercase;
+	cursor: pointer;
+	.osextrabold; 
+	&.yellow {
+		color: @yellow;
+		border-bottom: 3px solid @yellow;
+		&:hover {
+			color: @grey;
+			border-bottom: 3px solid @grey;
+			.transition;
+		}
+	}
+	&.blue {
+		color: @blue;
+		border-bottom: 3px solid @blue;
+		&:hover {
+			color: @grey;
+			border-bottom: 3px solid @grey;
+			.transition;
+		}
+	}
+	&.grey {
+		color: @grey;
+		border-bottom: 3px solid @grey;
+		&:hover {
+			color: @yellow;
+			border-bottom: 3px solid @yellow;
+			.transition;
+		}		
+	}
+}
+
+a {
+	color: @yellow;
+	text-decoration: none;
+	&:hover {
+		.transition();
+		color: @light;
+	}
+}
+
+h1 {
+	.oslight;
+	font-size: 36px;
+	color: @grey;
+	margin: 0 0 20px;
+	text-transform: uppercase;
+}
+
+h2 {
+	.oslight;
+	font-size: 20px;
+	line-height: 26px;
+	border-top: 10px solid @yellow;
+	border-bottom: 10px solid @yellow;
+	color: @grey;
+	padding: 20px 0;
+	margin-bottom: 40px;
+}
+
+h3 {
+	.osbold;
+	font-size: 24px;
+	color: @grey;
+	margin: 20px 0;
+	text-transform: uppercase;
+}
+
+h4 {
+	.os-italic;
+	font-size: 18px;
+	margin-bottom: 15px;
+	text-transform: uppercase;
+	color: @grey;
+}
+
+p {
+	.os;
+	font-size: 16px;
+	line-height: 20px;
+	padding-bottom: 20px;
+	color: @grey;
+}
+
+li {
+	.os;
+	font-size: 16px;
+	line-height: 20px;
+	padding-bottom: 20px;
+	color: @grey;
+	list-style-image: url("/_images/arrow.png");
+	margin-left: 20px;
+}
+
+/********  END TYPE *********/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
