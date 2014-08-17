@@ -591,6 +591,8 @@ header .claims-link:hover {
 header .divh1 {
   background-color: rgba(255, 255, 255, 0.4);
   padding: 0 10%;
+  position: absolute;
+  top: 320px;
 }
 header .divh1 h1 {
   text-align: center;
@@ -616,15 +618,14 @@ header .divh1 h1 span {
   margin-bottom: 0;
 }
 nav {
-  float: right;
   background-color: rgba(255, 255, 255, 0.4);
-  margin: 60px 0 220px 0;
-  position: relative;
+  position: absolute;
   padding-right: 10%;
+  right: 0;
+  top: 50px;
 }
 nav li {
   float: left;
-  padding-right: 55px;
   padding: 45px 55px 45px 45px;
   list-style-image: none;
   margin: 0;
@@ -632,16 +633,39 @@ nav li {
 nav li:last-child {
   padding-right: 0;
 }
+nav li a {
+  color: #fff;
+  text-decoration: none;
+  font-family: "open_sansbold", arial, helvetica, sans-serif;
+  font-size: 16px;
+  text-transform: uppercase;
+}
+nav li a:hover {
+  color: #f8d346;
+}
+nav li ul {
+  height: 0;
+  overflow: hidden;
+}
+nav li ul li {
+  display: none;
+}
 nav li:hover ul {
-  display: block;
+  max-height: 300px;
+  height: auto;
+  top: 110px;
   position: absolute;
   background-color: rgba(255, 255, 255, 0.95);
-  top: 110px;
   padding: 0 45px 20px;
-  z-index: 1;
-  -webkit-box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
-  -moz-box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
-  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+  z-index: 3;
+  -webkit-box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+  -moz-box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
+  -webkit-transition: all 400ms ease;
+  -moz-transition: all 400ms ease;
+  -o-transition: all 400ms ease;
+  -ms-transition: all 400ms ease;
+  transition: all 400ms ease;
 }
 nav li:hover ul.who-we-are {
   left: 0;
@@ -653,8 +677,8 @@ nav li:hover ul.resources {
   left: 495px;
 }
 nav li:hover ul li {
-  float: none;
   display: block;
+  float: none;
   padding: 0 0 20px 0;
 }
 nav li:hover ul li:first-child {
@@ -664,19 +688,6 @@ nav li:hover ul li a {
   color: #626262;
 }
 nav li:hover ul li a:hover {
-  color: #f8d346;
-}
-nav li ul {
-  display: none;
-}
-nav li a {
-  color: #fff;
-  text-decoration: none;
-  font-family: "open_sansbold", arial, helvetica, sans-serif;
-  font-size: 16px;
-  text-transform: uppercase;
-}
-nav li a:hover {
   color: #f8d346;
 }
 footer {
@@ -1480,7 +1491,7 @@ body {
 }
 /**************** PAGE *****************/
 #number-groups {
-  height: 210px;
+  padding-top: 30px;
 }
 #number-groups > div {
   width: 24%;
@@ -1542,7 +1553,7 @@ body {
   width: 44%;
 }
 #article {
-  margin: 110px 10% 20px;
+  margin: 110px 10% 80px;
 }
 #article img {
   float: left;
@@ -1755,6 +1766,9 @@ body {
   }
   header .logo img {
     width: 100%;
+  }
+  nav {
+    top: 60px;
   }
   nav li {
     padding: 20px 40px 20px 35px;

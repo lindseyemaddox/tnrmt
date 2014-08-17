@@ -54,7 +54,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
 
 		</div><!--three-->
 
-		<div class="clear"></div>
+		<br class="clear" />
 
 	</section>
 
