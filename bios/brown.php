@@ -13,7 +13,7 @@
 	<meta http-equiv="X-UA-Compatible" content="chrome=1"> <!-- force chrome frame for IE -->
 	
 	<!-- Stylesheets -->
-	<link rel="stylesheet" href="/_styles/css/master.css" media="screen">
+	<link rel="stylesheet" href="/_styles/master.css" media="screen">
 	
 	<!-- JavaScript -->
 	<!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->

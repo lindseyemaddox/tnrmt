@@ -448,7 +448,6 @@ svg:not(:root) {
 /********  END COLORS *********/
 /******** START TYPE *********/
 body {
-  max-width: 1440px;
   margin: 0 auto;
 }
 .textlink {
@@ -567,8 +566,13 @@ header {
 header #showMenu {
   display: none;
 }
+header .inner {
+  width: 80%;
+  max-width: 1100px;
+  margin: 0 auto;
+  position: relative;
+}
 header .logo {
-  margin-left: 10%;
   padding-top: 60px;
   display: block;
   float: left;
@@ -576,7 +580,7 @@ header .logo {
 header .claims-link {
   position: absolute;
   top: 0px;
-  right: 10%;
+  right: 0;
   background-color: rgba(255, 255, 255, 0.4);
   padding: 10px;
   color: #f8d346;
@@ -588,11 +592,19 @@ header .claims-link {
 header .claims-link:hover {
   color: #fff;
 }
+header .nav-bg {
+  background-color: rgba(255, 255, 255, 0.4);
+  position: absolute;
+  right: 0;
+  top: 50px;
+  height: 110px;
+  width: 55.7%;
+}
 header .divh1 {
   background-color: rgba(255, 255, 255, 0.4);
-  padding: 0 10%;
   position: absolute;
   top: 320px;
+  width: 100%;
 }
 header .divh1 h1 {
   text-align: center;
@@ -600,8 +612,9 @@ header .divh1 h1 {
   padding: 40px 0;
   font-size: 21px;
   line-height: 30px;
-  margin: 0 0 30px;
+  margin: 0 auto;
   text-transform: none;
+  max-width: 1100px;
   font-family: "open_sanslight", arial, helvetica, sans-serif;
 }
 header .divh1 h1 span {
@@ -618,9 +631,7 @@ header .divh1 h1 span {
   margin-bottom: 0;
 }
 nav {
-  background-color: rgba(255, 255, 255, 0.4);
   position: absolute;
-  padding-right: 10%;
   right: 0;
   top: 50px;
 }
@@ -694,16 +705,34 @@ footer {
   width: 100%;
   border-bottom: 10px solid #f8d346;
 }
-footer #quote {
-  width: 50%;
+footer .inner {
+  width: 80%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+footer .quote-bg {
   float: left;
-  padding: 52px 0 57px 10%;
-  background: url("/_images/texture-blue.png") repeat left top transparent;
+  width: 50%;
+}
+footer .meeting-bg {
   min-height: 350px;
+  float: left;
+  width: 50%;
+}
+footer #quote {
+  background: url("/_images/texture-blue.png") repeat left top transparent;
+  width: 50%;
+  min-height: 350px;
+  float: left;
+  padding: 52px 0 0;
+}
+footer #quote .inner {
+  max-width: 550px;
+  float: right;
 }
 footer #quote img {
   float: left;
-  width: 40%;
+  width: 35%;
 }
 footer #quote h6 {
   font-family: "open_sansregular", arial, helvetica, sans-serif;
@@ -711,19 +740,23 @@ footer #quote h6 {
   line-height: 24px;
   color: #626262;
   float: left;
-  margin: 20px 0 0 5%;
+  margin: 0 0 0 5%;
   width: 50%;
 }
 footer #meeting {
-  width: 50%;
-  float: right;
-  padding: 52px 10% 57px 0;
   background: url("/_images/texture-grey.png") repeat left top transparent;
+  width: 50%;
   min-height: 350px;
+  float: right;
+  padding: 52px 0 0;
+}
+footer #meeting .inner {
+  max-width: 550px;
+  float: left;
 }
 footer #meeting img {
   float: left;
-  width: 40%;
+  width: 35%;
   margin-left: 5%;
 }
 footer #meeting h6 {
@@ -732,7 +765,8 @@ footer #meeting h6 {
   font-size: 33px;
   color: #fff;
   float: left;
-  margin: 20px 0 0 5%;
+  margin: 0 0 0 5%;
+  padding-bottom: 25px;
   width: 45%;
   line-height: 40px;
 }
@@ -742,7 +776,6 @@ footer #meeting p {
   float: left;
   font-family: "open_sansbold", arial, helvetica, sans-serif;
   font-size: 20px;
-  line-height: 30px;
   color: #fff;
 }
 footer #meeting p a {
@@ -761,6 +794,7 @@ footer #meeting p a:hover {
 footer #bottom {
   padding-top: 20px;
   width: 80%;
+  max-width: 1100px;
   margin: 0 10%;
 }
 footer #bottom p {
@@ -777,8 +811,8 @@ footer #bottom p span {
 .form {
   background-color: #bcbdc0;
   float: right;
-  width: 25%;
-  margin: 0 10% 50px 5%;
+  width: 35%;
+  margin: 0 0 50px 5%;
 }
 .form h3 {
   font-family: "open_sanslight", arial, helvetica, sans-serif;
@@ -1196,7 +1230,7 @@ textarea.floating-placeholder {
 }
 .element {
   background-color: #bcbdc0;
-  width: 280px;
+  width: 260px;
   height: 120px;
   padding: 5px;
   position: relative;
@@ -1208,7 +1242,7 @@ textarea.floating-placeholder {
 }
 .element .text {
   float: right;
-  width: 130px;
+  width: 110px;
 }
 .element .text h2 {
   border: none;
@@ -1221,7 +1255,8 @@ textarea.floating-placeholder {
   font-family: "open_sansbold", arial, helvetica, sans-serif;
 }
 .element .text h2 span {
-  letter-spacing: -2px;
+  letter-spacing: -1px;
+  font-size: 16px;
 }
 .element .text h3 {
   font-family: "open_sansregular", arial, helvetica, sans-serif;
@@ -1252,7 +1287,7 @@ textarea.floating-placeholder {
   height: 180px;
 }
 #container.resources .element img {
-  width: 61px;
+  width: 40px;
   margin: 4px;
 }
 #container.resources .element .text {
@@ -1492,9 +1527,12 @@ body {
 /**************** PAGE *****************/
 #number-groups {
   padding-top: 30px;
+  width: 80%;
+  max-width: 1100px;
+  margin: 0 auto;
 }
 #number-groups > div {
-  width: 24%;
+  width: 30%;
   float: left;
 }
 #number-groups > div h3 {
@@ -1517,8 +1555,7 @@ body {
   clear: both;
 }
 #number-groups .one {
-  margin-left: 10%;
-  margin-right: 4%;
+  margin-right: 5%;
   color: #f8d346;
 }
 #number-groups .one h3,
@@ -1529,7 +1566,7 @@ body {
   width: 60%;
 }
 #number-groups .two {
-  margin-right: 4%;
+  margin-right: 5%;
   color: #7bb1d2;
 }
 #number-groups .two h3,
@@ -1540,7 +1577,6 @@ body {
   width: 60%;
 }
 #number-groups .three {
-  margin-right: 10%;
   color: #626262;
 }
 #number-groups .three h2 {
@@ -1553,7 +1589,9 @@ body {
   width: 44%;
 }
 #article {
-  margin: 110px 10% 80px;
+  margin: 110px auto 80px;
+  width: 80%;
+  max-width: 1100px;
 }
 #article img {
   float: left;
@@ -1566,7 +1604,7 @@ body {
 #article .article-text h5 {
   font-family: "open_sansregular", arial, helvetica, sans-serif;
   font-size: 24px;
-  line-height: 40px;
+  padding-bottom: 10px;
   color: #626262;
   text-transform: uppercase;
 }
@@ -1588,10 +1626,13 @@ body {
   float: right;
   margin-top: 20px;
 }
+.sub .inner {
+  max-width: 1100px;
+  margin: 0 auto;
+}
 #content {
   float: left;
-  width: 50%;
-  margin-left: 10%;
+  width: 60%;
 }
 #content .textlink {
   color: #f8d346;
@@ -1603,25 +1644,21 @@ body {
 #content .textlink:hover {
   color: #626262;
 }
-.inner {
-  width: 80%;
-  margin: 0 10% 50px;
-}
-.inner #options {
+#options {
   float: right;
   width: 20%;
   background-color: #626262;
   padding: 20px;
 }
-.inner #options h4 {
+#options h4 {
   font-family: "open_sansbold", arial, helvetica, sans-serif;
   font-size: 24px;
   color: #fff;
 }
-.inner #options h4.last {
+#options h4.last {
   margin-top: 20px;
 }
-.inner #options li a {
+#options li a {
   color: #fff;
   text-decoration: none;
   font-family: "open_sansitalic", arial, helvetica, sans-serif;
@@ -1630,7 +1667,7 @@ body {
   text-transform: uppercase;
   cursor: pointer;
 }
-.inner #container {
+#container {
   float: left;
   width: 78%;
 }
@@ -1638,8 +1675,7 @@ body {
   margin-left: 10%;
 }
 #trustee-thumbs {
-  width: 80%;
-  margin: 0 10%;
+  width: 100%;
 }
 #trustee-thumbs .trustee {
   width: 10.5%;
@@ -1692,8 +1728,8 @@ body {
   border-bottom: 1px solid #626262;
 }
 #map img {
-  width: 80%;
-  margin: 40px 10% 60px;
+  width: 100%;
+  margin: 40px 0 60px;
 }
 #map.showDistrictOne {
   background: url("/_images/map-district1.png") no-repeat center center transparent;

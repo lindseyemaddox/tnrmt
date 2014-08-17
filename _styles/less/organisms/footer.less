@@ -3,15 +3,33 @@
 footer {
 	width: 100%;
 	border-bottom: 10px solid @yellow;
-	#quote {
-		width: 50%;
+	.inner {
+		width: 80%;
+		max-width: 1100px;
+		margin: 0 auto;
+	}
+	.quote-bg {
 		float: left;
-		padding: 52px 0 57px 10%;
-		background: url("/_images/texture-blue.png") repeat left top transparent;
+		width: 50%;
+	}
+	.meeting-bg {
 		min-height: 350px;
+		float: left;
+		width: 50%;
+	}
+	#quote {
+		background: url("/_images/texture-blue.png") repeat left top transparent;
+		width: 50%;
+		min-height: 350px;
+		float: left;
+		padding: 52px 0 0;
+		.inner {
+			max-width: 550px;
+			float: right;
+		}
 		img {
 			float: left;
-			width: 40%;
+			width: 35%;
 		}
 		h6 {
 			.os;
@@ -19,19 +37,23 @@ footer {
 			line-height: 24px;
 			color: @grey;
 			float: left;
-			margin: 20px 0 0 5%;
+			margin: 0 0 0 5%;
 			width: 50%;
 		}
 	}
 	#meeting {
-		width: 50%;
-		float: right;
-		padding: 52px 10% 57px 0;
 		background: url("/_images/texture-grey.png") repeat left top transparent;
+		width: 50%;
 		min-height: 350px;
+		float: right;
+		padding: 52px 0 0;
+		.inner {
+			max-width: 550px;
+			float: left;
+		}
 		img {
 			float: left;
-			width: 40%;
+			width: 35%;
 			margin-left: 5%;
 		}
 		h6 {
@@ -40,7 +62,8 @@ footer {
 			font-size: 33px;
 			color: #fff;
 			float: left;
-			margin: 20px 0 0 5%;
+			margin: 0 0 0 5%;
+			padding-bottom: 25px;
 			width: 45%;
 			line-height: 40px;
 		}
@@ -50,7 +73,6 @@ footer {
 			float: left;
 			.osbold;
 			font-size: 20px;
-			line-height: 30px;
 			color: #fff;
 			a {
 				color: #fff;
@@ -66,6 +88,7 @@ footer {
 	#bottom {
 		padding-top: 20px;
 		width: 80%;
+		max-width: 1100px;
 		margin: 0 10%;
 		p {
 			text-align: center;

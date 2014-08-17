@@ -57,7 +57,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
     	<div class="text">
     		<h2>Shannon<br />Bernhart</h2>
     		<h3>Claims Representative</h3>
-    		<h5>desc</h5>
+    		<h5>TNRMT</h5>
     		<span class="icon-info"></span>
     	</div><!--text-->
     </a><!--element-->
@@ -67,7 +67,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
     	<div class="text">
     		<h2>Anne<br />Bible</h2>
     		<h3>Claims Representative</h3>
-    		<h5>desc</h5>
+    		<h5>TNRMT</h5>
     		<span class="icon-info"></span>
     	</div><!--text-->
     </a><!--element-->
@@ -77,7 +77,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
     	<div class="text">
     		<h2>Mark<br />Bilyeu</h2>
     		<h3>Loss Control Specialist</h3>
-    		<h5>Safety Engineering Consultants</h5>
+    		<h5>SEC</h5>
     		<span class="icon-info"></span>
     	</div><!--text-->
     </a><!--element-->
@@ -105,7 +105,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
     <a href="/bios/carmichael.php" class="fancybox fancybox.iframe element trustee " data-symbol="Hg" data-category="Kubota">
     	<img src="/_images/team/carmichael.jpg">
     	<div class="text">
-    		<h2>Kenny<br />Carmichael</h2>
+    		<h2>Kenny<br /><span>Carmichael</span></h2>
     		<h3>Trustee</h3>
     		<h5>District 9</h5>
     		<span class="icon-info"></span>
@@ -115,9 +115,9 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
     <a href="/bios/carnahan.php" class="fancybox fancybox.iframe element finance tnrmt" data-symbol="Hg" data-category="Kubota">
     	<img src="/_images/team/carnahan.jpg">
     	<div class="text">
-    		<h2>Alice<br />Carnahan</h2>
+    		<h2>Alice<br /><span>Carnahan</span></h2>
     		<h3>Finance Specialist</h3>
-    		<h5>desc</h5>
+    		<h5>TNRMT</h5>
     		<span class="icon-info"></span>
     	</div><!--text-->
     </a><!--element-->
@@ -127,7 +127,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
     	<div class="text">
     		<h2>Debra<br />Coy</h2>
     		<h3>Claims Representative</h3>
-    		<h5>desc</h5>
+    		<h5>TNRMT</h5>
     		<span class="icon-info"></span>
     	</div><!--text-->
     </a><!--element-->
@@ -137,7 +137,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
     	<div class="text">
     		<h2>John<br />Evans</h2>
     		<h3>President</h3>
-    		<h5>Next Generation Underwriters / Safety Engineering Consultants</h5>
+    		<h5>NGU / SEC</h5>
     		<span class="icon-info"></span>
     	</div><!--text-->
     </a><!--element-->
@@ -147,7 +147,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
     	<div class="text">
     		<h2>Masie<br />Geddes</h2>
     		<h3>Claims Representative</h3>
-    		<h5>desc</h5>
+    		<h5>TNRMT</h5>
     		<span class="icon-info"></span>
     	</div><!--text-->
     </a><!--element-->
@@ -157,7 +157,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
     	<div class="text">
     		<h2>Kyle<br />Greenup</h2>
     		<h3>Information Technology</h3>
-    		<h5>desc</h5>
+    		<h5>NGU</h5>
     		<span class="icon-info"></span>
     	</div><!--text-->
     </a><!--element-->
@@ -167,7 +167,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
         <div class="text">
             <h2>Diane<br /><span>Gruenewald</span></h2>
             <h3>Claims Representative</h3>
-            <h5>desc</h5>
+            <h5>TNRMT</h5>
             <span class="icon-info"></span>
         </div><!--text-->
     </a><!--element-->
@@ -177,7 +177,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
     	<div class="text">
     		<h2>Kay<br />Hager</h2>
     		<h3>Senior Claims Representative</h3>
-    		<h5>desc</h5>
+    		<h5>TNRMT</h5>
     		<span class="icon-info"></span>
     	</div><!--text-->
     </a><!--element-->
@@ -187,7 +187,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
     	<div class="text">
     		<h2>Jennifer<br />Hall</h2>
     		<h3>Claims Adjuster</h3>
-    		<h5>Safety Engineering Consultants</h5>
+    		<h5>SEC</h5>
     		<span class="icon-info"></span>
     	</div><!--text-->
     </a><!--element-->
@@ -195,9 +195,9 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
     <a href="/bios/henderson.php" class="fancybox fancybox.iframe element claims tnrmt" data-symbol="Hg" data-category="Kubota">
     	<img src="/_images/team/henderson.jpg">
     	<div class="text">
-    		<h2>Harrold<br />Henderson</h2>
+    		<h2>Harrold<br /><span>Henderson</span></h2>
     		<h3>Senior Claims Representative</h3>
-    		<h5>desc</h5>
+    		<h5>TNRMT</h5>
     		<span class="icon-info"></span>
     	</div><!--text-->
     </a><!--element-->
@@ -207,7 +207,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
     	<div class="text">
     		<h2>Chelsey<br />Hudson</h2>
     		<h3>Claims Assistant</h3>
-    		<h5>desc</h5>
+    		<h5>TNRMT</h5>
     		<span class="icon-info"></span>
     	</div><!--text-->
     </a><!--element-->
@@ -227,7 +227,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
     	<div class="text">
     		<h2>Ruby<br />Keith</h2>
     		<h3>Customer Service Representative</h3>
-    		<h5>Next Generation Underwriters</h5>
+    		<h5>NGU</h5>
     		<span class="icon-info"></span>
     	</div><!--text-->
     </a><!--element-->
@@ -247,7 +247,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
     	<div class="text">
     		<h2>Stephanie<br />Krug</h2>
     		<h3>Claims Adjuster</h3>
-    		<h5>Safety Engineering Consultants</h5>
+    		<h5>SEC</h5>
     		<span class="icon-info"></span>
     	</div><!--text-->
     </a><!--element-->
@@ -267,7 +267,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
     	<div class="text">
     		<h2>Carol<br />Mason</h2>
     		<h3>Claims Assistant</h3>
-    		<h5>desc</h5>
+    		<h5>TNRMT</h5>
     		<span class="icon-info"></span>
     	</div><!--text-->
     </a><!--element-->
@@ -277,7 +277,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
     	<div class="text">
     		<h2>Jeff<br />Mathis</h2>
     		<h3>Chief Financial Officer</h3>
-    		<h5>Next Generation Underwriters</h5>
+    		<h5>NGU</h5>
     		<span class="icon-info"></span>
     	</div><!--text-->
     </a><!--element-->
@@ -287,7 +287,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
     	<div class="text">
     		<h2>Tom<br />Meares</h2>
     		<h3>Chief Financial Officer</h3>
-    		<h5>desc</h5>
+    		<h5>TNRMT</h5>
     		<span class="icon-info"></span>
     	</div><!--text-->
     </a><!--element-->
@@ -297,7 +297,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
         <div class="text">
             <h2>Tom<br /><span>Montgomery</span></h2>
             <h3>Director of Claims</h3>
-            <h5>Next Generation Underwriters</h5>
+            <h5>NGU</h5>
             <span class="icon-info"></span>
         </div><!--text-->
     </a><!--element-->
@@ -307,7 +307,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
         <div class="text">
             <h2>Joan<br />Peace</h2>
             <h3>Receptionist</h3>
-            <h5>Next Generation Underwriters</h5>
+            <h5>NGU</h5>
             <span class="icon-info"></span>
         </div><!--text-->
     </a><!--element-->
@@ -317,7 +317,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
         <div class="text">
             <h2>Donna<br />Robinson</h2>
             <h3>Customer Service Representative</h3>
-            <h5>Next Generation Underwriters</h5>
+            <h5>NGU</h5>
             <span class="icon-info"></span>
         </div><!--text-->
     </a><!--element-->
@@ -337,7 +337,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
         <div class="text">
             <h2>Tad<br />Salmon</h2>
             <h3>Claims Representative</h3>
-            <h5>desc</h5>
+            <h5>TNRMT</h5>
             <span class="icon-info"></span>
         </div><!--text-->
     </a><!--element-->
@@ -357,7 +357,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
         <div class="text">
             <h2>Chris<br />Stites</h2>
             <h3>Safety Engineer</h3>
-            <h5>desc</h5>
+            <h5>SEC</h5>
             <span class="icon-info"></span>
         </div><!--text-->
     </a><!--element-->
@@ -367,7 +367,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
         <div class="text">
             <h2>Betsey<br />Sullivan</h2>
             <h3>Customer Service Representative</h3>
-            <h5>Next Generation Underwriters</h5>
+            <h5>NGU</h5>
             <span class="icon-info"></span>
         </div><!--text-->
     </a><!--element-->
@@ -377,7 +377,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
         <div class="text">
             <h2>Jackie<br />Sullivan</h2>
             <h3>Claims Representative</h3>
-            <h5>desc</h5>
+            <h5>TNRMT</h5>
             <span class="icon-info"></span>
         </div><!--text-->
     </a><!--element-->
@@ -387,7 +387,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
         <div class="text">
             <h2>Sandra<br />Thompson</h2>
             <h3>Claims Representative</h3>
-            <h5>desc</h5>
+            <h5>TNRMT</h5>
             <span class="icon-info"></span>
         </div><!--text-->
     </a><!--element-->
@@ -437,7 +437,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
         <div class="text">
             <h2>Dawn<br />Wiles</h2>
             <h3>Senior Claims Representative</h3>
-            <h5>desc</h5>
+            <h5>TNRMT</h5>
             <span class="icon-info"></span>
         </div><!--text-->
     </a><!--element-->

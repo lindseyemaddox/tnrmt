@@ -67,7 +67,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
 			<h5>Schools Subject to Fines for Buying Non-Conforming Vans</h5>
 			<p class="by">written by John Evans</p>
 			<p class="by">month 24, 2014</p>
-			<p>...According to Robin Leeds, industry specialist for the National School Transportation Association, "What this means is that it is now illegal to buy a nonconforming van for student transportation as well as to sell one," she said. NSTA lobbied for the provision during the run-up to final passage of the bill...</p>
+			<p>...According to Robin Leeds, industry specialist for the National School Transportation Association, "What this means is that it is now illegal to buy a nonconforming van for student transportation as well as to sell one," she said. NSTA lobbied for the provision during the run-up to final passage of...</p>
 
 			<a class="textlink grey">Read More</a>
 

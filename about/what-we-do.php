@@ -15,31 +15,35 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
 
 </header> <!-- header -->
 
-<section id="content">
-	
-	<h1>What We Do</h1>
+<div class="inner">
 
-	<h2>The Tennessee Risk Management Trust (TNRMT) provides broad coverage options that fit the unique and specific needs of Tennessee’s public entities.  Our coverages are designed to protect the assets of Tennessee’s public entities in accordance to the Tennessee Tort Liability Act, while providing our members options in terms of deductibles, coverage limits, and excess insurance.  Currently, we offer the following coverage products:</h2>
+	<section id="content">
+		
+		<h1>What We Do</h1>
 
-	<ul>
-		<li>Property Coverage - All Risk Replacement Cost</li>
-		<li>Comprehensive General Liability - General Liability, Personal Injury, Law Enforcement Activities (Liability?)</li>
-		<li>Automobile Liability</li>
-		<li>School Board and Public Officials Errors and Omissions</li>
-		<li>Worker's Compensation and Employers Liability</li>
-		<li>Employee Benefits Liability</li>
-		<li>Crime</li>
-		<li>Athletics and Student Accident Liability</li>
-		<li>Cyber Liability</li>
-	</ul>
+		<h2>The Tennessee Risk Management Trust (TNRMT) provides broad coverage options that fit the unique and specific needs of Tennessee’s public entities.  Our coverages are designed to protect the assets of Tennessee’s public entities in accordance to the Tennessee Tort Liability Act, while providing our members options in terms of deductibles, coverage limits, and excess insurance.  Currently, we offer the following coverage products:</h2>
 
-	<a class="textlink" href="/about/why-choose-tnrmt">Next: Why Choose TNRMT</a>
+		<ul>
+			<li>Property Coverage - All Risk Replacement Cost</li>
+			<li>Comprehensive General Liability - General Liability, Personal Injury, Law Enforcement Activities (Liability?)</li>
+			<li>Automobile Liability</li>
+			<li>School Board and Public Officials Errors and Omissions</li>
+			<li>Worker's Compensation and Employers Liability</li>
+			<li>Employee Benefits Liability</li>
+			<li>Crime</li>
+			<li>Athletics and Student Accident Liability</li>
+			<li>Cyber Liability</li>
+		</ul>
 
-</section><!--content-->
+		<a class="textlink" href="/about/why-choose-tnrmt">Next: Why Choose TNRMT</a>
 
-<?php
-require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/form.php'); // form
-?>  
+	</section><!--content-->
+
+	<?php
+	require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/form.php'); // form
+	?>  
+
+</div><!--inner-->
 
 <?php
 require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/footer.php'); // footer, close body and html

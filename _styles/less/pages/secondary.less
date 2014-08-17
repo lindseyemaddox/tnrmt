@@ -1,9 +1,13 @@
 @charset "UTF-8";
 
+.sub .inner {
+	max-width: 1100px;
+	margin: 0 auto;
+}
+
 #content {
 	float: left;
-	width: 50%;
-	margin-left: 10%;
+	width: 60%;
 	.textlink {
 		color: @yellow;
 		text-decoration: underline;
@@ -16,36 +20,32 @@
 	}
 }
 
-.inner {
-	width: 80%;
-	margin: 0 10% 50px;
-	#options {
-		float: right;
-		width: 20%;
-		background-color: @grey;
-		padding: 20px;
-		h4 {
-			.osbold;
-			font-size: 24px;
-			color: #fff;
-			&.last {
-				margin-top: 20px;
-			}
-		}
-		li a {
-			color: #fff;
-			text-decoration: none;
-			.os-italic;
-			font-size: 18px;
-			line-height: 24px;
-			text-transform: uppercase;
-			cursor: pointer;
+#options {
+	float: right;
+	width: 20%;
+	background-color: @grey;
+	padding: 20px;
+	h4 {
+		.osbold;
+		font-size: 24px;
+		color: #fff;
+		&.last {
+			margin-top: 20px;
 		}
 	}
-	#container {
-		float: left;
-		width: 78%;
+	li a {
+		color: #fff;
+		text-decoration: none;
+		.os-italic;
+		font-size: 18px;
+		line-height: 24px;
+		text-transform: uppercase;
+		cursor: pointer;
 	}
+}
+#container {
+	float: left;
+	width: 78%;
 }
 
 
