@@ -38,7 +38,17 @@
 
 		<h2>Claims Representative</h2>
 
-		<h3>need bio</h3>
+		<h3>Tad Salmon is passionate about process and resolution. In other words, give him a problem and he’ll solve it. And as a claims representative for TNRMT, Tad uses his natural ability to quickly find solutions to help ensure people’s lives go uninterrupted.</h3>
+
+		<h3>Tad, who joined the Trust 2007, mainly focuses on property liability and workers’ compensation claims for school systems across the state. He’s a master communicator who takes the time to listen to all parties, understand the details of each case, and develop game plans to resolve any remaining issues.</h3>
+
+		<h3>“Everyone has their own recollections of how an accident happened,” said Tad, who has 30 years of experience in the finance and insurance industries. “My job is to listen to each recollection and separate the facts to find resolution.” </h3>
+
+		<h3>When he isn’t in the office, you can find Tad supporting area causes and organizations, such as giving to the Second Harvest Food Bank and donating blood to the American Red Cross.</h3>
+
+		<h2>Did You Know?</h2>
+
+		<h3>Tad enjoys SEC football and cheers on the Tennessee Titans and Oakland Raiders when the college football season comes to an end.</h3>
 
 		<a class="textlink" href="mailto:tsalmon@tnrmt.com">Email Tad</a>
 

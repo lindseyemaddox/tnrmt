@@ -1745,10 +1745,6 @@ body {
   #number-groups .three h4 {
     width: 40%;
   }
-  footer #quote h6,
-  footer #meeting h6 {
-    margin-top: 10px;
-  }
   footer #bottom p {
     font-size: 16px;
   }

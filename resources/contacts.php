@@ -42,6 +42,16 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
   
   <div id="container" class="clearfix">
     
+    <a href="/bios/alongi.php" class="fancybox fancybox.iframe element claims sec" data-symbol="Hg" data-category="Kubota">
+        <img src="/_images/team/alongi.jpg">
+        <div class="text">
+            <h2>Amie<br />Alongi</h2>
+            <h3>Claims Specialist</h3>
+            <h5>SEC</h5>
+            <span class="icon-info"></span>
+        </div><!--text-->
+    </a><!--element-->
+                       
     <a href="/bios/baggett.php" class="fancybox fancybox.iframe element loss-control tnrmt" data-symbol="Hg" data-category="Kubota">
     	<img src="/_images/team/baggett.jpg">
     	<div class="text">
@@ -192,12 +202,11 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
     	</div><!--text-->
     </a><!--element-->
                        
-    <a href="/bios/henderson.php" class="fancybox fancybox.iframe element claims tnrmt" data-symbol="Hg" data-category="Kubota">
+    <a href="/bios/henderson.php" class="fancybox fancybox.iframe element claims admin tnrmt" data-symbol="Hg" data-category="Kubota">
     	<img src="/_images/team/henderson.jpg">
     	<div class="text">
     		<h2>Harrold<br /><span>Henderson</span></h2>
-    		<h3>Senior Claims Representative</h3>
-    		<h5>TNRMT</h5>
+    		<h3>Senior Claims Representative and Assistant Trust Admin</h3>
     		<span class="icon-info"></span>
     	</div><!--text-->
     </a><!--element-->
@@ -386,7 +395,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
         <img src="/_images/team/thompson.jpg">
         <div class="text">
             <h2>Sandra<br />Thompson</h2>
-            <h3>Claims Representative</h3>
+            <h3>Senior Claims Representative</h3>
             <h5>TNRMT</h5>
             <span class="icon-info"></span>
         </div><!--text-->
