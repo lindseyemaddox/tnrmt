@@ -39,7 +39,7 @@
         $email = $_REQUEST['email'] ;
         $phone = $_REQUEST['phone'] ;
         $desc = $_REQUEST['desc'] ;
-          $to = 'lindseyemaddox@gmail.com';
+          $to = 'kgreenup@ngutn.com';
           $headers = "From: " . strip_tags($_POST['email']) . "\r\n";
           $headers .= "Reply-To: ". strip_tags($_POST['email']) . "\r\n";
           $headers .= "MIME-Version: 1.0\r\n";

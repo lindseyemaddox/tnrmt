@@ -28,7 +28,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
 
 			<h3><a class="fancybox fancybox.iframe" href="/bios/brown.php">Denise<br />Brown</a></h3>
 
-			<a class="district districtOne">District 1</a>
+			<a class="district showDistrictOne">District 1</a>
 
 			<a class="bio fancybox fancybox.iframe" href="/bios/brown.php">Bio</a>
 
@@ -40,7 +40,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
 
 			<h3><a class="fancybox fancybox.iframe" href="/bios/jones.php">David<br />Jones</a></h3>
 
-			<a class="district">District 2</a>
+			<a class="district showDistrictTwo">District 2</a>
 
 			<a class="bio fancybox fancybox.iframe" href="/bios/jones.php">Bio</a>
 
@@ -52,7 +52,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
 
 			<h3><a class="fancybox fancybox.iframe" href="/bios/robinson.php">Dawn<br />Robinson,<br />Chariman</a></h3>
 
-			<a class="district">District 3</a>
+			<a class="district showDistrictThree">District 3</a>
 
 			<a class="bio fancybox fancybox.iframe" href="/bios/robinson.php">Bio</a>
 
@@ -64,7 +64,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
 
 			<h3><a class="fancybox fancybox.iframe" href="/bios/shelton.php">Dr. Wanda<br />Shelton</a></h3>
 
-			<a class="district">District 4</a>
+			<a class="district showDistrictFour">District 4</a>
 
 			<a class="bio fancybox fancybox.iframe" href="/bios/shelton.php">Bio</a>
 
@@ -76,7 +76,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
 
 			<h3><a href="#">Coming<br />Soon</a></h3>
 
-			<a class="district">District 5</a>
+			<a class="district showDistrictFive">District 5</a>
 
 			<!-- <a class="bio" href="#">Bio</a> -->
 
@@ -88,7 +88,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
 
 			<h3><a class="fancybox fancybox.iframe" href="/bios/joiner.php">Dr. Leta<br />Joiner</a></h3>
 
-			<a class="district">District 6</a>
+			<a class="district showDistrictSix">District 6</a>
 
 			<a class="bio fancybox fancybox.iframe" href="/bios/joiner.php">Bio</a>
 
@@ -100,7 +100,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
 
 			<h3><a href="#">Coming<br />Soon</a></h3>
 
-			<a class="district">District 5</a>
+			<a class="district showDistrictSeven">District 7</a>
 
 			<!-- <a class="bio" href="#">Bio</a> -->
 
@@ -112,7 +112,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
 
 			<h3><a class="fancybox fancybox.iframe" href="/bios/tucker.php">Dr. Tony<br />Tucker</a></h3>
 
-			<a class="district">District 8</a>
+			<a class="district showDistrictEight">District 8</a>
 
 			<a class="bio fancybox fancybox.iframe" href="/bios/tucker.php">Bio</a>
 
@@ -124,7 +124,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
 
 			<h3><a class="fancybox fancybox.iframe" href="/bios/carmichael.php">Kenny<br />Carmichael</a></h3>
 
-			<a class="district">District 9</a>
+			<a class="district showDistrictNine">District 9</a>
 
 			<a class="bio fancybox fancybox.iframe" href="/bios/carmichael.php">Bio</a>
 
@@ -132,7 +132,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
 
 	</section><!--trustee-thumbs-->
 
-	<section id="map">
+	<section id="map" class="allCounties">
 		
 		<img src="/_images/map-districts.png">
 

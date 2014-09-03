@@ -22,6 +22,6 @@
 	<!-- JavaScript -->
 	<!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
 	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
-	<script src="/_scripts/main-ck.js"></script>
 	<script src="/_scripts/jquery.fancybox.js"></script>
 	<script src="/_scripts/jquery.isotope.min.js"></script>
+	<script src="/_scripts/main-ck.js"></script>

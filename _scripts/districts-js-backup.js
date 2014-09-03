@@ -33,6 +33,7 @@ function firstLoad() {
 	showDistrictSeven();
 	showDistrictEight();
 	showDistrictNine();
+	checkScreenSize();
 	initPlaceholders();
 }
 
@@ -52,6 +53,10 @@ function initVars() {
 	$map 		= $('#map');
 }
 
+$(window).resize(function() {
+	checkScreenSize();
+});
+
 // show hide left menu
 function showMenu(){
 	$showMenu.click(function(){
@@ -65,9 +70,11 @@ function showMenu(){
 }
 function menuOut() {
 	$header.removeClass('expand');
+	//$content.unbind('click',menuOut);
 }
 function menuIn() {
 	$header.addClass('expand');
+	//$content.bind('click',menuOut);
 }
 
 // show hide district

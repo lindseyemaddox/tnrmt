@@ -670,7 +670,7 @@ nav li:hover ul {
   top: 110px;
   position: absolute;
   background-color: rgba(255, 255, 255, 0.95);
-  padding: 0 45px 20px;
+  padding: 0 20px 5px;
   z-index: 3;
   -webkit-box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
   -moz-box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.5);
@@ -682,13 +682,13 @@ nav li:hover ul {
   transition: all 400ms ease;
 }
 nav li:hover ul.who-we-are {
-  left: 0;
+  left: 25px;
 }
 nav li:hover ul.our-unique-program {
-  left: 203px;
+  left: 228px;
 }
 nav li:hover ul.resources {
-  left: 495px;
+  left: 520px;
 }
 nav li:hover ul li {
   display: block;
@@ -798,7 +798,7 @@ footer #bottom {
   padding-top: 20px;
   width: 80%;
   max-width: 1100px;
-  margin: 0 10%;
+  margin: 0 auto;
 }
 footer #bottom p {
   text-align: center;
@@ -1661,16 +1661,18 @@ body {
 }
 #options {
   float: right;
-  width: 20%;
+  width: 22%;
   background-color: #626262;
   padding: 20px;
 }
-#options h4 {
+#options h4,
+#options .forms-header {
   font-family: "open_sansbold", arial, helvetica, sans-serif;
   font-size: 24px;
   color: #fff;
 }
-#options h4.last {
+#options h4.last,
+#options .forms-header.last {
   margin-top: 20px;
 }
 #options li {
@@ -1727,6 +1729,10 @@ body {
 #trustee-thumbs .trustee h3 a:hover {
   color: #626262;
 }
+#trustee-thumbs .trustee a.active {
+  color: #7bb1d2;
+  border-bottom-color: #7bb1d2;
+}
 #trustee-thumbs .trustee .district,
 #trustee-thumbs .trustee .bio {
   margin-top: 8px;
@@ -1749,10 +1755,85 @@ body {
   width: 100%;
   margin: 40px 0 60px;
 }
-#map.showDistrictOne {
+#map.districtOne {
   background: url("/_images/map-district1.png") no-repeat center center transparent;
+  background-size: contain;
+  height: 390px;
+  margin-top: 207px;
 }
-#map.showDistrictOne img {
+#map.districtOne img {
+  display: none;
+}
+#map.districtTwo {
+  background: url("/_images/map-district2.png") no-repeat center center transparent;
+  background-size: contain;
+  height: 390px;
+  margin-top: 207px;
+}
+#map.districtTwo img {
+  display: none;
+}
+#map.districtThree {
+  background: url("/_images/map-district3.png") no-repeat center center transparent;
+  background-size: contain;
+  height: 390px;
+  margin-top: 207px;
+}
+#map.districtThree img {
+  display: none;
+}
+#map.districtFour {
+  background: url("/_images/map-district4.png") no-repeat center center transparent;
+  background-size: contain;
+  height: 390px;
+  margin-top: 207px;
+}
+#map.districtFour img {
+  display: none;
+}
+#map.districtFive {
+  background: url("/_images/map-district5.png") no-repeat center center transparent;
+  background-size: contain;
+  height: 390px;
+  margin-top: 207px;
+}
+#map.districtFive img {
+  display: none;
+}
+#map.districtSix {
+  background: url("/_images/map-district6.png") no-repeat center center transparent;
+  background-size: contain;
+  height: 390px;
+  margin-top: 207px;
+}
+#map.districtSix img {
+  display: none;
+}
+#map.districtSeven {
+  background: url("/_images/map-district7.png") no-repeat center center transparent;
+  background-size: contain;
+  height: 390px;
+  margin-top: 207px;
+}
+#map.districtSeven img {
+  display: none;
+}
+#map.districtEight {
+  background: url("/_images/map-district8.png") no-repeat center center transparent;
+  background-size: contain;
+  height: 390px;
+  margin-top: 207px;
+}
+#map.districtEight img {
+  display: none;
+}
+#map.districtNine {
+  background: url("/_images/map-district9.png") no-repeat center center transparent;
+  background-size: contain;
+  height: 390px;
+  margin-top: 207px;
+}
+#map.districtNine img {
   display: none;
 }
 #content {
@@ -1827,7 +1908,7 @@ body {
     padding: 20px 40px 20px 35px;
   }
   nav li:hover ul {
-    top: 60px;
+    top: 70px;
   }
   header .divh1 h1 span {
     font-size: 40px;

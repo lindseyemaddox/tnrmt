@@ -19,15 +19,22 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
 
   <section id="options" class="clearfix">
     
-      <h4>Filters</h4>
+      <ul id="filters" class="option-set clearfix" data-option-key="filter">
+      </ul>
+
+      <h4>Articles by Topic</h4>
 
       <ul id="filters" class="option-set clearfix" data-option-key="filter">
         <li><a href="#filter" data-option-value="*" class="selected" >Show All</a></li>
-        <li><a href="#filter" data-option-value=".article"  data-sort-by="year">Articles</a></li>
-        <li><a href="#filter" data-option-value=".newsletter">Newsletters</a></li>
-        <li><a href="#filter" data-option-value=".claims">Topic - Claims</a></li>
-        <li><a href="#filter" data-option-value=".workers-comp">Topic - Workers' Comp</a></li>
-        <li><a href="#filter" data-option-value=".loss-prevention">Topic - Loss Prevention</a></li>
+        <li><a href="#filter" data-option-value=".student-accident">Student Accident</a></li>
+        <li><a href="#filter" data-option-value=".underwriting">Underwriting</a></li>
+        <li><a href="#filter" data-option-value=".claims-reporting">Claims Reporting</a></li>
+        <li><a href="#filter" data-option-value=".membership">Membership</a></li>
+        <li><a href="#filter" data-option-value=".board-of-trustees">Board of Trustees</a></li>
+        <li><a href="#filter" data-option-value=".safety">Safety</a></li>
+        <li><a href="#filter" data-option-value=".special-announcements">Special Announcements</a></li>
+        <li><a href="#filter" data-option-value=".legal-topics">Legal</a></li>
+        <li><a href="#filter" data-option-value=".forms" class="forms-header" >Forms</a></li>
       </ul>
 
 <!--       <h4 class="last">Sorting</h4>
@@ -42,17 +49,17 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
   
   <div id="container" class="clearfix resources">
 
-    <a href="/news/14-08-03.php" class="fancybox fancybox.iframe element article workers-comp">
+    <a href="/news/14-08-03.php" class="fancybox fancybox.iframe element special-announcements">
       <img src="/_images/icon-article.png">
       <div class="text">
         <h2>SEC Loses long-time Employee and Friend</h2>
         <h4 class="issue">Issue - August, 2014</h4>
-        <h5>The staff at SEC, NGU, and TNRMT are saddened by the passing of long time employee and friend Clayton Cabron.  Clayton served SEC and the Trust since November of 2004.  After fighting health issues, he passed peacefully in his sleep early Sunday morning...</h5>
+        <h5>The staff at SEC, NGU, and TNRMT are saddened by the passing of long time employee and friend Clayton Cabron. Clayton served SEC and the Trust since November of 2004.  After fighting health issues, he passed peacefully in his sleep early Sunday morning...</h5>
         <span class="textlink yellow">Read More</span>
       </div><!--text-->
     </a><!--element-->
     
-    <a href="/news/14-08-02.php" class="fancybox fancybox.iframe element article workers-comp">
+    <a href="/news/14-08-02.php" class="fancybox fancybox.iframe element underwriting special-announcements">
       <img src="/_images/icon-article.png">
       <div class="text">
         <h2>Workers' Compensation Audit – Why Be Afraid?</h2>
@@ -63,7 +70,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
       </div><!--text-->
     </a><!--element-->
     
-    <a href="/news/14-08-01.php" class="fancybox fancybox.iframe element article">
+    <a href="/news/14-08-01.php" class="fancybox fancybox.iframe element underwriting legal-topics">
       <img src="/_images/icon-article.png">
       <div class="text">
         <h2>TNRMT’S Position on Donated Military Vehicles</h2>
@@ -74,7 +81,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
       </div><!--text-->
     </a><!--element-->
     
-    <a href="/news/14-06-02.php" class="fancybox fancybox.iframe element article">
+    <a href="/news/14-06-02.php" class="fancybox fancybox.iframe element legal-topics special-announcements">
       <img src="/_images/icon-article.png">
       <div class="text">
         <h2>Please register for Changes for Worker’s Compensation - Effective July 1st, 2014.</h2>
@@ -84,7 +91,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
       </div><!--text-->
     </a><!--element-->
     
-    <a href="/news/14-06-01.php" class="fancybox fancybox.iframe element article">
+    <a href="/news/14-06-01.php" class="fancybox fancybox.iframe element legal-topics">
       <img src="/_images/icon-article.png">
       <div class="text">
         <h2>New Tennessee Workers' Compensation Laws effective July 1, 2014.</h2>
@@ -94,7 +101,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
       </div><!--text-->
     </a><!--element-->
     
-    <a href="/news/14-04-01.php" class="fancybox fancybox.iframe element article">
+    <a href="/news/14-04-01.php" class="fancybox fancybox.iframe element special-announcements membership">
       <img src="/_images/icon-article.png">
       <div class="text">
         <h2>Trust Administrator John Wilburn Announces Retirement.  TNRMT Seeks New Administrator.</h2>
@@ -104,7 +111,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
       </div><!--text-->
     </a><!--element-->
     
-    <a href="/news/14-03-01.php" class="fancybox fancybox.iframe element article">
+    <a href="/news/14-03-01.php" class="fancybox fancybox.iframe element underwriting membership">
       <img src="/_images/icon-article.png">
       <div class="text">
         <h2>Fire and Water Damage Remediation and Restoration</h2>
@@ -114,7 +121,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
       </div><!--text-->
     </a><!--element-->
     
-    <a href="/news/10-04-03.php" class="fancybox fancybox.iframe element article claims">
+    <a href="/news/10-04-03.php" class="fancybox fancybox.iframe element legal-topics special-announcements">
       <img src="/_images/icon-article.png">
       <div class="text">
         <h2>TNRMT Does More Than Handle Claims</h2>
@@ -125,7 +132,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
       </div><!--text-->
     </a><!--element-->
     
-    <a href="/news/10-04-02.php" class="fancybox fancybox.iframe element article">
+    <a href="/news/10-04-02.php" class="fancybox fancybox.iframe element legal-topics membership">
       <img src="/_images/icon-article.png">
       <div class="text">
         <h2>How Many Attorneys Do We Really Need?</h2>
@@ -136,7 +143,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
       </div><!--text-->
     </a><!--element-->
 
-    <a href="/news/10-04-01.php" class="fancybox fancybox.iframe element article">
+    <a href="/news/10-04-01.php" class="fancybox fancybox.iframe element legal-topics">
       <img src="/_images/icon-article.png">
       <div class="text">
         <h2>Bail Reform Act Lawsuits</h2>
@@ -146,7 +153,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
       </div><!--text-->
     </a><!--element-->
 
-    <a href="/news/09-11-07.php" class="fancybox fancybox.iframe element article">
+    <a href="/news/09-11-07.php" class="fancybox fancybox.iframe element legal-topics">
       <img src="/_images/icon-article.png">
       <div class="text">
         <h2>Legal Corner: Guns Allowed in Public Parks, Except When Children Are Present</h2>
@@ -157,7 +164,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
       </div><!--text-->
     </a><!--element-->
 
-    <a href="/news/09-11-06.php" class="fancybox fancybox.iframe element article">
+    <a href="/news/09-11-06.php" class="fancybox fancybox.iframe element legal-topics">
       <img src="/_images/icon-article.png">
       <div class="text">
         <h2>Cell Phones and Text Messaging</h2>
@@ -168,7 +175,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
       </div><!--text-->
     </a><!--element-->
 
-    <a href="/news/09-11-05.php" class="fancybox fancybox.iframe element article">
+    <a href="/news/09-11-05.php" class="fancybox fancybox.iframe element underwriting special-announcements">
       <img src="/_images/icon-article.png">
       <div class="text">
         <h2>Property Coverage Enhanced for 2009 Renewal</h2>
@@ -179,7 +186,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
       </div><!--text-->
     </a><!--element-->
 
-    <a href="/news/09-11-04.php" class="fancybox fancybox.iframe element article">
+    <a href="/news/09-11-04.php" class="fancybox fancybox.iframe element legal-topics student-accident safety">
       <img src="/_images/icon-article.png">
       <div class="text">
         <h2>Kentucky Coach vs Kentucky Principal</h2>
@@ -190,7 +197,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
       </div><!--text-->
     </a><!--element-->
 
-    <a href="/news/09-11-03.php" class="fancybox fancybox.iframe element article">
+    <a href="/news/09-11-03.php" class="fancybox fancybox.iframe element underwriting membership">
       <img src="/_images/icon-article.png">
       <div class="text">
         <h2>TNRMT Membership Not Bashful About Renewal</h2>
@@ -201,7 +208,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
       </div><!--text-->
     </a><!--element-->
 
-    <a href="/news/09-11-02.php" class="fancybox fancybox.iframe element article">
+    <a href="/news/09-11-02.php" class="fancybox fancybox.iframe element safety">
       <img src="/_images/icon-article.png">
       <div class="text">
         <h2>Police Officer Safety: Meth Users</h2>
@@ -212,7 +219,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
       </div><!--text-->
     </a><!--element-->
 
-    <a href="/news/09-11-01.php" class="fancybox fancybox.iframe element article">
+    <a href="/news/09-11-01.php" class="fancybox fancybox.iframe element membership special-announcements">
       <img src="/_images/icon-article.png">
       <div class="text">
         <h2>Opportunity</h2>
@@ -223,7 +230,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
       </div><!--text-->
     </a><!--element-->
 
-    <a href="/news/09-04-04.php" class="fancybox fancybox.iframe element article">
+    <a href="/news/09-04-04.php" class="fancybox fancybox.iframe element claims-reporting special-announcements">
       <img src="/_images/icon-article.png">
       <div class="text">
         <h2>When Disaster Strikes</h2>
@@ -233,7 +240,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
       </div><!--text-->
     </a><!--element-->
 
-    <a href="/news/09-04-03.php" class="fancybox fancybox.iframe element article">
+    <a href="/news/09-04-03.php" class="fancybox fancybox.iframe element underwriting membership">
       <img src="/_images/icon-article.png">
       <div class="text">
         <h2>To Bid or Not to Bid, That Is the Question</h2>
@@ -243,7 +250,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
       </div><!--text-->
     </a><!--element-->
 
-    <a href="/news/09-04-02.php" class="fancybox fancybox.iframe element article">
+    <a href="/news/09-04-02.php" class="fancybox fancybox.iframe element membership underwriting">
       <img src="/_images/icon-article.png">
       <div class="text">
         <h2>Vendor or Partner?</h2>
@@ -253,7 +260,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
       </div><!--text-->
     </a><!--element-->
  
-    <a href="/news/09-04-01.php" class="fancybox fancybox.iframe element article">
+    <a href="/news/09-04-01.php" class="fancybox fancybox.iframe element student-accident legal-topics">
       <img src="/_images/icon-article.png">
       <div class="text">
         <h2>TSSAA Heat Policy</h2>
@@ -263,7 +270,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
       </div><!--text-->
     </a><!--element-->
  
-     <a href="/news/09-01-04.php" class="fancybox fancybox.iframe element article">
+     <a href="/news/09-01-04.php" class="fancybox fancybox.iframe element safety">
       <img src="/_images/icon-article.png">
       <div class="text">
         <h2>An Ounce of Prevention</h2>
@@ -273,7 +280,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
       </div><!--text-->
     </a><!--element-->
  
-     <a href="/news/09-01-03.php" class="fancybox fancybox.iframe element article">
+     <a href="/news/09-01-03.php" class="fancybox fancybox.iframe element board-of-trustees">
       <img src="/_images/icon-article.png">
       <div class="text">
         <h2>Trust Welcomes New Trustees</h2>
@@ -283,7 +290,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
       </div><!--text-->
     </a><!--element-->
  
-    <a href="/news/09-01-02.php" class="fancybox fancybox.iframe element article">
+    <a href="/news/09-01-02.php" class="fancybox fancybox.iframe element legal-topics membership">
       <img src="/_images/icon-article.png">
       <div class="text">
         <h2>Could This Happen to You?</h2>
@@ -293,7 +300,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
       </div><!--text-->
     </a><!--element-->
  
-     <a href="/news/09-01-01.php" class="fancybox fancybox.iframe element article">
+     <a href="/news/09-01-01.php" class="fancybox fancybox.iframe element special-announcements claims-reporting legal-topics">
     	<img src="/_images/icon-article.png">
     	<div class="text">
     		<h2>How to Eliminate Lawsuits</h2>
@@ -303,7 +310,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
     	</div><!--text-->
     </a><!--element-->
  
-     <a href="/news/07-03-02.php" class="fancybox fancybox.iframe element article">
+     <a href="/news/07-03-02.php" class="fancybox fancybox.iframe element legal-topics">
       <img src="/_images/icon-article.png">
       <div class="text">
         <h2>Legislative News</h2>
@@ -313,7 +320,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
       </div><!--text-->
     </a><!--element-->
  
-    <a href="/news/07-03-01.php" class="fancybox fancybox.iframe element article">
+    <a href="/news/07-03-01.php" class="fancybox fancybox.iframe element underwriting membership">
       <img src="/_images/icon-article.png">
       <div class="text">
         <h2>They're Back!!</h2>
@@ -323,7 +330,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
       </div><!--text-->
     </a><!--element-->
  
-    <a href="/news/07-02-03.php" class="fancybox fancybox.iframe element article">
+    <a href="/news/07-02-03.php" class="fancybox fancybox.iframe element underwriting membership">
       <img src="/_images/icon-article.png">
       <div class="text">
         <h2>How does the pool work and why should we stay in it?</h2>
@@ -334,7 +341,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
       </div><!--text-->
     </a><!--element-->
 
-    <a href="/news/07-02-02.php" class="fancybox fancybox.iframe element article">
+    <a href="/news/07-02-02.php" class="fancybox fancybox.iframe element special-announcements board-of-trustees">
       <img src="/_images/icon-article.png">
       <div class="text">
         <h2>He’s not your average (Billy) Joe</h2>
@@ -345,7 +352,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
       </div><!--text-->
     </a><!--element-->
 
-    <a href="/news/07-02-01.php" class="fancybox fancybox.iframe element article">
+    <a href="/news/07-02-01.php" class="fancybox fancybox.iframe element safety membership">
       <img src="/_images/icon-article.png">
       <div class="text">
         <h2>Teach the Newbie</h2>
@@ -356,7 +363,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
       </div><!--text-->
     </a><!--element-->
 
-    <a href="/news/06-09-05.php" class="fancybox fancybox.iframe element article">
+    <a href="/news/06-09-05.php" class="fancybox fancybox.iframe element safety">
       <img src="/_images/icon-article.png">
       <div class="text">
         <h2>Return-to-work benefits employer, injured employee</h2>
@@ -366,7 +373,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
       </div><!--text-->
     </a><!--element-->
 
-    <a href="/news/06-09-04.php" class="fancybox fancybox.iframe element article">
+    <a href="/news/06-09-04.php" class="fancybox fancybox.iframe element board-of-trustees">
       <img src="/_images/icon-article.png">
       <div class="text">
         <h2>New Trust member knows kids, finance</h2>
@@ -376,7 +383,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
       </div><!--text-->
     </a><!--element-->
 
-    <a href="/news/06-09-03.php" class="fancybox fancybox.iframe element article">
+    <a href="/news/06-09-03.php" class="fancybox fancybox.iframe element special-announcements board-of-trustees">
       <img src="/_images/icon-article.png">
       <div class="text">
         <h2>County Mayor proud of proactive stance</h2>
@@ -386,7 +393,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
       </div><!--text-->
     </a><!--element-->
 
-    <a href="/news/06-09-02.php" class="fancybox fancybox.iframe element article">
+    <a href="/news/06-09-02.php" class="fancybox fancybox.iframe element safety special-announcements">
       <img src="/_images/icon-article.png">
       <div class="text">
         <h2>Safety Engineer joins loss control</h2>
@@ -396,7 +403,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
       </div><!--text-->
     </a><!--element-->
 
-    <a href="/news/06-09-01.php" class="fancybox fancybox.iframe element article">
+    <a href="/news/06-09-01.php" class="fancybox fancybox.iframe element underwriting membership">
       <img src="/_images/icon-article.png">
       <div class="text">
         <h2>Reappraisals finding missing, undervalued buildings</h2>
@@ -406,7 +413,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
       </div><!--text-->
     </a><!--element-->
 
-    <a href="/news/06-05-04.php" class="fancybox fancybox.iframe element article">
+    <a href="/news/06-05-04.php" class="fancybox fancybox.iframe element board-of-trustees">
       <img src="/_images/icon-article.png">
       <div class="text">
         <h2>Robinson says boards need to protect 18-year investment</h2>
@@ -416,7 +423,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
       </div><!--text-->
     </a><!--element-->
 
-    <a href="/news/06-05-03.php" class="fancybox fancybox.iframe element article">
+    <a href="/news/06-05-03.php" class="fancybox fancybox.iframe element underwriting membership">
       <img src="/_images/icon-article.png">
       <div class="text">
         <h2>Property appraisal program to measure every structure</h2>
@@ -426,7 +433,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
       </div><!--text-->
     </a><!--element-->
 
-    <a href="/news/06-05-02.php" class="fancybox fancybox.iframe element article">
+    <a href="/news/06-05-02.php" class="fancybox fancybox.iframe element safety">
       <img src="/_images/icon-article.png">
       <div class="text">
         <h2>Hazards don’t take a vacation</h2>
@@ -436,7 +443,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
       </div><!--text-->
     </a><!--element-->
 
-    <a href="/news/06-05-01.php" class="fancybox fancybox.iframe element article">
+    <a href="/news/06-05-01.php" class="fancybox fancybox.iframe element safety">
       <img src="/_images/icon-article.png">
       <div class="text">
         <h2>Fire leads to AC switch recall</h2>
@@ -446,7 +453,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
       </div><!--text-->
     </a><!--element-->
 
-    <a href="/news/05-09-02.php" class="fancybox fancybox.iframe element article">
+    <a href="/news/05-09-02.php" class="fancybox fancybox.iframe element membership">
       <img src="/_images/icon-article.png">
       <div class="text">
         <h2>RMT to Provide Free Property Appraisal</h2>
@@ -456,7 +463,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
       </div><!--text-->
     </a><!--element-->
 
-    <a href="/news/05-09-01.php" class="fancybox fancybox.iframe element article">
+    <a href="/news/05-09-01.php" class="fancybox fancybox.iframe element legal-topics">
       <img src="/_images/icon-article.png">
       <div class="text">
         <h2>Attorney General Issues Ruling Requested by TSBA</h2>
@@ -466,7 +473,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
       </div><!--text-->
     </a><!--element-->
 
-    <a href="/news/05-05-04.php" class="fancybox fancybox.iframe element article">
+    <a href="/news/05-05-04.php" class="fancybox fancybox.iframe element underwriting">
       <img src="/_images/icon-article.png">
       <div class="text">
         <h2>Trusts May Have New Competition</h2>
@@ -476,7 +483,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
       </div><!--text-->
     </a><!--element-->
 
-    <a href="/news/05-05-03.php" class="fancybox fancybox.iframe element article">
+    <a href="/news/05-05-03.php" class="fancybox fancybox.iframe element board-of-trustees">
       <img src="/_images/icon-article.png">
       <div class="text">
         <h2>Three Trustees Leave Board</h2>
@@ -486,7 +493,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
       </div><!--text-->
     </a><!--element-->
 
-    <a href="/news/05-05-02.php" class="fancybox fancybox.iframe element article">
+    <a href="/news/05-05-02.php" class="fancybox fancybox.iframe element underwriting">
       <img src="/_images/icon-article.png">
       <div class="text">
         <h2>Few Boards Bid Insurance</h2>
@@ -496,7 +503,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
       </div><!--text-->
     </a><!--element-->
 
-    <a href="/news/05-05-01.php" class="fancybox fancybox.iframe element article">
+    <a href="/news/05-05-01.php" class="fancybox fancybox.iframe element board-of-trustees">
       <img src="/_images/icon-article.png">
       <div class="text">
         <h2>Risk Management Trustees Elected</h2>
@@ -506,7 +513,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
       </div><!--text-->
     </a><!--element-->
 
-    <a href="/news/05-03-06.php" class="fancybox fancybox.iframe element article">
+    <a href="/news/05-03-06.php" class="fancybox fancybox.iframe element underwriting">
       <img src="/_images/icon-article.png">
       <div class="text">
         <h2>It’s That Time Again!</h2>
@@ -516,7 +523,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
       </div><!--text-->
     </a><!--element-->
 
-    <a href="/news/05-03-05.php" class="fancybox fancybox.iframe element article">
+    <a href="/news/05-03-05.php" class="fancybox fancybox.iframe element special-announcements">
       <img src="/_images/icon-article.png">
       <div class="text">
         <h2>Success in Bedford County</h2>
@@ -526,17 +533,17 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
       </div><!--text-->
     </a><!--element-->
 
-    <a href="/news/05-03-04.php" class="fancybox fancybox.iframe element article">
+    <a href="/news/05-03-04.php" class="fancybox fancybox.iframe element claims-reporting">
       <img src="/_images/icon-article.png">
       <div class="text">
         <h2>How Bad Did That One Hurt</h2>
         <h4 class="issue">Issue - March, 2005</h4>
-        <h5>After reading the article on the Dickson County Schools property loss above, some of you may be wondering how their $2,000,000 loss would affect...</h5>
+        <h5>After reading the on the Dickson County Schools property loss above, some of you may be wondering how their $2,000,000 loss would affect...</h5>
         <span class="textlink yellow">Read More</span>
       </div><!--text-->
     </a><!--element-->
 
-    <a href="/news/05-03-03.php" class="fancybox fancybox.iframe element article">
+    <a href="/news/05-03-03.php" class="fancybox fancybox.iframe element special-announcements">
       <img src="/_images/icon-article.png">
       <div class="text">
         <h2>In Memory of Joyce Gregory</h2>
@@ -546,7 +553,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
       </div><!--text-->
     </a><!--element-->
 
-    <a href="/news/05-03-02.php" class="fancybox fancybox.iframe element article">
+    <a href="/news/05-03-02.php" class="fancybox fancybox.iframe element claims-reporting">
       <img src="/_images/icon-article.png">
       <div class="text">
         <h2>A Team</h2>
@@ -556,7 +563,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
       </div><!--text-->
     </a><!--element-->
 
-    <a href="/news/05-03-01.php" class="fancybox fancybox.iframe element article">
+    <a href="/news/05-03-01.php" class="fancybox fancybox.iframe element board-of-trustees">
       <img src="/_images/icon-article.png">
       <div class="text">
         <h2>New Trustee Election Procedure to Begin Immediately</h2>
@@ -566,7 +573,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
       </div><!--text-->
     </a><!--element-->
 
-    <a href="/news/05-02-03.php" class="fancybox fancybox.iframe element article">
+    <a href="/news/05-02-03.php" class="fancybox fancybox.iframe element claims-reporting">
       <img src="/_images/icon-article.png">
       <div class="text">
         <h2>Help Us Help You: Use Electronic Reporting</h2>
@@ -577,7 +584,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
       </div><!--text-->
     </a><!--element-->
 
-    <a href="/news/05-02-02.php" class="fancybox fancybox.iframe element article">
+    <a href="/news/05-02-02.php" class="fancybox fancybox.iframe element membership">
       <img src="/_images/icon-article.png">
       <div class="text">
         <h2>Trust Membership Keeps Growing</h2>
@@ -587,7 +594,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
       </div><!--text-->
     </a><!--element-->
 
-    <a href="/news/05-02-01.php" class="fancybox fancybox.iframe element article">
+    <a href="/news/05-02-01.php" class="fancybox fancybox.iframe element student-accident">
       <img src="/_images/icon-article.png">
       <div class="text">
         <h2>Athletic &amp; Student Accident Program</h2>
@@ -598,6 +605,89 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
       </div><!--text-->
     </a><!--element-->
 
+    <a href="/forms claims-reporting/C20-First_Report_of_Injury.pdf" target="_blank" class="fancybox fancybox.iframe element forms claims-reporting">
+      <img src="/_images/icon-pdf.png">
+      <div class="text">
+        <h2>Tennessee Form C20</h2>
+        <h4 class="issue">First Report of Injury</h4>
+        <h5>The use of this form is required under the provisions of the Tennessee Workers' Compensation Law and must be completed and filed with your insurance carrier immediately after notice of injury.</h5>
+        <span class="textlink yellow">Download PDF</span>
+      </div><!--text-->
+    </a><!--element-->
+
+    <a href="/forms claims-reporting/C41-Wage_Statement.pdf" target="_blank" class="fancybox fancybox.iframe element forms claims-reporting">
+      <img src="/_images/icon-pdf.png">
+      <div class="text">
+        <h2>Tennessee Form C41</h2>
+        <h4 class="issue">Wage Statement</h4>
+        <h5>Via the Tennessee Department of Labor and Workforce Development</h5>
+        <span class="textlink yellow">Download PDF</span>
+      </div><!--text-->
+    </a><!--element-->
+
+    <a href="/forms claims-reporting/C42G-Employee_Choice_of_Physician.pdf" target="_blank" class="fancybox fancybox.iframe element forms claims-reporting">
+      <img src="/_images/icon-pdf.png">
+      <div class="text">
+        <h2>Tennessee Form C42G</h2>
+        <h4 class="issue">Employee's Choice of Physician</h4>
+        <h5>A copy of this form must be provided to the employee. The employer must keep the original form on file and upon request provide a copy to the Division of Workers’ Compensation.</h5>
+        <span class="textlink yellow">Download PDF</span>
+      </div><!--text-->
+    </a><!--element-->
+
+    <a href="/forms claims-reporting/EmployeeAccidentReport.pdf" target="_blank" class="fancybox fancybox.iframe element forms claims-reporting">
+      <img src="/_images/icon-pdf.png">
+      <div class="text">
+        <h2>Employee Accident Report</h2>
+        <h5>Please submit with First Report of Injury Form within 24 hours</h5>
+        <span class="textlink yellow">Download PDF</span>
+      </div><!--text-->
+    </a><!--element-->
+
+    <a href="/forms claims-reporting/HIPAAMedicalAuthorization.pdf" target="_blank" class="fancybox fancybox.iframe element forms claims-reporting">
+      <img src="/_images/icon-pdf.png">
+      <div class="text">
+        <h2>HIPPA Medical Authorization</h2>
+        <h5>Please submit with First Report of Injury Form within 24 hours</h5>
+        <span class="textlink yellow">Download PDF</span>
+      </div><!--text-->
+    </a><!--element-->
+
+    <a href="/forms claims-reporting/MileageRequestForm.pdf" target="_blank" class="fancybox fancybox.iframe element forms claims-reporting">
+      <img src="/_images/icon-pdf.png">
+      <div class="text">
+        <h2>Mileage Request Form</h2>
+        <h5>Please forward to your Claims Representative</h5>
+        <span class="textlink yellow">Download PDF</span>
+      </div><!--text-->
+    </a><!--element-->
+
+    <a href="/forms claims-reporting/SupervisorAccidentInvestigationReport.pdf" target="_blank" class="fancybox fancybox.iframe element forms claims-reporting">
+      <img src="/_images/icon-pdf.png">
+      <div class="text">
+        <h2>Supervisor Accident Investigation Report</h2>
+        <h5>Please submit with First Report of Injury Form within 24 hours</h5>
+        <span class="textlink yellow">Download PDF</span>
+      </div><!--text-->
+    </a><!--element-->
+
+    <a href="/forms claims-reporting/WitnessAccidentReport.pdf" target="_blank" class="fancybox fancybox.iframe element forms claims-reporting">
+      <img src="/_images/icon-pdf.png">
+      <div class="text">
+        <h2>Witness Accident Report</h2>
+        <h5>Please submit with First Report of Injury Form within 24 hours</h5>
+        <span class="textlink yellow">Download PDF</span>
+      </div><!--text-->
+    </a><!--element-->
+
+    <a href="/forms claims-reporting/WorkersCompensationChecklist.pdf" target="_blank" class="fancybox fancybox.iframe element forms claims-reporting">
+      <img src="/_images/icon-pdf.png">
+      <div class="text">
+        <h2>Workers' Compensation Checklist</h2>
+        <h5>Please submit with First Report of Injury Form within 24 hours</h5>
+        <span class="textlink yellow">Download PDF</span>
+      </div><!--text-->
+    </a><!--element-->
 
 
 
