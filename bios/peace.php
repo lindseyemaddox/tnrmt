@@ -41,7 +41,7 @@
 		<h3>Next Generation Underwriters</h3>
 
 		<a class="textlink" href="mailto:jpeace@ngutn.com">Email Joan</a>
-		<a class="textlink" href="mailto:http://www.ngutn.com/our-people/joan-peace/" target="_blank">Email Joan</a>
+		<a class="textlink" href="http://www.ngutn.com/our-people/joan-peace/" target="_blank">More About Joan</a>
 
 	</div><!--bio-text-->
 

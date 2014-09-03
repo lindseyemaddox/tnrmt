@@ -36,7 +36,7 @@
 
 		<h1>Jeff Mathis</h1>
 
-		<h2>Chief Financial Officer</h2>
+		<h2>Vice President &amp; CFO</h2>
 
 		<h3>Next Generation Underwriters</h3>
 

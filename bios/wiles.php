@@ -30,7 +30,7 @@
 
 <div class="fb-bio">
 
-	<img src="/_images/team/wilburn.jpg">
+	<img src="/_images/team/wiles.jpg">
 
 	<div class="bio-text">
 
@@ -38,7 +38,11 @@
 
 		<h2>Senior Claims Representative</h2>
 
-		<h3>need bio</h3>
+		<h3>With more than 25 years of experience in the insurance industry, Dawn Wiles began her career as a file clerk and quickly worked her way up the ladder to become a claims adjustor. Now, as a claim representative for TNRMT, she uses her extensive knowledge to manage multiple claims and assist clients to ensure accuracy and timely processing.</h3>
+
+		<h3>“I enjoy working with clients and helping them through the claims process,” said Dawn, who joined the Trust in 2003.</h3>
+
+		<h3>Originally from the Mid-West, Dawn earned her associate’s degree in office administration from Nashville State Community College. And when she’s not in the office, you can find her spending time with her family and friends.</h3>
 
 		<a class="textlink" href="mailto:dwiles@tnrmt.com">Email Dawn</a>
 

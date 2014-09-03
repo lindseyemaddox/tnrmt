@@ -36,7 +36,7 @@
 
 		<h1>Harrold Henderson</h1>
 
-		<h2>Senior Claims Representative and Assistant Trust Administrator</h2>
+		<h2>Senior Claims Representative</h2>
 
 		<h3>Harrold Henderson is a team player. And for the past 15 years, he's been working side by side with fellow claims representatives to deliver exceptional quality service to TNRMT clients and members across the state.</h3>
 

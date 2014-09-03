@@ -15,7 +15,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
 
     <div class="divh1">
 
-	    <h1><span>The Tennessee Risk Management Trust</span> is a member owned insurance Trust created in 1987 with the goal of providing the best possible insurance services at the most stable, affordable price.</h1>
+	    <h1><span>The Tennessee Risk Management Trust</span> is a member owned insurance Trust created in 1987 with the goal of providing the best possible insurance services at the most stable, affordable price to public entities in Tennessee.</h1>
 	
 	</div><!--divh1-->
 

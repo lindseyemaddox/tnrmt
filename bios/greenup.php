@@ -40,8 +40,8 @@
 
 		<h3>Next Generation Underwriters</h3>
 
-		<a class="textlink" href="mailto:kgreenup@nguins.com">Email Kyle</a>
-		<a class="textlink" href="mailto:http://www.ngutn.com/our-people/kyle-greenup/" target="_blank">More About Kyle</a>
+		<a class="textlink" href="mailto:kgreenup@ngutn.com">Email Kyle</a>
+		<a class="textlink" href="http://www.ngutn.com/our-people/kyle-greenup/" target="_blank">More About Kyle</a>
 
 	</div><!--bio-text-->
 

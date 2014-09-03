@@ -10,7 +10,19 @@
 	#article .article-text h5 {
 		line-height: 24px;
 	}
+	header .nav-bg {
+		width: 58%;
+	}
 }
+
+// @media screen and (max-width: 1348px) {
+// 	#container {
+// 		width: 53%;
+// 	}
+// 	#options {
+// 		width: 47%;
+// 	}
+// }
 
 @media screen and (max-width: 1300px) {
 	nav li {
@@ -101,6 +113,13 @@
 	footer #quote {
 		padding-bottom: 49px;
 	}
+	header .nav-bg {
+		height: 80px;
+		width: 62%;
+	}
+	.sub header {
+		height: 180px;
+	}
 }
 
 @media screen and (max-width: 1100px) {
@@ -147,6 +166,25 @@
 	footer #bottom p {
 		font-size: 10px;
 	}
+	header .nav-bg {
+		width: 66%;
+	}
+	footer #meeting h6 {
+		padding-bottom: 5px;
+	}
+	footer #meeting p {
+		font-size: 15px;
+		line-height: 18px;
+	}
+	footer #quote, footer #meeting {
+		min-height: 250px;
+	}
+	footer #bottom {
+		padding-top: 10px;
+		p {
+			padding-bottom: 10px;
+		}
+	}
 }
 
 
@@ -154,21 +192,68 @@
 
 
 @media screen and (max-width: 1000px) {
+	header .inner {
+		width: 100%;
+	}
+	header .logo {
+		margin-left: 10%;
+	}
 	header #showMenu {
 		display: block;
 		position: absolute;
-		right: 10%;
-		top: 6px;
+		right: 20px;
+		top: 20px;
+		z-index: 2;
 		img {
 			width: 20%;
 			float: right;
 		}
 	}
 	nav {
+		height: 0;
+		overflow: auto;
+		top: 0;
+		width: 300px;
+		z-index: 1;
+		li {
+			padding: 0px 20px 0px 0px;
+			&:hover ul {
+				position: relative;
+				top: 0;
+				background: transparent;
+			    -webkit-box-shadow: 0 0 0 0 rgba(0, 0, 0, 0);
+			    -moz-box-shadow:0 0 0 0 rgba(0, 0, 0, 0);
+			    box-shadow:0 0 0 0 rgba(0, 0, 0, 0);
+    			li {
+    				padding: 0;
+    				a {
+    					color: #fff;
+    				}
+    			}
+   			}
+			ul {
+				height: auto;
+				li {
+					display: block;
+					padding: 0;
+				}
+			}
+		}
+	}
+	nav li:hover ul.who-we-are, nav li:hover ul.our-unique-program, nav li:hover ul.resources {
+		left: 0;
+	}
+	nav li ul.who-we-are, nav li ul.our-unique-program, nav li ul.resources {
+		margin-top: 20px;
+	}
+	header .nav-bg {
 		display: none;
 	}
 	header .claims-link {
-		right: 16%;
+		right: 0;
+		width: 300px;
+		z-index: 2;
+		padding: 25px 0 28px 25px;
 	}
 	header .divh1 {
 		margin-top: 80px;
@@ -176,28 +261,33 @@
 	header.expand {
 		nav {
 			display: block;
+			height: auto;
 			position: absolute;
 			right: 0;
-			top: 0;
 			margin: 0;
-			padding-right: 5%;
+			height: auto;
 			background-color: @grey;
+			.transition;
 			ul {
 				padding: 40px 0 20px;
 				& > li {
 					float: none;
-					&:hover {
-						ul li {
-							display: none;
-						}
+					ul {
+						padding: 0;
+					a {
+						font-size: 10px;
 					}
-					&.resources-parent:hover {
-						display: block;
-					}
-					ul.resources {
-						display: block;
-						li {
-							padding: 0;
+	  					&.resources {
+							display: block;
+							li {
+								padding: 0;
+								a {
+									color: #fff;
+									&:hover {
+										color: @yellow;
+									}
+								}
+							}
 						}
 					}
 				}
@@ -214,20 +304,268 @@
 	header {
 		height: 470px;
 	}
+
+	#main-nav, #main-nav li{
+		margin:0;
+		list-style:none;
+	}
+	#main-nav{
+		padding: 60px 0 10px;
+	}
+	#main-nav ul{
+		li ul {
+			display: block;
+			margin-top: 10px;
+		}
+	}
+	#main-nav > li{
+		margin-top:20px;
+		position:relative;
+		width:100%;
+		color: #fff;
+	}
+	nav #main-nav > li:last-child {
+		padding-bottom: 20px;
+	}
+	/* IE leaves a blank space where span is added so this is to avoid that */
+	* html #main-nav li{
+		float:left;
+		display:inline;
+	}
+
+	#main-nav li a{padding-left:50px;}
+	#main-nav li span{float:left;position:absolute;top:4px;left:28px;width:13px;height:13px;cursor:auto;font-size:0;}
+	#main-nav li span, #main-nav li span.collapsed{background:url("/_images/collapsed.gif") no-repeat 0 0;} 
+	#main-nav li span.expanded{background:url("/_images/expanded.gif") no-repeat 0 0;}
+
+	/* second level */
+
+	#main-nav li li{
+		margin: 0 0 20px;
+		&:last-child {
+			margin-bottom: 0;
+		}
+	}
+	#main-nav li li a{padding-left:50px;}
+	#main-nav li li span{left:28px;}
+
+	header .divh1 {
+		top: 220px;
+		margin-top: 0;
+		h1 {
+			width: 80%;
+		}
+	}
+	footer #quote, footer #meeting {
+		min-height: 270px;
+		p:last-child {
+			margin-left: 5%;
+		}		
+	}
+	footer #meeting h6 {
+		width: 55%;
+	}
+	.sub header .logo {
+		padding-top: 15px;
+	}
+	.sub header {
+		height: 100px;
+		.inner {
+			width: 100%;
+		}
+	}
+	.form h3 {
+		font-size: 30px;
+		padding: 15px 0;
+	}
+	.form .submit {
+		margin: 0 5% 20px;
+	}
+	#options li a {
+		font-size: 14px;
+		line-height: 14px;
+	}
 }
 
 
+@media screen and (max-width: 900px) {
+	header {
+		height: 250px;
+		.divh1 {
+			top: 100px;
+			h1 {
+				font-size: 12px;
+				line-height: 16px;
+				padding: 20px 0;
+				span {
+					font-size: 20px;
+					line-height: 30px;
+				}
+			}
+		}
+	}
+	header .logo {
+		padding-top: 20px;
+	}
+	#number-groups {
+		padding-top: 0;
+	}
+	#article {
+		margin-bottom: 40px;
+	}
+	#number-groups .one, #number-groups .two, #number-groups .three {
+		margin-right: 0;
+		h3, h4 {
+			text-align: center;
+			width: 100%;	
+		}
+		.textlink {
+			float: right;
+		}
+	} 
+	#number-groups > div {
+		width: 100%;
+		float: none;
+		h4 {
+			margin-top: 0;
+		}
+	}
+	#article img {
+		width: 30%;
+	}
+	#article .article-text {
+		width: 68%;
+	}
+	footer #meeting, footer #quote {
+		padding-top: 20px;
+		min-height: 210px;
+		padding-bottom: 0;
+		img {
+			width: 15%;
+			margin: 0 auto 10px;
+			display: block;
+			float: none;
+		}
+		h6 {
+			width: 90%;
+			text-align: center;
+			margin: 0 auto;
+			float: none;
+		}
+	}
+	footer #meeting h6 {
+		font-size: 20px;
+		line-height: 20px;
+	}
+	footer #meeting p {
+		font-size: 12px;
+		line-height: 14px;
+		width: 90%;
+		text-align: center;
+	}
+}
 
 
+@media screen and (max-width: 800px) {
+	header .logo {
+		padding-top: 20px;
+		width: 160px;
+		height: 55px;
+		overflow: hidden;
+		margin-left: 5%;
+	}
+	header .divh1 h1, #number-groups, #article {
+		width: 90%;
+	}
+	footer .inner {
+		width: 90%;
+	}
+	.sub header {
+		margin-bottom: 30px;
+	}
+	.sub .inner {
+		width: 90%;
+	}
+}
+
+@media screen and (max-width: 700px) {
+	#article img {
+		width: 40%;
+	}
+	#article .article-text {
+		width: 58%;
+	}
+	footer #meeting, footer #quote {
+		min-height: 230px;
+	}
+	#content, .form {
+		float: none;
+		width: 100%;
+		margin: 0 0 50px 0;
+	}
+}
+
+@media screen and (max-width: 600px) {
+	#article img {
+		width: 100%;
+		float: none;
+		margin-bottom: 20px;
+	}
+	#article .article-text {
+		width: 100%;
+	}
+	footer #quote, footer #meeting {
+		float: none;
+		width: 100%;
+		.inner {
+			max-width: none;
+			width: 100%;
+		}
+	}
+	footer #quote {
+		min-height: 200px;
+	}
+}
+
+@media screen and (max-width: 500px) {
+	header {
+		height: 340px;
+	}
+	.sub header {
+		height: 200px;
+		.logo {
+			padding-top: 95px;
+		}
+	}
+	header .claims-link, nav {
+		width: 100%;
+	}
+	header .logo {
+		padding-top: 100px;
+		width: 260px;
+		height: 160px;
+		margin: 0 auto;
+		display: block;
+		float: none;
+	}
+	header .divh1 {
+		top: 190px;
+	}
+	header .divh1 h1 {
+		font-size: 10px;
+		line-height: 14px;
+		span {
+			font-size: 18px;
+		}
+	}
+}
 
 
-
-
-
-
-
-
-
-
-
+@media screen and (max-width: 400px) {
+	header .logo {
+		width: 200px;
+		height: 150px;
+		padding-top: 105px;
+	}
+}
 

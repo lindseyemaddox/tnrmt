@@ -33,8 +33,9 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
         <li><a href="#filter" data-option-value=".finance">Finance</a></li>
         <li><a href="#filter" data-option-value=".loss-control">Loss Control</a></li>
         <li><a href="#filter" data-option-value=".workers-comp">Workers' Compensation</a></li>
+        <li><a href="#filter" data-option-value=".property-liability">Property &amp; Liability</a></li>
+        <li><a href="#filter" data-option-value=".student-accident">Student Accident</a></li>
         <li><a href="#filter" data-option-value=".customer-service">Customer Service</a></li>
-        <li><a href="#filter" data-option-value=".it">Information Technology</a></li>
       </ul>
 
 
@@ -42,7 +43,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
   
   <div id="container" class="clearfix">
     
-    <a href="/bios/alongi.php" class="fancybox fancybox.iframe element claims sec" data-symbol="Hg" data-category="Kubota">
+    <a href="/bios/alongi.php" class="fancybox fancybox.iframe element claims sec property-liability" data-symbol="Hg" data-category="Kubota">
         <img src="/_images/team/alongi.jpg">
         <div class="text">
             <h2>Amie<br />Alongi</h2>
@@ -62,7 +63,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
     	</div><!--text-->
     </a><!--element-->
  
-    <a href="/bios/bernhart.php" class="fancybox fancybox.iframe element claims tnrmt" data-symbol="Hg" data-category="Kubota">
+    <a href="/bios/bernhart.php" class="fancybox fancybox.iframe element claims tnrmt student-accident" data-symbol="Hg" data-category="Kubota">
     	<img src="/_images/team/bernhart.jpg">
     	<div class="text">
     		<h2>Shannon<br />Bernhart</h2>
@@ -72,7 +73,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
     	</div><!--text-->
     </a><!--element-->
 
-    <a href="/bios/bible.php" class="fancybox fancybox.iframe element claims tnrmt" data-symbol="Hg" data-category="Kubota">
+    <a href="/bios/bible.php" class="fancybox fancybox.iframe element claims tnrmt workers-comp" data-symbol="Hg" data-category="Kubota">
     	<img src="/_images/team/bible.jpg">
     	<div class="text">
     		<h2>Anne<br />Bible</h2>
@@ -102,16 +103,6 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
     	</div><!--text-->
     </a><!--element-->
                        
-    <a href="/bios/cabron.php" class="fancybox fancybox.iframe element claims workers-comp " data-symbol="Hg" data-category="Kubota">
-    	<img src="/_images/team/cabron.jpg">
-    	<div class="text">
-    		<h2>Clayton<br />Cabron</h2>
-    		<h3>Claims Adjuster</h3>
-    		<h5>Workers' Comp</h5>
-    		<span class="icon-info"></span>
-    	</div><!--text-->
-    </a><!--element-->
-                       
     <a href="/bios/carmichael.php" class="fancybox fancybox.iframe element trustee " data-symbol="Hg" data-category="Kubota">
     	<img src="/_images/team/carmichael.jpg">
     	<div class="text">
@@ -132,11 +123,11 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
     	</div><!--text-->
     </a><!--element-->
                        
-    <a href="/bios/coy.php" class="fancybox fancybox.iframe element claims tnrmt" data-symbol="Hg" data-category="Kubota">
+    <a href="/bios/coy.php" class="fancybox fancybox.iframe element claims tnrmt property-liability" data-symbol="Hg" data-category="Kubota">
     	<img src="/_images/team/coy.jpg">
     	<div class="text">
     		<h2>Debra<br />Coy</h2>
-    		<h3>Claims Representative</h3>
+    		<h3>Senior Claims Representative</h3>
     		<h5>TNRMT</h5>
     		<span class="icon-info"></span>
     	</div><!--text-->
@@ -156,13 +147,13 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
     	<img src="/_images/team/geddes.jpg">
     	<div class="text">
     		<h2>Masie<br />Geddes</h2>
-    		<h3>Claims Representative</h3>
+    		<h3>Claims Assistant</h3>
     		<h5>TNRMT</h5>
     		<span class="icon-info"></span>
     	</div><!--text-->
     </a><!--element-->
                        
-    <a href="/bios/greenup.php" class="fancybox fancybox.iframe element ngu it " data-symbol="Hg" data-category="Kubota">
+    <a href="/bios/greenup.php" class="fancybox fancybox.iframe element ngu " data-symbol="Hg" data-category="Kubota">
     	<img src="/_images/team/greenup.jpg">
     	<div class="text">
     		<h2>Kyle<br />Greenup</h2>
@@ -172,8 +163,8 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
     	</div><!--text-->
     </a><!--element-->
                        
-    <a href="/bios/gruenewald.php" class="fancybox fancybox.iframe element claims tnrmt" data-symbol="Hg" data-category="Kubota">
-        <img src="/_images/team/gruenewald.jpg">
+    <a href="#" class="element claims tnrmt workers-comp" data-symbol="Hg" data-category="Kubota">
+        <img src="/_images/team/_placeholder.jpg">
         <div class="text">
             <h2>Diane<br /><span>Gruenewald</span></h2>
             <h3>Claims Representative</h3>
@@ -182,7 +173,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
         </div><!--text-->
     </a><!--element-->
                        
-    <a href="/bios/hager.php" class="fancybox fancybox.iframe element claims tnrmt" data-symbol="Hg" data-category="Kubota">
+    <a href="/bios/hager.php" class="fancybox fancybox.iframe element claims tnrmt workers-comp" data-symbol="Hg" data-category="Kubota">
     	<img src="/_images/team/hager.jpg">
     	<div class="text">
     		<h2>Kay<br />Hager</h2>
@@ -192,7 +183,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
     	</div><!--text-->
     </a><!--element-->
                        
-    <a href="/bios/hall.php" class="fancybox fancybox.iframe element claims sec" data-symbol="Hg" data-category="Kubota">
+    <a href="/bios/hall.php" class="fancybox fancybox.iframe element claims sec workers-comp" data-symbol="Hg" data-category="Kubota">
     	<img src="/_images/team/hall.jpg">
     	<div class="text">
     		<h2>Jennifer<br />Hall</h2>
@@ -202,11 +193,11 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
     	</div><!--text-->
     </a><!--element-->
                        
-    <a href="/bios/henderson.php" class="fancybox fancybox.iframe element claims admin tnrmt" data-symbol="Hg" data-category="Kubota">
+    <a href="/bios/henderson.php" class="fancybox fancybox.iframe element claims tnrmt property-liability" data-symbol="Hg" data-category="Kubota">
     	<img src="/_images/team/henderson.jpg">
     	<div class="text">
     		<h2>Harrold<br /><span>Henderson</span></h2>
-    		<h3>Senior Claims Representative and Assistant Trust Admin</h3>
+    		<h3>Senior Claims Representative</h3>
     		<span class="icon-info"></span>
     	</div><!--text-->
     </a><!--element-->
@@ -221,14 +212,24 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
     	</div><!--text-->
     </a><!--element-->
                        
-    <a href="/bios/jones.php" class="fancybox fancybox.iframe element trustee " data-symbol="Hg" data-category="Kubota">
-    	<img src="/_images/team/jones.jpg">
+    <a href="/bios/joiner.php" class="fancybox fancybox.iframe element trustee " data-symbol="Hg" data-category="Kubota">
+    	<img src="/_images/team/_placeholder.jpg">
     	<div class="text">
-    		<h2>David<br />Jones</h2>
+    		<h2>Leta<br />Joiner</h2>
     		<h3>Trustee</h3>
-    		<h5>District 2</h5>
+    		<h5>District 6</h5>
     		<span class="icon-info"></span>
     	</div><!--text-->
+    </a><!--element-->
+                       
+    <a href="/bios/jones.php" class="fancybox fancybox.iframe element trustee " data-symbol="Hg" data-category="Kubota">
+        <img src="/_images/team/jones.jpg">
+        <div class="text">
+            <h2>David<br />Jones</h2>
+            <h3>Trustee</h3>
+            <h5>District 2</h5>
+            <span class="icon-info"></span>
+        </div><!--text-->
     </a><!--element-->
                        
     <a href="/bios/keith.php" class="fancybox fancybox.iframe element ngu customer-service " data-symbol="Hg" data-category="Kubota">
@@ -251,22 +252,12 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
     	</div><!--text-->
     </a><!--element-->
                        
-    <a href="/bios/krug.php" class="fancybox fancybox.iframe element claims sec " data-symbol="Hg" data-category="Kubota">
+    <a href="/bios/krug.php" class="fancybox fancybox.iframe element claims sec property-liability" data-symbol="Hg" data-category="Kubota">
     	<img src="/_images/team/krug.jpg">
     	<div class="text">
     		<h2>Stephanie<br />Krug</h2>
     		<h3>Claims Adjuster</h3>
     		<h5>SEC</h5>
-    		<span class="icon-info"></span>
-    	</div><!--text-->
-    </a><!--element-->
-                       
-    <a href="/bios/lacey.php" class="fancybox fancybox.iframe element trustee " data-symbol="Hg" data-category="Kubota">
-    	<img src="/_images/team/lacey.jpg">
-    	<div class="text">
-    		<h2>Frank<br />Lacey</h2>
-    		<h3>Trustee</h3>
-    		<h5>District 7</h5>
     		<span class="icon-info"></span>
     	</div><!--text-->
     </a><!--element-->
@@ -285,7 +276,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
     	<img src="/_images/team/mathis.jpg">
     	<div class="text">
     		<h2>Jeff<br />Mathis</h2>
-    		<h3>Chief Financial Officer</h3>
+    		<h3>Vice President &amp; CFO</h3>
     		<h5>NGU</h5>
     		<span class="icon-info"></span>
     	</div><!--text-->
@@ -305,7 +296,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
         <img src="/_images/team/montgomery.jpg">
         <div class="text">
             <h2>Tom<br /><span>Montgomery</span></h2>
-            <h3>Director of Claims</h3>
+            <h3>Vice President</h3>
             <h5>NGU</h5>
             <span class="icon-info"></span>
         </div><!--text-->
@@ -341,7 +332,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
         </div><!--text-->
     </a><!--element-->
                        
-    <a href="/bios/salmon.php" class="fancybox fancybox.iframe element claims tnrmt" data-symbol="Hg" data-category="Kubota">
+    <a href="/bios/salmon.php" class="fancybox fancybox.iframe element claims tnrmt property-liability" data-symbol="Hg" data-category="Kubota">
         <img src="/_images/team/salmon.jpg">
         <div class="text">
             <h2>Tad<br />Salmon</h2>
@@ -381,7 +372,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
         </div><!--text-->
     </a><!--element-->
                        
-    <a href="/bios/sullivan.php" class="fancybox fancybox.iframe element claims tnrmt" data-symbol="Hg" data-category="Kubota">
+    <a href="/bios/sullivan.php" class="fancybox fancybox.iframe element claims tnrmt student-accident" data-symbol="Hg" data-category="Kubota">
         <img src="/_images/team/sullivan.jpg">
         <div class="text">
             <h2>Jackie<br />Sullivan</h2>
@@ -391,7 +382,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
         </div><!--text-->
     </a><!--element-->
                        
-    <a href="/bios/thompson.php" class="fancybox fancybox.iframe element claims tnrmt" data-symbol="Hg" data-category="Kubota">
+    <a href="/bios/thompson.php" class="fancybox fancybox.iframe element claims tnrmt workers-comp" data-symbol="Hg" data-category="Kubota">
         <img src="/_images/team/thompson.jpg">
         <div class="text">
             <h2>Sandra<br />Thompson</h2>
@@ -411,37 +402,17 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
         </div><!--text-->
     </a><!--element-->
                        
-    <a href="/bios/wallace.php" class="fancybox fancybox.iframe element trustee " data-symbol="Hg" data-category="Kubota">
+    <a href="/bios/wallace.php" class="fancybox fancybox.iframe element admin tnrmt " data-symbol="Hg" data-category="Kubota">
         <img src="/_images/team/wallace.jpg">
         <div class="text">
             <h2>Dr. Phillip<br />Wallace</h2>
-            <h3>Trustee</h3>
-            <h5>District 6</h5>
-            <span class="icon-info"></span>
-        </div><!--text-->
-    </a><!--element-->
-                       
-    <a href="/bios/west.php" class="fancybox fancybox.iframe element trustee " data-symbol="Hg" data-category="Kubota">
-        <img src="/_images/team/west.jpg">
-        <div class="text">
-            <h2>Jake<br />West</h2>
-            <h3>Trustee</h3>
-            <h5>District 5</h5>
-            <span class="icon-info"></span>
-        </div><!--text-->
-    </a><!--element-->
-                       
-    <a href="/bios/wilburn.php" class="fancybox fancybox.iframe element admin tnrmt " data-symbol="Hg" data-category="Kubota">
-        <img src="/_images/team/wilburn.jpg">
-        <div class="text">
-            <h2>John<br />Wilburn</h2>
-            <h3>Administrator</h3>
+            <h3>Trust Administrator</h3>
             <h5>TNRMT</h5>
             <span class="icon-info"></span>
         </div><!--text-->
     </a><!--element-->
                        
-    <a href="/bios/wiles.php" class="fancybox fancybox.iframe element claims tnrmt " data-symbol="Hg" data-category="Kubota">
+    <a href="/bios/wiles.php" class="fancybox fancybox.iframe element claims tnrmt workers-comp" data-symbol="Hg" data-category="Kubota">
         <img src="/_images/team/wiles.jpg">
         <div class="text">
             <h2>Dawn<br />Wiles</h2>

@@ -36,9 +36,9 @@
 
 		<h1>Tom Montgomery</h1>
 
-		<h2>Director of Claims</h2>
+		<h2>Vice President</h2>
 
-		<h3>Safety Engineering Consultants</h3>
+		<h3>Next Generation Underwriters</h3>
 
 		<a class="textlink" href="mailto:tmontgomery@sectn.com">Email Tom</a>
 		<a class="textlink" href="http://www.sectn.com/2012/our-people/tom-montgomery-cpcu-aic/" target="_blank">More About Tom</a>

@@ -68,6 +68,7 @@
 		});
 	</script>
 
+	<script type="text/javascript" src="/_scripts/sitemapstyler.js"></script>
 
 
 </body>

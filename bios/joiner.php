@@ -30,17 +30,17 @@
 
 <div class="fb-bio">
 
-	<img src="/_images/team/west.jpg">
+	<img src="/_images/team/_placeholder.jpg">
 
 	<div class="bio-text">
 
-		<h1>Jake West</h1>
+		<h1>Dr. Leta Joiner</h1>
 
-		<h2>District 5</h2>
+		<h2>District 6</h2>
 
-		<h3>Jake represents District 5 and is currently Mayor of Trousdale County.</h3>
+		<h3>Director of Schools for Stewart County, Dr. Leta Joiner replaced <a href="/bios/wallace.php" class="fancybox fancybox.iframe">Dr. Phillip Wallace</a> after he was named Trust Administrator.  Dr. Joiner serves District 6.</h3>
 
-		<a class="textlink" href="mailto:trousdalemayor@gmail.com">Email Jake</a>
+		<a class="textlink" href="mailto:letajoiner@stewart.k12.tn.us">Email Leta</a>
 
 	</div><!--bio-text-->
 

@@ -72,37 +72,37 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
 
 		<div class="trustee">
 			
-			<a class="fancybox fancybox.iframe" href="/bios/west.php"><img src="/_images/trustee-west.jpg"></a>
+			<a href="#"><img src="/_images/trustee_placeholder.jpg"></a>
 
-			<h3><a class="fancybox fancybox.iframe" href="/bios/west.php">Jake<br />West</a></h3>
+			<h3><a href="#">Coming<br />Soon</a></h3>
 
 			<a class="district">District 5</a>
 
-			<a class="bio fancybox fancybox.iframe" href="/bios/west.php">Bio</a>
+			<!-- <a class="bio" href="#">Bio</a> -->
 
 		</div><!--trustee-->
 
 		<div class="trustee">
 			
-			<a class="fancybox fancybox.iframe" href="/bios/wallace.php"><img src="/_images/trustee-wallace.jpg"></a>
+			<a class="fancybox fancybox.iframe" href="/bios/joiner.php"><img src="/_images/trustee_placeholder.jpg"></a>
 
-			<h3><a class="fancybox fancybox.iframe" href="/bios/wallace.php">Dr. Phillip<br />Wallace</a></h3>
+			<h3><a class="fancybox fancybox.iframe" href="/bios/joiner.php">Dr. Leta<br />Joiner</a></h3>
 
 			<a class="district">District 6</a>
 
-			<a class="bio fancybox fancybox.iframe" href="/bios/wallace.php">Bio</a>
+			<a class="bio fancybox fancybox.iframe" href="/bios/joiner.php">Bio</a>
 
 		</div><!--trustee-->
 
 		<div class="trustee">
 			
-			<a class="fancybox fancybox.iframe" href="/bios/lacey.php"><img src="/_images/trustee-lacey.jpg"></a>
+			<a href="#"><img src="/_images/trustee_placeholder.jpg"></a>
 
-			<h3><a class="fancybox fancybox.iframe" href="/bios/lacey.php">Frank<br />Lacey</a></h3>
+			<h3><a href="#">Coming<br />Soon</a></h3>
 
-			<a class="district">District 7</a>
+			<a class="district">District 5</a>
 
-			<a class="bio fancybox fancybox.iframe" href="/bios/lacey.php">Bio</a>
+			<!-- <a class="bio" href="#">Bio</a> -->
 
 		</div><!--trustee-->
 

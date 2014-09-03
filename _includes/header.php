@@ -12,7 +12,7 @@
 
         <nav>
 
-            <ul>
+            <ul id="main-nav">
                 <li><a href="/about">Who We Are</a>
                 	<ul class="who-we-are">
                 		<li><a href="/about/what-makes-us-different">What Makes Us Different</a></li>

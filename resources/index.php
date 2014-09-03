@@ -42,9 +42,79 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
   
   <div id="container" class="clearfix resources">
 
-
-
-    <a href="/news/10-04-03.php" class="fancybox fancybox.iframe element article">
+    <a href="/news/14-08-03.php" class="fancybox fancybox.iframe element article workers-comp">
+      <img src="/_images/icon-article.png">
+      <div class="text">
+        <h2>SEC Loses long-time Employee and Friend</h2>
+        <h4 class="issue">Issue - August, 2014</h4>
+        <h5>The staff at SEC, NGU, and TNRMT are saddened by the passing of long time employee and friend Clayton Cabron.  Clayton served SEC and the Trust since November of 2004.  After fighting health issues, he passed peacefully in his sleep early Sunday morning...</h5>
+        <span class="textlink yellow">Read More</span>
+      </div><!--text-->
+    </a><!--element-->
+    
+    <a href="/news/14-08-02.php" class="fancybox fancybox.iframe element article workers-comp">
+      <img src="/_images/icon-article.png">
+      <div class="text">
+        <h2>Workers' Compensation Audit – Why Be Afraid?</h2>
+        <h3>by Jeff Mathis, NGU Risk Management</h3>
+        <h4 class="issue">Issue - August, 2014</h4>
+        <h5>Most of us on the financial side of business want to run and hide when we hear the word auditor.  I know here at NGU Risk  Management, I am...</h5>
+        <span class="textlink yellow">Read More</span>
+      </div><!--text-->
+    </a><!--element-->
+    
+    <a href="/news/14-08-01.php" class="fancybox fancybox.iframe element article">
+      <img src="/_images/icon-article.png">
+      <div class="text">
+        <h2>TNRMT’S Position on Donated Military Vehicles</h2>
+        <h3>by Ruby Keith & Tom Montgomery, NGU Risk Management</h3>
+        <h4 class="issue">Issue - August, 2014</h4>
+        <h5>The military draw down from Afghanistan has resulted in...</h5>
+        <span class="textlink yellow">Read More</span>
+      </div><!--text-->
+    </a><!--element-->
+    
+    <a href="/news/14-06-02.php" class="fancybox fancybox.iframe element article">
+      <img src="/_images/icon-article.png">
+      <div class="text">
+        <h2>Please register for Changes for Worker’s Compensation - Effective July 1st, 2014.</h2>
+        <h4 class="issue">Issue - June, 2014</h4>
+        <h5>An informative, 90 minute online webinar discussing the new laws that affect Workers' Compensation in Tennessee. The webinar is...</h5>
+        <span class="textlink yellow">Read More</span>
+      </div><!--text-->
+    </a><!--element-->
+    
+    <a href="/news/14-06-01.php" class="fancybox fancybox.iframe element article">
+      <img src="/_images/icon-article.png">
+      <div class="text">
+        <h2>New Tennessee Workers' Compensation Laws effective July 1, 2014.</h2>
+        <h4 class="issue">Issue - June, 2014</h4>
+        <h5>Bradford Box of Rainey Kizer Reviere & Bell PLC will host an informative, 90 minute online webinar on June 30th at 9:00 AM CST.  The purpose of this webinar is to discuss the new...</h5>
+        <span class="textlink yellow">Read More</span>
+      </div><!--text-->
+    </a><!--element-->
+    
+    <a href="/news/14-04-01.php" class="fancybox fancybox.iframe element article">
+      <img src="/_images/icon-article.png">
+      <div class="text">
+        <h2>Trust Administrator John Wilburn Announces Retirement.  TNRMT Seeks New Administrator.</h2>
+        <h4 class="issue">Issue - April, 2014</h4>
+        <h5>April 16th, 2014. The Board of Trustees wishes to inform you of the retirement of Trust Administrator, John Wilburn...</h5>
+        <span class="textlink yellow">Read More</span>
+      </div><!--text-->
+    </a><!--element-->
+    
+    <a href="/news/14-03-01.php" class="fancybox fancybox.iframe element article">
+      <img src="/_images/icon-article.png">
+      <div class="text">
+        <h2>Fire and Water Damage Remediation and Restoration</h2>
+        <h4 class="issue">Issue - March, 2014</h4>
+        <h5>Many of you have been approached by several vendors or contractors asking you to allow them to assist you in an emergency response plan in the event of fire or water damage...</h5>
+        <span class="textlink yellow">Read More</span>
+      </div><!--text-->
+    </a><!--element-->
+    
+    <a href="/news/10-04-03.php" class="fancybox fancybox.iframe element article claims">
       <img src="/_images/icon-article.png">
       <div class="text">
         <h2>TNRMT Does More Than Handle Claims</h2>
