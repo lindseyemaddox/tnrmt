@@ -134,17 +134,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/_images\/icon-pdf.png": {
-		"fileType": 32768,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"initialSize": 2982,
-		"inputAbbreviatedPath": "\/_images\/icon-pdf.png",
-		"outputAbbreviatedPath": "\/_images\/icon-pdf.png",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"processed": 0
-		},
 	"\/_images\/icon-quote.png": {
 		"fileType": 32768,
 		"ignore": 0,
@@ -1014,33 +1003,6 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
-	"\/_includes\/footer.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_includes\/footer.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/_includes\/form.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_includes\/form.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
-	"\/_includes\/head.php": {
-		"fileType": 8192,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/_includes\/head.php",
-		"outputAbbreviatedPath": "No Output Path",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0
-		},
 	"\/_includes\/header.php": {
 		"fileType": 8192,
 		"ignore": 0,
@@ -1050,21 +1012,10 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/_scripts\/districts-js-backup.js": {
-		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 1,
-		"inputAbbreviatedPath": "\/_scripts\/districts-js-backup.js",
-		"outputAbbreviatedPath": "\/_scripts\/min\/districts-js-backup-min.js",
-		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
-		"outputStyle": 1,
-		"syntaxCheckerStyle": 1
-		},
 	"\/_scripts\/jquery.fancybox.js": {
 		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 1,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_scripts\/jquery.fancybox.js",
 		"outputAbbreviatedPath": "\/_scripts\/min\/jquery.fancybox-min.js",
 		"outputPathIsOutsideProject": 0,
@@ -1074,8 +1025,8 @@
 		},
 	"\/_scripts\/jquery.isotope.min.js": {
 		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 1,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_scripts\/jquery.isotope.min.js",
 		"outputAbbreviatedPath": "\/_scripts\/min\/jquery.isotope.min-min.js",
 		"outputPathIsOutsideProject": 0,
@@ -1085,8 +1036,8 @@
 		},
 	"\/_scripts\/jquery.js": {
 		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 1,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_scripts\/jquery.js",
 		"outputAbbreviatedPath": "\/_scripts\/min\/jquery-min.js",
 		"outputPathIsOutsideProject": 0,
@@ -1096,7 +1047,7 @@
 		},
 	"\/_scripts\/main-ck.js": {
 		"fileType": 64,
-		"ignore": 1,
+		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_scripts\/main-ck.js",
 		"outputAbbreviatedPath": "\/_scripts\/min\/main-ck-min.js",
@@ -1110,20 +1061,20 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_scripts\/main.js",
-		"outputAbbreviatedPath": "\/_scripts\/main-ck.js",
+		"outputAbbreviatedPath": "\/_scripts\/min\/main-min.js",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 1,
+		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
 	"\/_scripts\/sitemapstyler.js": {
 		"fileType": 64,
-		"ignore": 1,
-		"ignoreWasSetByUser": 1,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_scripts\/sitemapstyler.js",
-		"outputAbbreviatedPath": "\/_scripts\/main-ck.js",
+		"outputAbbreviatedPath": "\/_scripts\/min\/sitemapstyler-min.js",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 1,
+		"outputPathIsSetByUser": 0,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
