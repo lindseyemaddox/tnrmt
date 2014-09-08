@@ -38,6 +38,8 @@
 
 		<h2>Claims Representative</h2>
 
+		<a class="textlink phone-link" href="tel:16155618625">(615) 561-8625 x307</a>
+
 		<h3>Tad Salmon is passionate about process and resolution. In other words, give him a problem and he’ll solve it. And as a claims representative for TNRMT, Tad uses his natural ability to quickly find solutions to help ensure people’s lives go uninterrupted.</h3>
 
 		<h3>Tad, who joined the Trust 2007, mainly focuses on property liability and workers’ compensation claims for school systems across the state. He’s a master communicator who takes the time to listen to all parties, understand the details of each case, and develop game plans to resolve any remaining issues.</h3>

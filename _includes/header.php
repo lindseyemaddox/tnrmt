@@ -6,7 +6,7 @@
 	
     	<a href="/" class="logo"><img src="/_images/logo.png"></a>
 
-        <a class="claims-link" href="#">Claims Reporting</a>
+        <a class="claims-link" href="https://www.stars-web.com/STARSWeb85/EntryPoint.asp?Userid=TNRMT&ClientID=T722&UserPassword=TNRMT" target="_blank">Claims Reporting</a>
 
         <a href="#" id="showMenu"><img src="/_images/menu.png"></a>
 

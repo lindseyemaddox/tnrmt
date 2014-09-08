@@ -38,6 +38,8 @@
 
 		<h2>Senior Claims Representative</h2>
 
+		<a class="textlink phone-link" href="tel:16155618625">(615) 561-8625 x396</a>
+
 		<h3>With more than 25 years of experience in the insurance industry, Dawn Wiles began her career as a file clerk and quickly worked her way up the ladder to become a claims adjustor. Now, as a claim representative for TNRMT, she uses her extensive knowledge to manage multiple claims and assist clients to ensure accuracy and timely processing.</h3>
 
 		<h3>“I enjoy working with clients and helping them through the claims process,” said Dawn, who joined the Trust in 2003.</h3>

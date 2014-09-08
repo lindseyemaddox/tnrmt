@@ -38,6 +38,8 @@
 
 		<h2>Senior Claims Representative</h2>
 
+		<a class="textlink phone-link" href="tel:16155618625">(615) 561-8625 x240</a>
+
 		<h3>Sandra Thompson takes pride in her work. And as a Senior Claims Representative for TNRMT, she helps clients fully understand their situations—and more important, she makes them feel at ease knowing their claims will be handled in a professional manner.</h3>
  
 		<h3>“My clients know that I will do what it takes to get the job done, and I’ll always do it with a smile,” said Sandra, who is passionate about lifting people up and making them feel good about themselves. “My goal is for clients to be glad they can turn to us when it comes to their insurance needs.” </h3>

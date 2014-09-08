@@ -40,6 +40,8 @@
 
 		<h3>Safety Engineering Consultants</h3>
 
+		<a class="textlink phone-link" href="tel:16158264274">(615) 826-4274</a>
+
 		<a class="textlink" href="mailto:cstites@sectn.com">Email Chris</a>
 		<a class="textlink" href="http://www.sectn.com/2012/our-people/chris-stites/" target="_blank">More About Chris</a>
 

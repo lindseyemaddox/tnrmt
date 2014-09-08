@@ -38,6 +38,8 @@
 
 		<h2>Senior Claims Representative</h2>
 
+		<a class="textlink phone-link" href="tel:16155618625">(615) 561-8625 x331</a>
+
 		<h3>As a senior claims representative with nearly 35 years of experience in the insurance industry, Kay Hager is passionate about ensuring claims are handled professionally, fairly, and with integrity. </h3>
 
 		<h3>Kay, who joined TNRMT in 2004, has handled workers’ compensation claims for various states—including Tennessee, Kentucky, Arkansas, Mississippi, and Alabama. She loves putting her investigative skills to use and digging for information and details to find resolution for the claims she handles. She also has a knack for pursing subrogation for the Trust’s claims.</h3>

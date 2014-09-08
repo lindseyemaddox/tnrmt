@@ -38,6 +38,8 @@
 
 		<h2>Claims Representative</h2>
 
+		<a class="textlink phone-link" href="tel:16155618625">(615) 561-8625 x270</a>
+
 		<h3>After studying business at Eastern Tennessee State University, Anne Bible began her career with the Tennessee Department of Labor in the workers’ compensation division in 1981. And throughout the following years, she continued to advance her career while working for several insurance companies.</h3>
 
 		<h3>Now, as a claims representative for TNRMT, Anne focuses on medical-only claims and the evolving rules and regulations regarding these types of claims. And while this process can be complicated at times, she’s up for the challenge of learning and adapting to the changing processes.</h3>

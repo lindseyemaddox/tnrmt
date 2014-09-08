@@ -132,11 +132,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
 
 	</section><!--trustee-thumbs-->
 
-	<section id="map" class="allCounties">
-		
-		<img src="/_images/map-districts.png">
-
-	</section><!--map-->
+	<section id="map" class="allCounties"></section><!--map-->
 
 	<section id="content">
 		

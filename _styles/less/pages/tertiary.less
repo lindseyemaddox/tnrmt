@@ -8,8 +8,9 @@
 	width: 100%;
 	.trustee {
 		width: 10.5%;
-		margin-right: .68%;
-		float: left;
+		margin-right: .2%;
+		display: inline-block;
+		vertical-align: top;
 		&:last-child {
 			margin-right: 0;
 		}
@@ -57,93 +58,230 @@
 }
 
 #map {
-	img {
-		width: 100%;
-		margin: 40px 0 60px;
-	}
+	background: url("/_images/map-districts.png") no-repeat center center transparent;
+	background-size: contain;
+	height: 369px;
 	&.districtOne {
 		background: url("/_images/map-district1.png") no-repeat center center transparent;
 		background-size: contain;
-		height: 390px;
-		margin-top: 207px;
-		img {
-			display: none;
-		}
 	}
 	&.districtTwo {
 		background: url("/_images/map-district2.png") no-repeat center center transparent;
 		background-size: contain;
-		height: 390px;
-		margin-top: 207px;
-		img {
-			display: none;
-		}
 	}
 	&.districtThree {
 		background: url("/_images/map-district3.png") no-repeat center center transparent;
 		background-size: contain;
-		height: 390px;
-		margin-top: 207px;
-		img {
-			display: none;
-		}
 	}
 	&.districtFour {
 		background: url("/_images/map-district4.png") no-repeat center center transparent;
 		background-size: contain;
-		height: 390px;
-		margin-top: 207px;
-		img {
-			display: none;
-		}
 	}
 	&.districtFive {
 		background: url("/_images/map-district5.png") no-repeat center center transparent;
 		background-size: contain;
-		height: 390px;
-		margin-top: 207px;
-		img {
-			display: none;
-		}
 	}
 	&.districtSix {
 		background: url("/_images/map-district6.png") no-repeat center center transparent;
 		background-size: contain;
-		height: 390px;
-		margin-top: 207px;
-		img {
-			display: none;
-		}
 	}
 	&.districtSeven {
 		background: url("/_images/map-district7.png") no-repeat center center transparent;
 		background-size: contain;
-		height: 390px;
-		margin-top: 207px;
-		img {
-			display: none;
-		}
 	}
 	&.districtEight {
 		background: url("/_images/map-district8.png") no-repeat center center transparent;
 		background-size: contain;
-		height: 390px;
-		margin-top: 207px;
-		img {
-			display: none;
-		}
 	}
 	&.districtNine {
 		background: url("/_images/map-district9.png") no-repeat center center transparent;
 		background-size: contain;
-		height: 390px;
-		margin-top: 207px;
-		img {
-			display: none;
-		}
 	}
 }
 
 #content {
 	margin-bottom: 50px;
+}
+
+#site-map ul {
+	margin-top: 20px;
+}
+
+.form-page {
+	li {
+		.osbold;
+		font-size: 14px;
+	}
+	h3 {
+		margin-top: 0;
+	}
+	p {
+		.osbold;
+		font-size: 14px;
+		display: inline;
+	}
+	.floating-placeholder {
+		width: 100%;
+		margin: 0 0 20px;
+	}
+	textarea.floating-placeholder {
+		padding: 10px 20px;
+		line-height: 20px;
+	}
+	span.required {
+		color: @yellow;
+		margin-left: -11px;
+		padding-right: 3px;
+	}
+	.required-text {
+		float: right;
+	}
+	.radio-container {
+		margin-bottom: 20px;
+		p span {
+			padding-left: 12px;
+		}
+	}
+	/** %[Object] Radio buttons */
+	/*------------------------------------*/
+	@-webkit-keyframes pulse {
+	    0% { width: .7em; height: .7em; margin: .4em;  }
+	    50% { width: 1.1em; height: 1.1em; margin: .2em; }
+	    100% { width: .9em; height: .9em; margin: .3em; }
+	}
+
+	@-moz-keyframes pulse {
+	    0% { width: .7em; height: .7em; margin: .4em;  }
+	    50% { width: 1.1em; height: 1.1em; margin: .2em; }
+	    100% { width: .9em; height: .9em; margin: .3em; }
+	}
+
+	@-o-keyframes pulse {
+	    0% { width: .7em; height: .7em; margin: .4em;  }
+	    50% { width: 1.1em; height: 1.1em; margin: .2em; }
+	    100% { width: .9em; height: .9em; margin: .3em; }
+	}
+
+	@keyframes pulse {
+	    0% { width: .7em; height: .7em; margin: .4em;  }
+	    50% { width: 1.1em; height: 1.1em; margin: .2em; }
+	    100% { width: .9em; height: .9em; margin: .3em; }
+	}
+
+	.radio {
+		.osbold;
+		font-size: 14px;
+		line-height: 20px;
+	    color: @grey;
+	    cursor: pointer;
+	    margin-left: .5em;
+	    display: inline-block;
+	}
+
+	.radio,
+	.radio span:before {
+	    -webkit-transition: .25s ease;
+	    -moz-transition: .25s ease;
+	    -ms-transition: .25s ease;
+	    -o-transition: .25s ease;
+	    transition: .25s ease;
+	}
+
+	.radio span {
+	    width: 1.5em;
+	    height: 1.5em;
+	    margin-right: .5em;
+	    border-radius: 3em;
+	    background: @light;
+	    vertical-align: top;
+	    display: inline-block;
+	}
+
+	.radio span:before {
+	    content: '';
+	    width: .7em;
+	    height: .7em;
+	    margin: .4em;
+	    border-radius: 3em;
+	    display: inline-block;
+	    background-color: rgba(0,0,0,0);
+	}
+
+	.radio:hover span:before {
+	    background-color: rgba(255,255,255, .9);
+	}
+
+	/*------------------------------------*/
+
+	input[type="radio"]:checked + .radio {
+	    color: @grey;
+	}
+
+	input[type="radio"]:checked + .radio span:before {
+	    background-color: @yellow;
+	    width: .9em;
+	    height: .9em;
+	    margin: .3em;
+	    -webkit-animation: pulse .25s;
+	    -moz-animation:    pulse .25s;
+	    -o-animation:      pulse .25s;
+	    animation:         pulse .25s;
+	}
+
+/*****************************************
+  CHECKBOX
+******************************************/
+input[type="checkbox"] {
+  display: none;
+}
+input[type="checkbox"] + span {
+  background-color: #fefefe;
+  border: 1px solid;
+  border-color: #ccc #fff #fff #ccc;
+  border-radius: 3px;
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.15);
+  display: inline-block;
+  float: left;
+  margin-right: 7px;
+  padding: 7px;
+  position: relative;
+}
+input[type="checkbox"]:checked + span {
+  background-color: @grey;
+  border-color: @light;
+  color: #fff;
+}
+input[type="checkbox"]:checked + span:after {
+  color: #fff;
+  content: "\2714";
+  font-size: 13px;
+  left: 2px;
+  position: absolute;
+  top: -2px;
+}
+label:hover input[type="checkbox"] + span {
+  border-color: @grey;
+}
+label:hover input[type="checkbox"]:checked + span {
+  border-color: #fff;
+}
+
+	.submit {
+		margin: 20px 5% 30px;
+		width: 90%;
+		border: 1px solid @grey;
+		background-color: #fff;
+		.border-radius(5px);
+		color: #fff;
+		.osextrabold;
+		text-transform: uppercase;
+		font-size: 26px;
+		.gradient(top, #bcbdc0, @grey);
+		&:hover {
+			background-color: @yellow;
+			.gradient(top, @yellow, @yellow);
+			border: 1px solid #fff;
+		}
+	}
+
 }

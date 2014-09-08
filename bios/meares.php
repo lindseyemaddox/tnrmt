@@ -38,6 +38,8 @@
 
 		<h2>Chief Financial Officer</h2>
 
+		<a class="textlink phone-link" href="tel:16155618625">(615) 561-8625 x242</a>
+
 		<h3>With 40 years of experience in the accounting and finance industries, it’s safe to say that Tom Meares knows what he’s doing—which is why it shouldn’t come as a surprise that he has a natural talent for understanding budgets, preparing financial statements, and presenting insightful financial reports.</h3>
 
 		<h3>And as TNRMT’s chief financial officer, Tom uses his experience to ensure the accounting function operates correctly and efficiently while helping others understand the Trust’s financial operations. </h3>

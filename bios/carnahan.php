@@ -38,6 +38,8 @@
 
 		<h2>Finance Specialist</h2>
 
+		<a class="textlink phone-link" href="tel:16155618625">(615) 561-8625 x238</a>
+
 		<h3>Reliable. Hardworking. Dedicated. That’s Alice Carnahan. </h3>
 
 		<h3>And since 1994, Alice has been serving as TNRMT’s finance specialist, where she ensures the Trust’s funds are being properly deposited and bills are being paid in addition to various other responsibilities that keep the Trust operating smoothly. It’s safe to say that Alice gracefully handles multiple tasks and projects without ever skipping a beat.</h3>

@@ -38,6 +38,8 @@
 
 		<h2>Claims Representative</h2>
 
+		<a class="textlink phone-link" href="tel:16155618625">(615) 561-8625 x216</a>
+
 		<h3>Masie Geddes has a love for helping others. And as a claim assistant for TNRMT, she uses that love to support claims adjustors and focus on helping students athletes who have been injured. She’s also an expert when it comes to addressing concerns and quickly finding solutions.</h3>
  
 		<h3>“I want to be remembered as someone who is trustworthy and dependable,” said Masie, who developed her love of helping others while working with special needs students in high school. “I also like knowing that I’ve made a positive difference and helped bring a smile to those around me.” </h3>

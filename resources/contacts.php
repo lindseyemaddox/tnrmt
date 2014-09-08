@@ -202,10 +202,10 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
     	</div><!--text-->
     </a><!--element-->
                        
-    <a href="/bios/hudson.php" class="fancybox fancybox.iframe element claims tnrmt" data-symbol="Hg" data-category="Kubota">
-    	<img src="/_images/team/hudson.jpg">
+    <a href="/bios/breese.php" class="fancybox fancybox.iframe element claims tnrmt" data-symbol="Hg" data-category="Kubota">
+    	<img src="/_images/team/breese.jpg">
     	<div class="text">
-    		<h2>Chelsey<br />Hudson</h2>
+    		<h2>Chelsey<br />Breese</h2>
     		<h3>Claims Assistant</h3>
     		<h5>TNRMT</h5>
     		<span class="icon-info"></span>

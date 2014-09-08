@@ -605,7 +605,26 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
       </div><!--text-->
     </a><!--element-->
 
-    <a href="/forms claims-reporting/C20-First_Report_of_Injury.pdf" target="_blank" class="fancybox fancybox.iframe element forms claims-reporting">
+    <!-------------FORMS-------------->
+
+    <a href="/forms/employers-injury-illness" target="_blank" class="fancybox fancybox.iframe element forms claims-reporting">
+      <img src="/_images/icon-form.png">
+      <div class="text">
+        <h2>Employer's First Report of Work Injury and Illness</h2>
+        <h5>Tennessee Department of Labor and Workforce Development</h5>
+        <span class="textlink yellow">Complete and submit the online form</span>
+      </div><!--text-->
+    </a><!--element-->
+
+    <a href="/forms/property-liability-automobile" target="_blank" class="fancybox fancybox.iframe element forms claims-reporting">
+      <img src="/_images/icon-form.png">
+      <div class="text">
+        <h2>Property Liability Automobile Report Form</h2>
+        <span class="textlink yellow">Complete and submit the online form</span>
+      </div><!--text-->
+    </a><!--element-->
+
+    <a href="/forms/C20-First_Report_of_Injury.pdf" target="_blank" class="fancybox fancybox.iframe element forms claims-reporting">
       <img src="/_images/icon-pdf.png">
       <div class="text">
         <h2>Tennessee Form C20</h2>
@@ -615,7 +634,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
       </div><!--text-->
     </a><!--element-->
 
-    <a href="/forms claims-reporting/C41-Wage_Statement.pdf" target="_blank" class="fancybox fancybox.iframe element forms claims-reporting">
+    <a href="/forms/C41-Wage_Statement.pdf" target="_blank" class="fancybox fancybox.iframe element forms claims-reporting">
       <img src="/_images/icon-pdf.png">
       <div class="text">
         <h2>Tennessee Form C41</h2>
@@ -625,7 +644,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
       </div><!--text-->
     </a><!--element-->
 
-    <a href="/forms claims-reporting/C42G-Employee_Choice_of_Physician.pdf" target="_blank" class="fancybox fancybox.iframe element forms claims-reporting">
+    <a href="/forms/C42G-Employee_Choice_of_Physician.pdf" target="_blank" class="fancybox fancybox.iframe element forms claims-reporting">
       <img src="/_images/icon-pdf.png">
       <div class="text">
         <h2>Tennessee Form C42G</h2>
@@ -635,7 +654,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
       </div><!--text-->
     </a><!--element-->
 
-    <a href="/forms claims-reporting/EmployeeAccidentReport.pdf" target="_blank" class="fancybox fancybox.iframe element forms claims-reporting">
+    <a href="/forms/EmployeeAccidentReport.pdf" target="_blank" class="fancybox fancybox.iframe element forms claims-reporting">
       <img src="/_images/icon-pdf.png">
       <div class="text">
         <h2>Employee Accident Report</h2>
@@ -644,7 +663,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
       </div><!--text-->
     </a><!--element-->
 
-    <a href="/forms claims-reporting/HIPAAMedicalAuthorization.pdf" target="_blank" class="fancybox fancybox.iframe element forms claims-reporting">
+    <a href="/forms/HIPAAMedicalAuthorization.pdf" target="_blank" class="fancybox fancybox.iframe element forms claims-reporting">
       <img src="/_images/icon-pdf.png">
       <div class="text">
         <h2>HIPPA Medical Authorization</h2>
@@ -653,7 +672,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
       </div><!--text-->
     </a><!--element-->
 
-    <a href="/forms claims-reporting/MileageRequestForm.pdf" target="_blank" class="fancybox fancybox.iframe element forms claims-reporting">
+    <a href="/forms/MileageRequestForm.pdf" target="_blank" class="fancybox fancybox.iframe element forms claims-reporting">
       <img src="/_images/icon-pdf.png">
       <div class="text">
         <h2>Mileage Request Form</h2>
@@ -662,7 +681,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
       </div><!--text-->
     </a><!--element-->
 
-    <a href="/forms claims-reporting/SupervisorAccidentInvestigationReport.pdf" target="_blank" class="fancybox fancybox.iframe element forms claims-reporting">
+    <a href="/forms/SupervisorAccidentInvestigationReport.pdf" target="_blank" class="fancybox fancybox.iframe element forms claims-reporting">
       <img src="/_images/icon-pdf.png">
       <div class="text">
         <h2>Supervisor Accident Investigation Report</h2>
@@ -671,7 +690,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
       </div><!--text-->
     </a><!--element-->
 
-    <a href="/forms claims-reporting/WitnessAccidentReport.pdf" target="_blank" class="fancybox fancybox.iframe element forms claims-reporting">
+    <a href="/forms/WitnessAccidentReport.pdf" target="_blank" class="fancybox fancybox.iframe element forms claims-reporting">
       <img src="/_images/icon-pdf.png">
       <div class="text">
         <h2>Witness Accident Report</h2>
@@ -680,7 +699,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
       </div><!--text-->
     </a><!--element-->
 
-    <a href="/forms claims-reporting/WorkersCompensationChecklist.pdf" target="_blank" class="fancybox fancybox.iframe element forms claims-reporting">
+    <a href="/forms/WorkersCompensationChecklist.pdf" target="_blank" class="fancybox fancybox.iframe element forms claims-reporting">
       <img src="/_images/icon-pdf.png">
       <div class="text">
         <h2>Workers' Compensation Checklist</h2>

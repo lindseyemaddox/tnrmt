@@ -34,9 +34,11 @@
 
 	<div class="bio-text">
 
-		<h1>Shannon Baggett</h1>
+		<h1>Shannon Bernhart</h1>
 
 		<h2>Claim Representative</h2>
+
+		<a class="textlink phone-link" href="tel:16155618625">(615) 561-8625 x340</a>
 
 		<h3>need bio</h3>
 

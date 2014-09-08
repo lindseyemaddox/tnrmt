@@ -38,6 +38,8 @@
 
 		<h2>Claims Assistant</h2>
 
+		<a class="textlink phone-link" href="tel:16155618625">(615) 561-8625 x320</a>
+
 		<h3>As a claim assistant, Carol Mason relies on her 30 years of experience in accounting, customer service, and office administration, to keep the TNRMT office operating smoothly. In addition to managing daily administrative duties, she’s known for digging up hard-to-find information. In fact, she’ll keep at it till she finds the answer.</h3>
 
 		<h3>“I really enjoy working at the Trust,” said Carol, who has been working at the Trust since 2013. “It’s a great organization made of wonderful people.”</h3>

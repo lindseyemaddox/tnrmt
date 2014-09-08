@@ -38,6 +38,8 @@
 
 		<h2>Claims Representative</h2>
 
+		<a class="textlink phone-link" href="tel:16155618625">(615) 561-8625 x137</a>
+
 		<h3>need bio</h3>
 
 		<a class="textlink" href="mailto:dgruenewald@tnrmt.com">Email Diane</a>

@@ -25,7 +25,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
 
 		<ul>
 			<li>Property Coverage - All Risk Replacement Cost</li>
-			<li>Comprehensive General Liability - General Liability, Personal Injury, Law Enforcement Activities (Liability?)</li>
+			<li>Comprehensive General Liability - General Liability, Personal Injury, Law Enforcement Liability</li>
 			<li>Automobile Liability</li>
 			<li>School Board and Public Officials Errors and Omissions</li>
 			<li>Worker's Compensation and Employers Liability</li>

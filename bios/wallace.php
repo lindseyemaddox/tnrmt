@@ -38,6 +38,8 @@
 
 		<h2>Trust Administrator</h2>
 
+		<a class="textlink phone-link" href="tel:16155618625">(615) 561-8625 x325</a>
+
 		<h3>A perennial figure in the state’s education system, Dr. Phillip Wallace joined TNRMT as Trust Administrator in 2014 after retiring as the Director of Stewart County Schools.</h3>
 
 		<h3>Dr. Wallace began his storied career as a teacher and football and basketball coach in Stewart County in 1969. He then spent 14 years as the Principal of Dover Elementary School and then another 22 years as the Director of Schools for the Stewart County Board of Education. He also has served as an adjunct professor at Christian Brothers University, Austin Peay State University, and Cumberland University.</h3>

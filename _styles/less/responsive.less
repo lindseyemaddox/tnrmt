@@ -110,15 +110,32 @@
 	footer #quote, footer #meeting {
 		min-height: 300px
 	}
-	footer #quote {
-		padding-bottom: 49px;
-	}
 	header .nav-bg {
 		height: 80px;
 		width: 62%;
 	}
 	.sub header {
 		height: 180px;
+	}
+	#trustee-thumbs .trustee {
+		width: 18%;
+		margin-right: 1%;
+		height: 300px;
+	}
+	#trustee-thumbs .trustee .district, #trustee-thumbs .trustee .bio {
+		display: block;
+		border-bottom: none;
+		text-decoration: underline;
+		&:hover {
+			border-bottom: none;
+		}
+	}
+	#map {
+		height: 300px;
+		background-position: center top;
+		&.districtOne, &.districtTwo, &.districtThree, &.districtFour, &.districtFive, &.districtSix, &.districtSeven, &.districtEight, &.districtNine {
+			background-position: center top;
+		}
 	}
 }
 
@@ -159,7 +176,7 @@
 		font-size: 18px;
 		line-height: 23px;
 	}
-	footer #quote h6 {
+	footer #quote h6, footer .inner p.author {
 		font-size: 12px;
 		line-height: 18px;
 	}
@@ -385,6 +402,12 @@
 		font-size: 14px;
 		line-height: 14px;
 	}
+	#trustee-thumbs .trustee {
+		height: 270px;
+	}
+	#map {
+		height: 250px;
+	}
 }
 
 
@@ -438,7 +461,7 @@
 	}
 	footer #meeting, footer #quote {
 		padding-top: 20px;
-		min-height: 210px;
+		min-height: 240px;
 		padding-bottom: 0;
 		img {
 			width: 15%;
@@ -462,6 +485,18 @@
 		line-height: 14px;
 		width: 90%;
 		text-align: center;
+	}
+	#trustee-thumbs .trustee {
+		height: 250px;
+	}
+	#options {
+		float: none;
+		width: 100%;
+		margin-bottom: 20px;
+		li {
+			display: inline-block;
+			padding-right: 30px;
+		}
 	}
 }
 
@@ -496,12 +531,41 @@
 		width: 58%;
 	}
 	footer #meeting, footer #quote {
-		min-height: 230px;
+		min-height: 250px;
 	}
 	#content, .form {
 		float: none;
 		width: 100%;
 		margin: 0 0 50px 0;
+	}
+	#trustee-thumbs .trustee {
+		height: 230px;
+	}
+	#map {
+		height: 190px;
+	}
+	.fb-bio img {
+		float: none;
+		width: 100%;
+		max-width: 340px;
+		margin-bottom: 20px;
+		display: block;
+	}
+	.fb-bio .bio-text {
+		width: 100%;
+		float: none;
+	}
+	.fb-bio .textlink {
+		float: none;
+		display: block;
+		border: none;
+		text-decoration: underline;
+	}
+	.back-to-top {
+		display: block;
+		margin: 0 auto 10px;
+		text-align: center;
+		.osbold;
 	}
 }
 
@@ -523,7 +587,14 @@
 		}
 	}
 	footer #quote {
-		min-height: 200px;
+		min-height: 230px;
+	}
+	#trustee-thumbs .trustee {
+		height: 280px;
+		width: 31%;
+	}
+	#map {
+		height: 170px;
 	}
 }
 
@@ -558,6 +629,12 @@
 			font-size: 18px;
 		}
 	}
+	#trustee-thumbs .trustee {
+		height: 250px;
+	}
+	#map {
+		height: 140px;
+	}
 }
 
 
@@ -566,6 +643,12 @@
 		width: 200px;
 		height: 150px;
 		padding-top: 105px;
+	}
+	#trustee-thumbs .trustee {
+		height: 220px;
+	}
+	#map {
+		height: 120px;
 	}
 }
 

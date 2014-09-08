@@ -27,7 +27,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
 			
 			<h3>27</h3>
 			<h4>Years of Experience</h4>
-			<h5>The Trust was founded in 1987, and between the something employees and the something else employees we have over 200 combined years experience.</h5>
+			<h5>Since 1987, the Trust's founding principal was to protect assets of public schools.  Since its founding, the Trust has significantly broadened both coverage options and membership.</h5>
 
 			<a class="textlink yellow">Read More</a>
 
@@ -37,7 +37,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
 			
 			<h3>40</h3>
 			<h4>Dedicated Employees</h4>
-			<h5>The Trust was founded in 1987, and between the something employees and the something else employees we have over 200 combined years experience.</h5>
+			<h5>The Trust employees 31 dedicated, highly experienced employees and is governed by a 9 member Board of Trustees.</h5>
 
 			<a class="textlink blue">Read More</a>
 
@@ -48,7 +48,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
 			
 			<h3>200</h3>
 			<h4><br/>Members</h4>
-			<h5>The Trust was founded in 1987, and between the something employees and the something else employees we have over 200 combined years experience.</h5>
+			<h5>Since the inception of 13 original members in 1987, TNRMT has grown in membership to over 200, strengthening the member-owned Trust.</h5>
 
 			<a class="textlink grey">Read More</a>
 
@@ -64,18 +64,26 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
 
 		<div class="article-text">
 
-			<h5>Schools Subject to Fines for Buying Non-Conforming Vans</h5>
-			<p class="by">written by John Evans</p>
-			<p class="by">month 24, 2014</p>
-			<p>...According to Robin Leeds, industry specialist for the National School Transportation Association, "What this means is that it is now illegal to buy a nonconforming van for student transportation as well as to sell one," she said. NSTA lobbied for the provision during the run-up to final passage of...</p>
+			<h5>Workers' Compensation Audit – Why Be Afriad?</h5>
+			<p class="by">written by Jeff Mathis</p>
+			<p class="by">August, 2014</p>
+			<p>Most of us on the financial side of business want to run and hide when we hear the word auditor. I know here at NGU Risk Management, I am frequently tempted to do so. It seems that every time I turn around someone wants to audit something...</p>
 
-			<a class="textlink grey">Read More</a>
+			<a class="textlink grey fancybox fancybox.iframe" href="/news/14-08-02">Read More</a>
 
 		</div><!--article-text-->
 
 		<div class="clear"></div>
 
 	</section><!--article-->
+
+	<script type="text/javascript">
+		$(document).ready(function() {
+
+			$('.fancybox').fancybox();
+
+		});
+	</script>
 
 <?php
 require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/footer.php'); // footer, close body and html

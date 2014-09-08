@@ -38,6 +38,8 @@
 
 		<h2>Loss Control Specialist</h2>
 
+		<a class="textlink phone-link" href="tel:18658504995">(865) 850-4995</a>
+
 		<h3>Jason Baggett has a knack for solving problems and teaching others how to prevent injuries. In fact, he’s down right passionate about it. And as a loss control specialist for TNRMT, he focuses on providing safety training for school and county government employees, performing accident investigations, and inspecting schools for potentially dangerous conditions and fixing them.</h3>
 
 		<h3>After earning his degree in occupational safety and health from Murray State University in Kentucky, he began his career in loss prevention within the insurance industry. And now with nearly 15 years of professional experience under his belt, he’s an expert on OSHA-related topics, accident prevention, and engineering practices, just to name a few. </h3>
