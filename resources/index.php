@@ -37,6 +37,20 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
         <li><a href="#filter" data-option-value=".forms" class="forms-header" >Forms</a></li>
       </ul>
 
+<script>
+  (function() {
+    var cx = '009354251681472186581:cbdo23j8p2w';
+    var gcse = document.createElement('script');
+    gcse.type = 'text/javascript';
+    gcse.async = true;
+    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+        '//www.google.com/cse/cse.js?cx=' + cx;
+    var s = document.getElementsByTagName('script')[0];
+    s.parentNode.insertBefore(gcse, s);
+  })();
+</script>
+<gcse:search></gcse:search>
+
 <!--       <h4 class="last">Sorting</h4>
 
       <ul id="sorting" class="">
