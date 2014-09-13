@@ -816,6 +816,9 @@ footer #bottom p span {
   font-family: "open_sansbold", arial, helvetica, sans-serif;
   text-transform: uppercase;
 }
+footer .back-to-top {
+  display: none;
+}
 .form {
   background-color: #bcbdc0;
   float: right;

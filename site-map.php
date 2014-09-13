@@ -54,7 +54,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
                 <ul>
                     <li><a class="fancybox fancybox.iframe" href="/bios/alongi">Amie Alongi</a></li>
                     <li><a class="fancybox fancybox.iframe" href="/bios/baggett">Jason Baggett</a></li>
-                    <li><a class="fancybox fancybox.iframe" href="#">Shannon Bernhart</a></li>
+                    <li><a class="fancybox fancybox.iframe" href="/bios/bernhart">Shannon Bernhart</a></li>
                     <li><a class="fancybox fancybox.iframe" href="/bios/bible">Anne Bible</a></li>
                     <li><a class="fancybox fancybox.iframe" href="/bios/bilyeu">Mark Bilyeu</a></li>
                     <li><a class="fancybox fancybox.iframe" href="/bios/breese">Chelsea Breese</a></li>
