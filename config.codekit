@@ -1,6 +1,6 @@
 {
 "CodeKitInfo": "This is a CodeKit 2.x project configuration file. It is designed to sync project settings across multiple machines. MODIFYING THE CONTENTS OF THIS FILE IS A POOR LIFE DECISION. If you do so, you will likely cause CodeKit to crash. This file is not useful unless accompanied by the project that created it in CodeKit 2. This file is not backwards-compatible with CodeKit 1.x. For more information, see: http:\/\/incident57.com\/codekit",
-"creatorBuild": "17682",
+"creatorBuild": "17756",
 "files": {
 	"\/_images\/apple-touch-57.png": {
 		"fileType": 32768,
@@ -28,7 +28,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 25789,
+		"initialSize": 54025,
 		"inputAbbreviatedPath": "\/_images\/article.jpg",
 		"outputAbbreviatedPath": "\/_images\/article.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -545,7 +545,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 16885,
+		"initialSize": 117886,
 		"inputAbbreviatedPath": "\/_images\/team\/breese.jpg",
 		"outputAbbreviatedPath": "\/_images\/team\/breese.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -963,7 +963,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 4702,
+		"initialSize": 6434,
 		"inputAbbreviatedPath": "\/_images\/trustee-brown.jpg",
 		"outputAbbreviatedPath": "\/_images\/trustee-brown.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -974,7 +974,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 4028,
+		"initialSize": 9925,
 		"inputAbbreviatedPath": "\/_images\/trustee-carmichael.jpg",
 		"outputAbbreviatedPath": "\/_images\/trustee-carmichael.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -996,7 +996,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 4279,
+		"initialSize": 9543,
 		"inputAbbreviatedPath": "\/_images\/trustee-robinson.jpg",
 		"outputAbbreviatedPath": "\/_images\/trustee-robinson.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -1007,7 +1007,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 4871,
+		"initialSize": 12319,
 		"inputAbbreviatedPath": "\/_images\/trustee-shelton.jpg",
 		"outputAbbreviatedPath": "\/_images\/trustee-shelton.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -1018,7 +1018,7 @@
 		"fileType": 16384,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"initialSize": 4523,
+		"initialSize": 10621,
 		"inputAbbreviatedPath": "\/_images\/trustee-tucker.jpg",
 		"outputAbbreviatedPath": "\/_images\/trustee-tucker.jpg",
 		"outputPathIsOutsideProject": 0,
@@ -1096,8 +1096,8 @@
 		},
 	"\/_scripts\/districts-js-backup.js": {
 		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
+		"ignore": 1,
+		"ignoreWasSetByUser": 1,
 		"inputAbbreviatedPath": "\/_scripts\/districts-js-backup.js",
 		"outputAbbreviatedPath": "\/_scripts\/min\/districts-js-backup-min.js",
 		"outputPathIsOutsideProject": 0,
@@ -1107,8 +1107,8 @@
 		},
 	"\/_scripts\/jquery.fancybox.js": {
 		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
+		"ignore": 1,
+		"ignoreWasSetByUser": 1,
 		"inputAbbreviatedPath": "\/_scripts\/jquery.fancybox.js",
 		"outputAbbreviatedPath": "\/_scripts\/min\/jquery.fancybox-min.js",
 		"outputPathIsOutsideProject": 0,
@@ -1118,8 +1118,8 @@
 		},
 	"\/_scripts\/jquery.isotope.min.js": {
 		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
+		"ignore": 1,
+		"ignoreWasSetByUser": 1,
 		"inputAbbreviatedPath": "\/_scripts\/jquery.isotope.min.js",
 		"outputAbbreviatedPath": "\/_scripts\/min\/jquery.isotope.min-min.js",
 		"outputPathIsOutsideProject": 0,
@@ -1129,8 +1129,8 @@
 		},
 	"\/_scripts\/jquery.js": {
 		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
+		"ignore": 1,
+		"ignoreWasSetByUser": 1,
 		"inputAbbreviatedPath": "\/_scripts\/jquery.js",
 		"outputAbbreviatedPath": "\/_scripts\/min\/jquery-min.js",
 		"outputPathIsOutsideProject": 0,
@@ -1140,7 +1140,7 @@
 		},
 	"\/_scripts\/main-ck.js": {
 		"fileType": 64,
-		"ignore": 0,
+		"ignore": 1,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_scripts\/main-ck.js",
 		"outputAbbreviatedPath": "\/_scripts\/min\/main-ck-min.js",
@@ -1154,20 +1154,20 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/_scripts\/main.js",
-		"outputAbbreviatedPath": "\/_scripts\/min\/main-min.js",
+		"outputAbbreviatedPath": "\/_scripts\/main-ck.js",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
+		"outputPathIsSetByUser": 1,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
 	"\/_scripts\/sitemapstyler.js": {
 		"fileType": 64,
-		"ignore": 0,
-		"ignoreWasSetByUser": 0,
+		"ignore": 1,
+		"ignoreWasSetByUser": 1,
 		"inputAbbreviatedPath": "\/_scripts\/sitemapstyler.js",
-		"outputAbbreviatedPath": "\/_scripts\/min\/sitemapstyler-min.js",
+		"outputAbbreviatedPath": "\/_scripts\/main-ck.js",
 		"outputPathIsOutsideProject": 0,
-		"outputPathIsSetByUser": 0,
+		"outputPathIsSetByUser": 1,
 		"outputStyle": 1,
 		"syntaxCheckerStyle": 1
 		},
@@ -1876,11 +1876,38 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/forms\/employers-injury-illness-page.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/forms\/employers-injury-illness-page.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/forms\/employers-injury-illness.php": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/forms\/employers-injury-illness.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/forms\/index.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/forms\/index.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/forms\/property-liability-automobile.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/forms\/property-liability-automobile.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
@@ -2608,6 +2635,10 @@
 			"active": 0,
 			"flagValue": -1
 			},
+		"prefer_english_operator": {
+			"active": 0,
+			"flagValue": -1
+			},
 		"space_operators": {
 			"active": 0,
 			"flagValue": -1
@@ -3083,6 +3114,7 @@
 	"stylusAutoOutputPathReplace1": "stylus",
 	"stylusAutoOutputPathReplace2": "css",
 	"stylusAutoOutputPathStyle": 2,
+	"stylusCreateSourceMap": 0,
 	"stylusDebugStyle": 0,
 	"stylusImportCSS": 0,
 	"stylusOutputStyle": 0,

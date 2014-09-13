@@ -816,7 +816,11 @@ footer #bottom p span {
   font-family: "open_sansbold", arial, helvetica, sans-serif;
   text-transform: uppercase;
 }
+<<<<<<< HEAD
 footer .back-to-top {
+=======
+footer #bottom .back-to-top {
+>>>>>>> FETCH_HEAD
   display: none;
 }
 .form {
@@ -1622,7 +1626,7 @@ body {
   display: block;
   width: 12px;
   height: 12px;
-  background: url('chosen-sprite.png') -42px 1px no-repeat;
+  background: url('/_images/chosen-sprite.png') -42px 1px no-repeat;
   font-size: 1px;
 }
 .chosen-container-single .chosen-single abbr:hover {
@@ -1643,7 +1647,7 @@ body {
   display: block;
   width: 100%;
   height: 100%;
-  background: url('chosen-sprite.png') no-repeat 0px 2px;
+  background: url('/_images/chosen-sprite.png') no-repeat 0px 2px;
 }
 .chosen-container-single .chosen-search {
   position: relative;
@@ -2128,6 +2132,30 @@ body {
   float: left;
   width: 78%;
 }
+.cse .gsc-search-button input.gsc-search-button-v2,
+input.gsc-search-button-v2 {
+  width: 25px!important;
+  height: 25px!important;
+  padding: 4px!important;
+}
+input.gsc-search-button,
+input.gsc-search-button:hover,
+input.gsc-search-button:focus {
+  background-color: #f8d346 !important;
+  border-color: #626262 !important;
+}
+.cse .gsc-control-cse,
+.gsc-control-cse {
+  padding: 10px!important;
+}
+.gsc-control-cse {
+  background-color: #bcbdc0;
+  border: none!important;
+}
+.cse input.gsc-search-button,
+input.gsc-search-button {
+  border: none!important;
+}
 .h1margin {
   margin-left: 10%;
 }
@@ -2458,6 +2486,33 @@ body {
   background-image: -ms-linear-gradient(top, #f8d346, #f8d346);
   background-image: linear-gradient(top, #f8d346, #f8d346);
   border: 1px solid #fff;
+}
+.actual-form-page {
+  background-color: #f9f9f9;
+}
+.actual-form-page .submit {
+  width: auto;
+  float: right;
+}
+.forms-list {
+  display: block;
+  padding: 10px;
+  background-color: #f9f9f9;
+  margin-bottom: 10px;
+}
+.forms-list img {
+  display: inline-block;
+  margin-right: 10px;
+}
+.forms-list .text {
+  display: inline-block;
+  vertical-align: middle;
+}
+.forms-list .text h4 {
+  margin-bottom: 5px;
+}
+.forms-list:hover {
+  background-color: #eae9e9;
 }
 /**************** RESPONSIVE *****************/
 @media screen and (max-width: 1400px) {
@@ -3049,7 +3104,7 @@ body {
     border: none;
     text-decoration: underline;
   }
-  .back-to-top {
+  footer #bottom .back-to-top {
     display: block;
     margin: 0 auto 10px;
     text-align: center;
