@@ -1,22 +1,32 @@
-<?php require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/head.php'); // HTTP head?>
+<?php
+require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/head.php'); // HTTP head
+?>    		
 <script src="/_scripts/chosen.jquery.min.js"></script>
-
-	<title>Forms | Tennessee Risk Management Trust</title>
+    		
+	<title>Employer's First Report of Work Injury and Illness | Tennessee Risk Management Trust</title>
 	<meta name="description" content="">
 
 </head>
 
-<body>
+<body class="sub">
 
-<div class="fb-bio form-page">
+<?php
+require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and navigation
+?>    		
+
+</header> <!-- header -->
+
+<div class="inner">
+
+<div class="fb-bio form-page actual-form-page">
 
 	<h1>Employer's First Report of Work Injury and Illness</h1>
 
     <form method='post' action=''>
 
-		<p class="required-text"><span class="required">*</span> = required field</p>
+		<p class='required-text'><span class='required'>*</span> = required field</p>
 
-		<div class="clear"></div>
+		<div class='clear'></div>
 
 		<h2>Claims Administration/Carrier</h2>
 
@@ -153,14 +163,14 @@
 	    <div class='floating-placeholder'><input type='text' required name='employee-date-of-hire' id='employee-date-of-hire' size='10'><label for='employee-date-of-hire'><span class='required'>*</span>Employee Date of Hire</label></div>
 	    <div class='floating-placeholder'><input type='text' required name='employee-phone' id='employee-phone' size='10'><label for='employee-phone'><span class='required'>*</span>Employee Phone (include area code)</label></div>
 	    <div class='floating-placeholder'><input type='text' name='employee-department' id='employee-department' size='10'><label for='employee-department'>Department Regularly Worked</label></div>
-	    <div class="radio-container">
+	    <div class='radio-container'>
 	    	<p>Employee Gender</p>
-			<input name="employee-gender" id="employee-gender-male" value="male" checked="" hidden="" type="radio">
-			<label for="employee-gender-male" class="radio"><span></span>Male</label>
-			<input name="employee-gender" id="employee-gender-female" value="female" hidden="" type="radio">
-			<label for="employee-gender-female" class="radio"><span></span>Female</label>
-			<input name="employee-gender" id="employee-gender-unknown" value="unknown" hidden="" type="radio">
-			<label for="employee-gender-unknown" class="radio"><span></span>Unknown</label>
+			<input name='employee-gender' id='employee-gender-male' value='male' checked='' hidden='' type='radio'>
+			<label for='employee-gender-male' class='radio'><span></span>Male</label>
+			<input name='employee-gender' id='employee-gender-female' value='female' hidden='' type='radio'>
+			<label for='employee-gender-female' class='radio'><span></span>Female</label>
+			<input name='employee-gender' id='employee-gender-unknown' value='unknown' hidden='' type='radio'>
+			<label for='employee-gender-unknown' class='radio'><span></span>Unknown</label>
 		</div><!--radio-container-->
         <select name='employee-status' data-placeholder='Employee Status Code...' class='chosen-select'>
             <option value=''></option>
@@ -194,19 +204,19 @@
             <option value='monthly'>Monthly</option>
         </select>
 	    <div class='floating-placeholder'><input type='text' name='days-per-week' id='days-per-week' size='10'><label for='days-per-week'>Number of Days Worked Per Week</label></div>
-	    <div class="radio-container">
+	    <div class='radio-container'>
 	    	<p>Salary Continued in Lieu of Compensation</p>
-			<input name="salary-continued" id="salary-continued-no" value="no" checked="" hidden="" type="radio">
-			<label for="salary-continued-no" class="radio"><span></span>No</label>
-			<input name="salary-continued" id="salary-continued-yes" value="yes" hidden="" type="radio">
-			<label for="salary-continued-yes" class="radio"><span></span>Yes</label>
+			<input name='salary-continued' id='salary-continued-no' value='no' checked='' hidden='' type='radio'>
+			<label for='salary-continued-no' class='radio'><span></span>No</label>
+			<input name='salary-continued' id='salary-continued-yes' value='yes' hidden='' type='radio'>
+			<label for='salary-continued-yes' class='radio'><span></span>Yes</label>
 		</div><!--radio-container-->
-	    <div class="radio-container">
-	    	<p><span class="required">*</span>Full Wages Paid For Date of Injury</p>
-			<input name="full-wages-paid" id="full-wages-paid-no" value="no" checked="" hidden="" type="radio">
-			<label for="full-wages-paid-no" class="radio"><span></span>No</label>
-			<input name="full-wages-paid" id="full-wages-paid-yes" value="yes" hidden="" type="radio">
-			<label for="full-wages-paid-yes" class="radio"><span></span>Yes</label>
+	    <div class='radio-container'>
+	    	<p><span class='required'>*</span>Full Wages Paid For Date of Injury</p>
+			<input name='full-wages-paid' id='full-wages-paid-no' value='no' checked='' hidden='' type='radio'>
+			<label for='full-wages-paid-no' class='radio'><span></span>No</label>
+			<input name='full-wages-paid' id='full-wages-paid-yes' value='yes' hidden='' type='radio'>
+			<label for='full-wages-paid-yes' class='radio'><span></span>Yes</label>
 		</div><!--radio-container-->
 
 		<h2>Accident/Injury</h2>
@@ -218,12 +228,12 @@
 	    <div class='floating-placeholder'><input type='text' required name='date-disibility-began' id='date-disibility-began' size='10'><label for='date-disibility-began'><span class='required'>*</span>Date Disibility Began</label></div>
 	    <div class='floating-placeholder'><input type='text' name='date-return-to-work' id='date-return-to-work' size='10'><label for='date-return-to-work'>Return to Work Date (if applicable)</label></div>
 	    <div class='floating-placeholder'><input type='text' name='date-death' id='date-death' size='10'><label for='date-death'>Date of Death (if applicable)</label></div>
-	    <div class="radio-container">
+	    <div class='radio-container'>
 	    	<p>Did Injury/Illness Occur on Employer's Premises?</p>
-			<input name="on-premises" id="on-premises-no" value="no" checked="" hidden="" type="radio">
-			<label for="on-premises-no" class="radio"><span></span>No</label>
-			<input name="on-premises" id="on-premises-yes" value="yes" hidden="" type="radio">
-			<label for="on-premises-yes" class="radio"><span></span>Yes</label>
+			<input name='on-premises' id='on-premises-no' value='no' checked='' hidden='' type='radio'>
+			<label for='on-premises-no' class='radio'><span></span>No</label>
+			<input name='on-premises' id='on-premises-yes' value='yes' hidden='' type='radio'>
+			<label for='on-premises-yes' class='radio'><span></span>Yes</label>
 		</div><!--radio-container-->
 	    <div class='floating-placeholder'><input type='text' name='injury-address' id='injury-address' size='10'><label for='injury-address'>Address Where Injury Occurred (if other than employer's premises)</label></div>
 	    <div class='floating-placeholder'><input type='text' name='injury-city' id='injury-city' size='10'><label for='injury-city'>City of Injury</label></div>
@@ -356,32 +366,32 @@
 		<ul>
 		  <li>
 		    <label>
-		      <input type="checkbox" name="checkbox" value="1" checked> <span></span> No Medical Treatment
+		      <input type='checkbox' name='checkbox' value='1' checked> <span></span> No Medical Treatment
 		    </label>
 		  </li>
 		  <li>
 		    <label>
-		      <input type="checkbox" name="checkbox" value="2"> <span></span> Minor: by Employer
+		      <input type='checkbox' name='checkbox' value='2'> <span></span> Minor: by Employer
 		    </label>
 		  </li>
 		  <li>
 		    <label>
-		      <input type="checkbox" name="checkbox" value="99"> <span></span> Minor: by Clinic/Hospital
+		      <input type='checkbox' name='checkbox' value='99'> <span></span> Minor: by Clinic/Hospital
 		    </label>
 		  </li>
 		  <li>
 		    <label>
-		      <input type="checkbox" name="checkbox" value="99"> <span></span> Hospitalized more than 24 hours
+		      <input type='checkbox' name='checkbox' value='99'> <span></span> Hospitalized more than 24 hours
 		    </label>
 		  </li>
 		  <li>
 		    <label>
-		      <input type="checkbox" name="checkbox" value="99"> <span></span> Emergency Care
+		      <input type='checkbox' name='checkbox' value='99'> <span></span> Emergency Care
 		    </label>
 		  </li>
 		  <li>
 		    <label>
-		      <input type="checkbox" name="checkbox" value="99"> <span></span> Future Major Medical/Lost Time Anticipated
+		      <input type='checkbox' name='checkbox' value='99'> <span></span> Future Major Medical/Lost Time Anticipated
 		    </label>
 		  </li>
 		</ul>	    
@@ -394,15 +404,20 @@
 	    <div class='floating-placeholder'><input type='text' required name='preparers-company-name' id='preparers-company-name' size='10'><label for='preparers-company-name'><span class='required'>*</span>Preparer's Company Name</label></div>
 	    <div class='floating-placeholder'><input type='text' required name='preparers-phone' id='preparers-phone' size='10'><label for='preparers-phone'><span class='required'>*</span>Preparer's Phone</label></div>
 
-		<div id="pot">If you see this, leave this form field blank and invest in CSS support.
-			<input type="text" name="body" value="" />
+		<div id='pot'>If you see this, leave this form field blank and invest in CSS support.
+			<input type='text' name='body' value='' />
 		</div><!--pot-->
 
 	    <button class='submit'>Submit Form</button>
 
+	    <div class='clear'></div>
+
     </form>
 
 </div><!--fb-bio-->
+
+</div><!--inner-->
+
 
 	<script type="text/javascript">
 		$(document).ready(function(){
@@ -445,3 +460,7 @@
       $(selector).chosen(config[selector]);
     }
   </script>
+
+<?php
+require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/footer.php'); // footer, close body and html
+?>    		

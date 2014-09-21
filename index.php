@@ -29,7 +29,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
 			<h4>Years of Experience</h4>
 			<h5>Since 1987, the Trust's founding principal was to protect assets of public schools.  Since its founding, the Trust has significantly broadened both coverage options and membership.</h5>
 
-			<a class="textlink yellow">Read More</a>
+			<!-- <a class="textlink yellow">Read More</a> -->
 
 		</div><!--one-->
 
@@ -39,7 +39,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
 			<h4>Dedicated Employees</h4>
 			<h5>The Trust employees 31 dedicated, highly experienced employees and is governed by a 9 member Board of Trustees.</h5>
 
-			<a class="textlink blue">Read More</a>
+			<!-- <a class="textlink blue">Read More</a> -->
 
 
 		</div><!--two-->
@@ -50,7 +50,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
 			<h4><br/>Members</h4>
 			<h5>Since the inception of 13 original members in 1987, TNRMT has grown in membership to over 200, strengthening the member-owned Trust.</h5>
 
-			<a class="textlink grey">Read More</a>
+			<!-- <a class="textlink grey">Read More</a> -->
 
 		</div><!--three-->
 

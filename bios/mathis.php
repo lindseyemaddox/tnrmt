@@ -38,9 +38,9 @@
 
 		<h2>Vice President &amp; CFO</h2>
 
-		<h3>Next Generation Underwriters</h3>
+		<h3>NGU / SEC</h3>
 
-		<a class="textlink phone-link" href="tel:16158265454">(615) 826-5454</a>		
+		<a class="textlink phone-link" href="tel:16158225454">(615) 822-5454</a>		
 
 		<a class="textlink" href="mailto:jmathis@ngutn.com">Email Jeff</a>
 		<a class="textlink" href="http://www.ngutn.com/our-people/jeff-mathis/" target="_blank">More About Jeff</a>

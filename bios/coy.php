@@ -38,7 +38,7 @@
 
 		<h2>Senior Claims Representative</h2>
 
-		<a class="textlink phone-link" href="tel:16155618625">(615) 561-8625 x327</a>
+		<a class="textlink phone-link" href="tel:16156518625">(615) 651-8625 x327</a>
 
 		<h3>Whether it’s locating contractors to extract water from a gym floor or handling a personal injury claim, Debra Coy is an expert at resolving liability and property claim issues.</h3>
 

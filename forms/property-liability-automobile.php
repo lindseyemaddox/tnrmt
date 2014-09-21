@@ -1,22 +1,32 @@
-<?php require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/head.php'); // HTTP head?>
+<?php
+require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/head.php'); // HTTP head
+?>    		
 <script src="/_scripts/chosen.jquery.min.js"></script>
-
-	<title>Forms | Tennessee Risk Management Trust</title>
+    		
+	<title>Property Liability Automobile Report Form | Tennessee Risk Management Trust</title>
 	<meta name="description" content="">
 
 </head>
 
-<body>
+<body class="sub">
 
-<div class="fb-bio form-page">
+<?php
+require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and navigation
+?>    		
+
+</header> <!-- header -->
+
+<div class="inner">
+
+<div class="fb-bio form-page actual-form-page">
 
 	<h1>Property Liability Automobile Report Form</h1>
 
     <form method='post' action=''>
 
-		<p class="required-text"><span class="required">*</span> = required field</p>
+		<p class='required-text'><span class='required'>*</span> = required field</p>
 
-		<div class="clear"></div>
+		<div class='clear'></div>
 
 	    <div class='floating-placeholder'><input type='text' required name='person-completing-form' id='person-completing-form' size='10'><label for='person-completing-form'><span class="required">*</span>Person Completing This Form</label></div>
 	    <div class='floating-placeholder'><input type='text' required name='phone' id='phone' size='10'><label for='phone'><span class="required">*</span>Phone</label></div>
@@ -142,19 +152,19 @@
 	    <div class='floating-placeholder'><input type='text' required name='claimants-phone' id='claimants-phone' size='10'><label for='claimants-phone'><span class="required">*</span>Claimant's Phone</label></div>
 	    <div class="radio-container">
 	    	<p>Check One</p>
-			<input name="type" id="property" value="property" checked="" hidden="" type="radio">
-			<label for="property" class="radio"><span></span>Property</label>
-			<input name="type" id="general-liability" value="general-liability" hidden="" type="radio">
-			<label for="general-liability" class="radio"><span></span>General Liability</label>
-			<input name="type" id="auto" value="auto" hidden="" type="radio">
-			<label for="auto" class="radio"><span></span>Auto</label>
+			<input name='type' id='property' value='property' checked='' hidden='' type='radio'>
+			<label for='property' class='radio'><span></span>Property</label>
+			<input name='type' id='general-liability' value='general-liability' hidden='' type='radio'>
+			<label for='general-liability' class='radio'><span></span>General Liability</label>
+			<input name='type' id='auto' value='auto' hidden='' type='radio'>
+			<label for='auto' class='radio'><span></span>Auto</label>
 		</div><!--radio-container-->
-	    <div class="radio-container">
+	    <div class='radio-container'>
 	    	<p>Student Accident?</p>
-			<input name="stuednt-accident" id="stuednt-accident-no" value="stuednt-accident-no" checked="" hidden="" type="radio">
-			<label for="stuednt-accident-no" class="radio"><span></span>No</label>
-			<input name="stuednt-accident" id="stuednt-accident-yes" value="stuednt-accident-yes" hidden="" type="radio">
-			<label for="stuednt-accident-yes" class="radio"><span></span>Yes</label>
+			<input name='student-accident' id='student-accident-no' value='student-accident-no' checked='' hidden='' type='radio'>
+			<label for='student-accident-no' class='radio'><span></span>No</label>
+			<input name='student-accident' id='student-accident-yes' value='student-accident-yes' hidden='' type='radio'>
+			<label for='student-accident-yes' class='radio'><span></span>Yes</label>
 		</div><!--radio-container-->
 	    <textarea class='floating-placeholder' required name='injury-desc' id='injury-desc' size='10' placeholder='Brief Description of Incident'></textarea>
 	    <div class='floating-placeholder'><input type='text' required name='incident-location' id='incident-location' size='10'><label for='incident-location'><span class="required">*</span>Location of Incident</label></div>
@@ -168,15 +178,19 @@
 	    <textarea class='floating-placeholder' required name='claimants-property-damaged' id='claimants-property-damaged' size='10' placeholder='Claimants property damaged (make and model or describe property) and where located'></textarea>
 	    <textarea class='floating-placeholder' required name='comments' id='comments' size='10' placeholder='Additional Comments'></textarea>
 
-		<div id="pot">If you see this, leave this form field blank and invest in CSS support.
-			<input type="text" name="body" value="" />
+		<div id='pot'>If you see this, leave this form field blank and invest in CSS support.
+			<input type='text' name='body' value='' />
 		</div><!--pot-->
 
 	    <button class='submit'>Submit Form</button>
 
+	    <div class='clear'></div>
+
     </form>
 
 </div><!--fb-bio-->
+
+</div><!--inner-->
 
 	<script type="text/javascript">
 		$(document).ready(function(){
@@ -219,3 +233,7 @@
       $(selector).chosen(config[selector]);
     }
   </script>
+
+<?php
+require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/footer.php'); // footer, close body and html
+?>    		

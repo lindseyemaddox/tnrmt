@@ -36,7 +36,7 @@
 
 		<h1>Mark Bilyeu</h1>
 
-		<h2>Loss Control Specialist</h2>
+		<h2>Safety Engineer</h2>
 
 		<h3>Safety Engineering Consultants</h3>
 

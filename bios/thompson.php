@@ -38,7 +38,7 @@
 
 		<h2>Senior Claims Representative</h2>
 
-		<a class="textlink phone-link" href="tel:16155618625">(615) 561-8625 x240</a>
+		<a class="textlink phone-link" href="tel:16156518625">(615) 651-8625 x240</a>
 
 		<h3>Sandra Thompson takes pride in her work. And as a Senior Claims Representative for TNRMT, she helps clients fully understand their situations—and more important, she makes them feel at ease knowing their claims will be handled in a professional manner.</h3>
  

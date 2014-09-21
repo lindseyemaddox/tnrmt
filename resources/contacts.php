@@ -47,13 +47,13 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
         <img src="/_images/team/alongi.jpg">
         <div class="text">
             <h2>Amie<br />Alongi</h2>
-            <h3>Claims Specialist</h3>
+            <h3>Claims Representative</h3>
             <h5>SEC</h5>
             <span class="icon-info"></span>
         </div><!--text-->
     </a><!--element-->
                        
-    <a href="/bios/baggett.php" class="fancybox fancybox.iframe element loss-control tnrmt" data-symbol="Hg" data-category="Kubota">
+    <a href="/bios/baggett.php" class="fancybox fancybox.iframe element loss-control sec" data-symbol="Hg" data-category="Kubota">
     	<img src="/_images/team/baggett.jpg">
     	<div class="text">
     		<h2>Jason<br />Baggett</h2>
@@ -87,12 +87,22 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
     	<img src="/_images/team/bilyeu.jpg">
     	<div class="text">
     		<h2>Mark<br />Bilyeu</h2>
-    		<h3>Loss Control Specialist</h3>
+    		<h3>Safety Engineer</h3>
     		<h5>SEC</h5>
     		<span class="icon-info"></span>
     	</div><!--text-->
     </a><!--element-->
                
+    <a href="/bios/breese.php" class="fancybox fancybox.iframe element claims tnrmt" data-symbol="Hg" data-category="Kubota">
+        <img src="/_images/team/breese.jpg">
+        <div class="text">
+            <h2>Chelsey<br />Breese</h2>
+            <h3>Claims Assistant</h3>
+            <h5>TNRMT</h5>
+            <span class="icon-info"></span>
+        </div><!--text-->
+    </a><!--element-->
+                       
     <a href="/bios/brown.php" class="fancybox fancybox.iframe element trustee" data-symbol="Hg" data-category="Kubota">
     	<img src="/_images/team/brown.jpg">
     	<div class="text">
@@ -187,7 +197,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
     	<img src="/_images/team/hall.jpg">
     	<div class="text">
     		<h2>Jennifer<br />Hall</h2>
-    		<h3>Claims Adjuster</h3>
+    		<h3>Claims Representative</h3>
     		<h5>SEC</h5>
     		<span class="icon-info"></span>
     	</div><!--text-->
@@ -198,16 +208,6 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
     	<div class="text">
     		<h2>Harrold<br /><span>Henderson</span></h2>
     		<h3>Senior Claims Representative</h3>
-    		<span class="icon-info"></span>
-    	</div><!--text-->
-    </a><!--element-->
-                       
-    <a href="/bios/breese.php" class="fancybox fancybox.iframe element claims tnrmt" data-symbol="Hg" data-category="Kubota">
-    	<img src="/_images/team/breese.jpg">
-    	<div class="text">
-    		<h2>Chelsey<br />Breese</h2>
-    		<h3>Claims Assistant</h3>
-    		<h5>TNRMT</h5>
     		<span class="icon-info"></span>
     	</div><!--text-->
     </a><!--element-->
@@ -246,7 +246,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
     	<img src="/_images/team/kinard.jpg">
     	<div class="text">
     		<h2>Kathy<br />Kinard</h2>
-    		<h3>Claims Representative</h3>
+    		<h3>Senior Claims Representative</h3>
     		<h5>Workers' Compenstation</h5>
     		<span class="icon-info"></span>
     	</div><!--text-->
@@ -256,7 +256,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
     	<img src="/_images/team/krug.jpg">
     	<div class="text">
     		<h2>Stephanie<br />Krug</h2>
-    		<h3>Claims Adjuster</h3>
+    		<h3>Senior Litigation Specialist</h3>
     		<h5>SEC</h5>
     		<span class="icon-info"></span>
     	</div><!--text-->
@@ -277,7 +277,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
     	<div class="text">
     		<h2>Jeff<br />Mathis</h2>
     		<h3>Vice President &amp; CFO</h3>
-    		<h5>NGU</h5>
+    		<h5>NGU / SEC</h5>
     		<span class="icon-info"></span>
     	</div><!--text-->
     </a><!--element-->
@@ -297,7 +297,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
         <div class="text">
             <h2>Tom<br /><span>Montgomery</span></h2>
             <h3>Vice President</h3>
-            <h5>NGU</h5>
+            <h5>NGU / SEC</h5>
             <span class="icon-info"></span>
         </div><!--text-->
     </a><!--element-->

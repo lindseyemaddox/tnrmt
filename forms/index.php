@@ -29,7 +29,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
 	      </div><!--text-->
 	    </a><!--element-->
 
-	    <a href="/forms/employers-injury-illness-page" class="forms-list">
+	    <a href="/forms/employers-injury-illness" class="forms-list">
 	      <img src="/_images/icon-form.png">
 	      <div class="text">
 	        <h4>Employer's First Report of Work Injury and Illness</h4>

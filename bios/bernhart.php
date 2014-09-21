@@ -38,7 +38,7 @@
 
 		<h2>Claim Representative</h2>
 
-		<a class="textlink phone-link" href="tel:16155618625">(615) 561-8625 x340</a>
+		<a class="textlink phone-link" href="tel:16156518625">(615) 651-8625 x340</a>
 
 		<h3>Shannon Bernhart knows that each claim that comes her way is unique and requires special attention. In fact, Shannon spends most of her workday getting to know injured students and their families while providing them with guidance and support after they’ve been involved in accidents.</h3>
 

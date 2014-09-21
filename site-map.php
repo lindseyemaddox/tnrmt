@@ -44,6 +44,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
                     <li><a href="/resources/contacts">Contacts</a></li>
                 </ul>
             </li>
+            <li><a href="/forms">Forms</a></li>
             <li><a class="claims-link" href="https://www.stars-web.com/STARSWeb85/EntryPoint.asp?Userid=TNRMT&ClientID=T722&UserPassword=TNRMT" target="_blank">Student Accident Claims Reporting</a>
             	<ul>
             		<li><a class="fancybox fancybox.iframe" href="/forms/employers-injury-illness">Employer's First Report of Work Injury and Illness</a></li>

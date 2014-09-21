@@ -36,7 +36,7 @@
 
 		<h1>Kathy Kinard</h1>
 
-		<h2>Claims Representative</h2>
+		<h2>Senior Claims Representative</h2>
 
 		<h3>Workers' Compensation</h3>
 

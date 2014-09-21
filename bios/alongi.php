@@ -36,7 +36,7 @@
 
 		<h1>Amie Alongi</h1>
 
-		<h2>Claims Specialist</h2>
+		<h2>Claims Representative</h2>
 
 		<h3>Safety Engineering Consultants</h3>
 

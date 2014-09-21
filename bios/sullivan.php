@@ -38,7 +38,7 @@
 
 		<h2>Claims Representative</h2>
 
-		<a class="textlink phone-link" href="tel:16155618625">(615) 561-8625 x330</a>
+		<a class="textlink phone-link" href="tel:16156518625">(615) 651-8625 x330</a>
 
 		<h3>If Jackie Sullivan promises to do something, you can rest assured knowing it will happen. She’s always willing to go the distance to get things done. And as a claims representative for TNRMT, she’s earned the trust and respect of not only her coworkers, but also her clients.</h3>
 

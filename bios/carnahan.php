@@ -38,7 +38,7 @@
 
 		<h2>Finance Specialist</h2>
 
-		<a class="textlink phone-link" href="tel:16155618625">(615) 561-8625 x238</a>
+		<a class="textlink phone-link" href="tel:16156518625">(615) 651-8625 x238</a>
 
 		<h3>Reliable. Hardworking. Dedicated. That’s Alice Carnahan. </h3>
 

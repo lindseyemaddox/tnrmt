@@ -621,7 +621,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
 
     <!-------------FORMS-------------->
 
-    <a href="/forms/employers-injury-illness" target="_blank" class="fancybox fancybox.iframe element forms claims-reporting">
+    <a href="/forms/employers-injury-illness" class="element forms claims-reporting">
       <img src="/_images/icon-form.png">
       <div class="text">
         <h2>Employer's First Report of Work Injury and Illness</h2>
@@ -630,7 +630,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
       </div><!--text-->
     </a><!--element-->
 
-    <a href="/forms/property-liability-automobile" target="_blank" class="fancybox fancybox.iframe element forms claims-reporting">
+    <a href="/forms/property-liability-automobile" class="element forms claims-reporting">
       <img src="/_images/icon-form.png">
       <div class="text">
         <h2>Property Liability Automobile Report Form</h2>

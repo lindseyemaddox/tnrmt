@@ -38,7 +38,7 @@
 
 		<h2>Senior Claims Representative</h2>
 
-		<a class="textlink phone-link" href="tel:16155618625">(615) 561-8625 x331</a>
+		<a class="textlink phone-link" href="tel:16156518625">(615) 651-8625 x331</a>
 
 		<h3>As a senior claims representative with nearly 35 years of experience in the insurance industry, Kay Hager is passionate about ensuring claims are handled professionally, fairly, and with integrity. </h3>
 

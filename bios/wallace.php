@@ -38,7 +38,7 @@
 
 		<h2>Trust Administrator</h2>
 
-		<a class="textlink phone-link" href="tel:16155618625">(615) 561-8625 x325</a>
+		<a class="textlink phone-link" href="tel:16156518625">(615) 651-8625 x325</a>
 
 		<h3>A perennial figure in the state’s education system, Dr. Phillip Wallace joined TNRMT as Trust Administrator in 2014 after retiring as the Director of Stewart County Schools.</h3>
 

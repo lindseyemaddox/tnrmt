@@ -24,7 +24,7 @@
 				<h6>next meeting</h6>
 				<p>October 20, 2014</p>
 				<p><a href="https://goo.gl/maps/z5xQJ" target="_blank">404 BNA Drive, Nashville, TN 37217</a></p>
-				<p>Time: TBA</p>
+				<p>Time: 10:00 a.m.</p>
 
 		</div><!--inner-->
 

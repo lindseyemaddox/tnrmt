@@ -38,7 +38,7 @@
 
 		<h2>Senior Claims Representative</h2>
 
-		<a class="textlink phone-link" href="tel:16155618625">(615) 561-8625 x342</a>
+		<a class="textlink phone-link" href="tel:16156518625">(615) 651-8625 x342</a>
 
 		<h3>Harrold Henderson is a team player. And for the past 15 years, he's been working side by side with fellow claims representatives to deliver exceptional quality service to TNRMT clients and members across the state.</h3>
 

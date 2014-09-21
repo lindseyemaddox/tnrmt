@@ -36,7 +36,7 @@
 
 		<h1>Stephanie Krug</h1>
 
-		<h2>Claims Adjuster</h2>
+		<h2>Senior Litigation Specialist</h2>
 
 		<h3>Safety Engineering Consultants</h3>
 
