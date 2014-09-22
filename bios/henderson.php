@@ -38,24 +38,26 @@
 
 		<h2>Senior Claims Representative</h2>
 
+		<h3>Tennessee Risk Management Trust</h3>
+
 		<a class="textlink phone-link" href="tel:16156518625">(615) 651-8625 x342</a>
-
-		<h3>Harrold Henderson is a team player. And for the past 15 years, he's been working side by side with fellow claims representatives to deliver exceptional quality service to TNRMT clients and members across the state.</h3>
-
-		<h3>“The school system folks are a cut above,” said Harrold, who has 25 years in the property liability claim field. “They care about what they’re doing and about their employees and students.”</h3>
-
-		<h3>As a senior claims representative, he focuses on property and liability for school systems and enjoys the opportunities that each day brings in this role. And while he’s known for his compassionate ear and willingness to listen to others, he also understands the importance of taking the emotional element out of situations and addressing the core elements at play. </h3>
-
-		<h3>Prior to joining the Trust, Harrold worked for Gallagher Bassett Services in Nashville and handled claims for the Tennessee School Board Association. When TSBA elected to handle its claims internally, he was asked to join the association and continue handling its property and liability claims.</h3>
-
-		<h2>Did You Know?</h2>
-
-		<h3>Harrold is originally from West Tennessee and volunteers his time caring for and riding horses in his free time.</h3>
 
 		<a class="textlink" href="mailto:hhenderson@tnrmt.com">Email Harrold</a>
 
 	</div><!--bio-text-->
 
 	<div class="clear"></div>
+
+	<p>Harrold Henderson is a team player. And for the past 15 years, he's been working side by side with fellow claims representatives to deliver exceptional quality service to TNRMT clients and members across the state.</p>
+
+	<p>“The school system folks are a cut above,” said Harrold, who has 25 years in the property liability claim field. “They care about what they’re doing and about their employees and students.”</p>
+
+	<p>As a senior claims representative, he focuses on property and liability for school systems and enjoys the opportunities that each day brings in this role. And while he’s known for his compassionate ear and willingness to listen to others, he also understands the importance of taking the emotional element out of situations and addressing the core elements at play. </p>
+
+	<p>Prior to joining the Trust, Harrold worked for Gallagher Bassett Services in Nashville and handled claims for the Tennessee School Board Association. When TSBA elected to handle its claims internally, he was asked to join the association and continue handling its property and liability claims.</p>
+
+	<h2>Did You Know?</h2>
+
+	<p>Harrold is originally from West Tennessee and volunteers his time caring for and riding horses in his free time.</p>
 
 </div><!--fb-bio-->

@@ -34,16 +34,20 @@
 
 	<div class="bio-text">
 
-		<h1>Dawn Robinson, Board Chairman</h1>
+		<h1>Dawn Robinson</h1>
 
-		<h2>District 3</h2>
+		<h2>Trustee, Board Chairman</h2>
 
-		<h3>President of the Tennessee School Boards Association and a member of the Cleveland City Board of Education. She is a Level V School Board Member.  Dawn serves District 3 on the Board of Trustees.</h3>
+		<h3>District 3</h3>
+
+		<br />
 
 		<a class="textlink" href="mailto:dumbolt@aol.com">Email Dawn</a>
 
 	</div><!--bio-text-->
 
 	<div class="clear"></div>
+
+	<p>President of the Tennessee School Boards Association and a member of the Cleveland City Board of Education. She is a Level V School Board Member.  Dawn serves District 3 on the Board of Trustees.</p>
 
 </div><!--fb-bio-->

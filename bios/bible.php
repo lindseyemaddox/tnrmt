@@ -38,20 +38,22 @@
 
 		<h2>Claims Representative</h2>
 
+		<h3>Tennessee Risk Management Trust</h3>
+
 		<a class="textlink phone-link" href="tel:16156518625">(615) 651-8625 x270</a>
-
-		<h3>After studying business at Eastern Tennessee State University, Anne Bible began her career with the Tennessee Department of Labor in the workers’ compensation division in 1981. And throughout the following years, she continued to advance her career while working for several insurance companies.</h3>
-
-		<h3>Now, as a claims representative for TNRMT, Anne focuses on medical-only claims and the evolving rules and regulations regarding these types of claims. And while this process can be complicated at times, she’s up for the challenge of learning and adapting to the changing processes.</h3>
-
-		<h3>Anne, who has been with TNRMT since 2005, works incredibly hard to ensure the claims process is as easy as possible for her clients. She’s friendly, easy to talk to, and caring. She takes great pride in her work and the impact it has on others. Simply put, she truly wants to make a positive difference in her clients’ lives.</h3>
-
-		<h3>And when Anne isn’t in the office, you can find her diving into a good mystery, cheering on the Tennessee Vols, and spending time with her family and friends. She’s also passionate about helping area charities and organizations, such as Second Harvest Food Bank, that work directly with community members.</h3>
 
 		<a class="textlink" href="mailto:abible@tnrmt.com">Email Anne</a>
 
 	</div><!--bio-text-->
 
 	<div class="clear"></div>
+
+	<p>After studying business at Eastern Tennessee State University, Anne Bible began her career with the Tennessee Department of Labor in the workers’ compensation division in 1981. And throughout the following years, she continued to advance her career while working for several insurance companies.</p>
+
+	<p>Now, as a claims representative for TNRMT, Anne focuses on medical-only claims and the evolving rules and regulations regarding these types of claims. And while this process can be complicated at times, she’s up for the challenge of learning and adapting to the changing processes.</p>
+
+	<p>Anne, who has been with TNRMT since 2005, works incredibly hard to ensure the claims process is as easy as possible for her clients. She’s friendly, easy to talk to, and caring. She takes great pride in her work and the impact it has on others. Simply put, she truly wants to make a positive difference in her clients’ lives.</p>
+
+	<p>And when Anne isn’t in the office, you can find her diving into a good mystery, cheering on the Tennessee Vols, and spending time with her family and friends. She’s also passionate about helping area charities and organizations, such as Second Harvest Food Bank, that work directly with community members.</p>
 
 </div><!--fb-bio-->

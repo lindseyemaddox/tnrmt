@@ -43,10 +43,11 @@
 		<a class="textlink phone-link" href="tel:16158225454">(615) 822-5454</a>		
 
 		<a class="textlink" href="mailto:kgreenup@ngutn.com">Email Kyle</a>
-		<a class="textlink" href="http://www.ngutn.com/our-people/kyle-greenup/" target="_blank">More About Kyle</a>
 
 	</div><!--bio-text-->
 
 	<div class="clear"></div>
+
+	<a class="textlink more" href="http://www.ngutn.com/our-people/kyle-greenup/" target="_blank">More About Kyle</a>
 
 </div><!--fb-bio-->

@@ -3,16 +3,18 @@
 	img {
 		float: left;
 		width: 40%;
-		margin-right: 3%;
+		margin: 0 3% 30px 0;
 	}
 	img.fullwidth {
 		width: 100%;
 		float: none;
 		padding-bottom: 30px;
+		margin: 0;
 	}
 	.bio-text {
 		float: right;
 		width: 55%;
+		margin-bottom: 30px;
 		a {
 			clear: both;
 		}
@@ -37,15 +39,16 @@
 		font-size: 20px;
 		line-height: 26px;
 		text-transform: none;
+		margin: 0;
 	}
 	li {
-		font-size: 20px;
+		// font-size: 20px;
 	}
 	.textlink {
-		float: right;
 		color: @grey;
 		border-bottom: 2px solid @grey;
 		padding-top: 20px;
+		font-size: 16px;
 		&:hover {
 			color: @yellow;
 			border-bottom: 2px solid @yellow;
@@ -57,6 +60,21 @@
 			border: none;
 			letter-spacing: 2px;
 			text-transform: none;
+			padding-bottom: 30px;
+			display: block;
+		}
+		&.more {
+			display: inline-block;
+			padding-top: 30px;
+			color: @light;
+			border-bottom: none;
+			&:after {
+				content: url("/_images/arrow.png");
+			}
+			&:hover {
+				color: @yellow;
+				.transition;
+			}
 		}
 	}
 }

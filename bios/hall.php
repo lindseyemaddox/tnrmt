@@ -43,10 +43,11 @@
 		<a class="textlink phone-link" href="tel:16158264274">(615) 826-4274</a>
 
 		<a class="textlink" href="mailto:jhall@sectn.com">Email Jennifer</a>
-		<a class="textlink" href="http://www.sectn.com/2013/our-people/jennifer-hall/">More About Jennifer</a>
 
 	</div><!--bio-text-->
 
 	<div class="clear"></div>
+
+	<a class="textlink more" href="http://www.sectn.com/2013/our-people/jennifer-hall/">More About Jennifer</a>
 
 </div><!--fb-bio-->

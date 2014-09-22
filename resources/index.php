@@ -37,32 +37,57 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
         <li><a href="#filter" data-option-value=".forms" class="forms-header" >Forms</a></li>
       </ul>
 
-<script>
-  (function() {
-    var cx = '009354251681472186581:cbdo23j8p2w';
-    var gcse = document.createElement('script');
-    gcse.type = 'text/javascript';
-    gcse.async = true;
-    gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
-        '//www.google.com/cse/cse.js?cx=' + cx;
-    var s = document.getElementsByTagName('script')[0];
-    s.parentNode.insertBefore(gcse, s);
-  })();
-</script>
-<gcse:search></gcse:search>
-
-<!--       <h4 class="last">Sorting</h4>
-
-      <ul id="sorting" class="">
-        <li><a data-sort-by="original-order">Original Order</a></li>
-        <li><a data-sort-by="issue">Issue Date</a></li>
-      </ul> -->
-
+      <script>
+        (function() {
+          var cx = '009354251681472186581:cbdo23j8p2w';
+          var gcse = document.createElement('script');
+          gcse.type = 'text/javascript';
+          gcse.async = true;
+          gcse.src = (document.location.protocol == 'https:' ? 'https:' : 'http:') +
+              '//www.google.com/cse/cse.js?cx=' + cx;
+          var s = document.getElementsByTagName('script')[0];
+          s.parentNode.insertBefore(gcse, s);
+        })();
+      </script>
+      <gcse:search></gcse:search>
 
   </section> <!-- #options -->
   
   <div id="container" class="clearfix resources">
 
+    <a href="/news/14-09-03.php" class="fancybox fancybox.iframe element ">
+      <img src="/_images/icon-article.png">
+      <div class="text">
+        <h2>FAQs - Transporting Athletes</h2>
+        <h3>by Betsey Sullivan, NGU Risk Management</h3>
+        <h4 class="issue">Issue - September, 2014</h4>
+        <h5>There have been several school systems asking if the liability/insurance of a personally owned vehicle could be assumed by the school system...</h5>
+        <span class="textlink yellow">Read More</span>
+      </div><!--text-->
+    </a><!--element-->
+    
+    <a href="/news/14-09-02.php" class="fancybox fancybox.iframe element ">
+      <img src="/_images/icon-article.png">
+      <div class="text">
+        <h2>Jail is a Dangerous Place</h2>
+        <h3>by Stephanie Krug, Safety Engineering Consulting &amp; Claims Management</h3>
+        <h4 class="issue">Issue - September, 2014</h4>
+        <h5>The Tennessee Supreme Court recently noted that “jails are dangerous places.” On October 27, 2009, Kenneth King was pulled over for failing to...</h5>
+        <span class="textlink yellow">Read More</span>
+      </div><!--text-->
+    </a><!--element-->
+    
+    <a href="/news/14-09-01.php" class="fancybox fancybox.iframe element ">
+      <img src="/_images/icon-article.png">
+      <div class="text">
+        <h2>Inspections of Bleachers and Grandstands are Required</h2>
+        <h3>by Chris Stites, Safety Engineering Consulting &amp; Claims Management</h3>
+        <h4 class="issue">Issue - September, 2014</h4>
+        <h5>The Tennessee Risk Management...</h5>
+        <span class="textlink yellow">Read More</span>
+      </div><!--text-->
+    </a><!--element-->
+    
     <a href="/news/14-08-03.php" class="fancybox fancybox.iframe element special-announcements">
       <img src="/_images/icon-article.png">
       <div class="text">

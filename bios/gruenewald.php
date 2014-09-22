@@ -38,9 +38,9 @@
 
 		<h2>Claims Representative</h2>
 
-		<a class="textlink phone-link" href="tel:16156518625">(615) 651-8625 x137</a>
+		<h3>Tennessee Risk Management Trust</h3>
 
-		<h3>need bio</h3>
+		<a class="textlink phone-link" href="tel:16156518625">(615) 651-8625 x137</a>
 
 		<a class="textlink" href="mailto:dgruenewald@tnrmt.com">Email Diane</a>
 

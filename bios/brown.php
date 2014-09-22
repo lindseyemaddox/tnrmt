@@ -34,16 +34,20 @@
 
 	<div class="bio-text">
 
-		<h1>Denise Brown, Vice Chariman</h1>
+		<h1>Denise Brown</h1>
 
-		<h2>District 1</h2>
+		<h2>Trustee, Vice Chariman</h2>
 
-		<h3>Ms. Brown is Director of Schools for Unicoi County, and also serves on the Chamber of Commerce, the Library Board of Directors, the YMCA Board as well as a member of the Executive Committee Superintendents Study Council.</h3>
+		<h3>District 1</h3>
+
+		<br />
 
 		<a class="textlink" href="mailto:brown@unicoischools.com">Email Denise</a>
 
 	</div><!--bio-text-->
 
 	<div class="clear"></div>
+
+	<p>Ms. Brown is Director of Schools for Unicoi County, and also serves on the Chamber of Commerce, the Library Board of Directors, the YMCA Board as well as a member of the Executive Committee Superintendents Study Council.</p>
 
 </div><!--fb-bio-->

@@ -36,14 +36,18 @@
 
 		<h1>Kenny Carmichael</h1>
 
-		<h2>District 9</h2>
+		<h2>Trustee</h2>
 
-		<h3>A member of the Milan Special School Board, and is currently the Staff Pharmacist of Jackson Madison County Hospital. Kenny represents District 9 on the Board of Trustees.</h3>
+		<h3>District 9</h3>
+
+		<br />
 
 		<a class="textlink" href="mailto:secesh61@charter.net">Email Kenny</a>
 
 	</div><!--bio-text-->
 
 	<div class="clear"></div>
+
+	<p>A member of the Milan Special School Board, and is currently the Staff Pharmacist of Jackson Madison County Hospital. Kenny represents District 9 on the Board of Trustees.</p>
 
 </div><!--fb-bio-->

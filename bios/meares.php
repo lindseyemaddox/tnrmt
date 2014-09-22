@@ -38,22 +38,24 @@
 
 		<h2>Chief Financial Officer</h2>
 
+		<h3>Tennessee Risk Management Trust</h3>
+
 		<a class="textlink phone-link" href="tel:16156518625">(615) 651-8625 x242</a>
-
-		<h3>With 40 years of experience in the accounting and finance industries, it’s safe to say that Tom Meares knows what he’s doing—which is why it shouldn’t come as a surprise that he has a natural talent for understanding budgets, preparing financial statements, and presenting insightful financial reports.</h3>
-
-		<h3>And as TNRMT’s chief financial officer, Tom uses his experience to ensure the accounting function operates correctly and efficiently while helping others understand the Trust’s financial operations. </h3>
-
-		<h3>“I enjoy working for the Trust because of its caring nature,” he said. “I also find satisfaction in helping people and working toward something that’s important to me.”</h3>
-
-		<h3>A Missouri native, Tom attended Missouri Southern State University and earned a bachelor’s degree in in business administration with a minor in accounting. Before joining the Trust in 2006, he worked in the manufacturing, banking, and health care industries as well as an independent consultant and educator, solving financial problems for businesses across the country.</h3>
-
-		<h3>And when he’s not in the office, you can find him further perfecting his barbecue skills while spending time with his family. He also enjoys reading a good mystery—especially if it’s by John Sandford or David Baldacci.</h3>
 
 		<a class="textlink" href="mailto:tmeares@tnrmt.com">Email Tom</a>
 
 	</div><!--bio-text-->
 
 	<div class="clear"></div>
+
+	<p>With 40 years of experience in the accounting and finance industries, it’s safe to say that Tom Meares knows what he’s doing—which is why it shouldn’t come as a surprise that he has a natural talent for understanding budgets, preparing financial statements, and presenting insightful financial reports.</p>
+
+	<p>And as TNRMT’s chief financial officer, Tom uses his experience to ensure the accounting function operates correctly and efficiently while helping others understand the Trust’s financial operations. </p>
+
+	<p>“I enjoy working for the Trust because of its caring nature,” he said. “I also find satisfaction in helping people and working toward something that’s important to me.”</p>
+
+	<p>A Missouri native, Tom attended Missouri Southern State University and earned a bachelor’s degree in in business administration with a minor in accounting. Before joining the Trust in 2006, he worked in the manufacturing, banking, and health care industries as well as an independent consultant and educator, solving financial problems for businesses across the country.</p>
+
+	<p>And when he’s not in the office, you can find him further perfecting his barbecue skills while spending time with his family. He also enjoys reading a good mystery—especially if it’s by John Sandford or David Baldacci.</p>
 
 </div><!--fb-bio-->

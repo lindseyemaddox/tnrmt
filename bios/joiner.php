@@ -36,14 +36,18 @@
 
 		<h1>Dr. Leta Joiner</h1>
 
-		<h2>District 6</h2>
+		<h2>Trustee</h2>
 
-		<h3>Director of Schools for Stewart County, Dr. Leta Joiner replaced <a href="/bios/wallace.php" class="fancybox fancybox.iframe">Dr. Phillip Wallace</a> after he was named Trust Administrator.  Dr. Joiner serves District 6.</h3>
+		<h3>District 6</h3>
+
+		<br />
 
 		<a class="textlink" href="mailto:letajoiner@stewart.k12.tn.us">Email Leta</a>
 
 	</div><!--bio-text-->
 
 	<div class="clear"></div>
+
+	<p>Director of Schools for Stewart County, Dr. Leta Joiner replaced <a href="/bios/wallace.php" class="fancybox fancybox.iframe">Dr. Phillip Wallace</a> after he was named Trust Administrator.  Dr. Joiner serves District 6.</p>
 
 </div><!--fb-bio-->

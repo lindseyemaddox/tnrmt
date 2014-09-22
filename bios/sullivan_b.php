@@ -43,10 +43,11 @@
 		<a class="textlink phone-link" href="tel:16158225454">(615) 822-5454</a>		
 
 		<a class="textlink" href="mailto:bsullivan@ngutn.com">Email Betsey</a>
-		<a class="textlink" href="http://www.ngutn.com/our-people/betsey-sullivan/" target="_blank">More About Betsey</a>
 
 	</div><!--bio-text-->
 
 	<div class="clear"></div>
+
+	<a class="textlink more" href="http://www.ngutn.com/our-people/betsey-sullivan/" target="_blank">More About Betsey</a>
 
 </div><!--fb-bio-->

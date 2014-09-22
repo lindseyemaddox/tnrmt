@@ -38,16 +38,18 @@
 
 		<h2>Claims Assistant</h2>
 
+		<h3>Tennessee Risk Management Trust</h3>
+
 		<a class="textlink phone-link" href="tel:16156518625">(615) 651-8625 x311</a>
-
-		<h3>Since 2012, Chelsey Breese has been helping keep everything in TNRMT’s claims department running smoothly. As a claims assistant, she relies on her experience in office administration and operations to ensure the department is organized and up to date. Whether it’s filing, answering the phones, or handling the bills, she goes out of her way to support her coworkers and assist the Trust’s clients.</h3>
-
-		<h3>Originally from Montana, Chelsea earned her a degree in paralegal studies from Miller-Motte College. And in her free time, she enjoys being with her friends and family and spending the day on lake looking for her next big catch.</h3>
 
 		<a class="textlink" href="mailto:cbreese@@tnrmt.com">Email Chelsey</a>
 
 	</div><!--bio-text-->
 
 	<div class="clear"></div>
+
+	<p>Since 2012, Chelsey Breese has been helping keep everything in TNRMT’s claims department running smoothly. As a claims assistant, she relies on her experience in office administration and operations to ensure the department is organized and up to date. Whether it’s filing, answering the phones, or handling the bills, she goes out of her way to support her coworkers and assist the Trust’s clients.</p>
+
+	<p>Originally from Montana, Chelsea earned her a degree in paralegal studies from Miller-Motte College. And in her free time, she enjoys being with her friends and family and spending the day on lake looking for her next big catch.</p>
 
 </div><!--fb-bio-->

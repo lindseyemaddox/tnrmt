@@ -38,22 +38,24 @@
 
 		<h2>Claims Assistant</h2>
 
+		<h3>Tennessee Risk Management Trust</h3>
+
 		<a class="textlink phone-link" href="tel:16156518625">(615) 651-8625 x320</a>
-
-		<h3>As a claim assistant, Carol Mason relies on her 30 years of experience in accounting, customer service, and office administration, to keep the TNRMT office operating smoothly. In addition to managing daily administrative duties, she’s known for digging up hard-to-find information. In fact, she’ll keep at it till she finds the answer.</h3>
-
-		<h3>“I really enjoy working at the Trust,” said Carol, who has been working at the Trust since 2013. “It’s a great organization made of wonderful people.”</h3>
-
-		<h3>She’s passionate about helping others and supporting events that further cancer awareness and research. And when she’s not in the office, you can find her spending time with friends, perfecting her culinary skills, or exploring nature.</h3>
-
-		<h2>Did You Know?</h2>
-
-		<h3>Carol loves hiking and exploring new places. She’s hiked Radnor Lake, Honey Creek, Fall Creek Falls, Burgess Falls, and Mammoth Cave, just to name a few. But she’s always seeking out new adventures—especially if there’s a waterfall to be found.</h3>
 
 		<a class="textlink" href="mailto:cmason@tnrmt.com">Email Carol</a>
 
 	</div><!--bio-text-->
 
 	<div class="clear"></div>
+
+	<p>As a claim assistant, Carol Mason relies on her 30 years of experience in accounting, customer service, and office administration, to keep the TNRMT office operating smoothly. In addition to managing daily administrative duties, she’s known for digging up hard-to-find information. In fact, she’ll keep at it till she finds the answer.</p>
+
+	<p>“I really enjoy working at the Trust,” said Carol, who has been working at the Trust since 2013. “It’s a great organization made of wonderful people.”</p>
+
+	<p>She’s passionate about helping others and supporting events that further cancer awareness and research. And when she’s not in the office, you can find her spending time with friends, perfecting her culinary skills, or exploring nature.</p>
+
+	<h2>Did You Know?</h2>
+
+	<p>Carol loves hiking and exploring new places. She’s hiked Radnor Lake, Honey Creek, Fall Creek Falls, Burgess Falls, and Mammoth Cave, just to name a few. But she’s always seeking out new adventures—especially if there’s a waterfall to be found.</p>
 
 </div><!--fb-bio-->

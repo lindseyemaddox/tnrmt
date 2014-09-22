@@ -22,7 +22,160 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
 
 	<h1>Employer's First Report of Work Injury and Illness</h1>
 
-    <form method='post' action=''>
+    <?php
+    function spamcheck($field)
+      {
+      //filter_var() sanitizes the e-mail
+      //address using FILTER_SANITIZE_EMAIL
+      $field=filter_var($field, FILTER_SANITIZE_EMAIL);
+    
+      //filter_var() validates the e-mail
+      //address using FILTER_VALIDATE_EMAIL
+      if(filter_var($field, FILTER_VALIDATE_EMAIL))
+        {
+        return TRUE;
+        }
+      else
+        {
+        return FALSE;
+        }
+      }
+    
+    if (isset($_REQUEST['email']))
+      {//if "email" is filled out, proceed
+    
+      //check if the email address is invalid
+      $mailcheck = spamcheck($_REQUEST['email']);
+      if ($mailcheck==FALSE)
+        {
+        echo "Invalid input";
+        }
+      else
+        {//send email
+        $email = $_REQUEST['email'] ;
+        $subject = $_REQUEST['subject'] ;
+        $message = $_REQUEST['message'] ;
+
+        $carrier_fein = $_REQUEST['carrier_fein'] ;
+        $employer_name = $_REQUEST['employer_name'] ;
+        $employer_address = $_REQUEST['employer_address'] ;
+        $employer_city = $_REQUEST['employer_city'] ;
+        $employer_state = $_REQUEST['employer_state'] ;
+        $employer_zip = $_REQUEST['employer_zip'] ;
+        $employer_fein = $_REQUEST['employer_fein'] ;
+        $sic_code = $_REQUEST['sic_code'] ;
+        $employer_phone = $_REQUEST['employer_phone'] ;
+        $employee_first_name = $_REQUEST['employee_first_name'] ;
+        $employee_last_name = $_REQUEST['employee_last_name'] ;
+        $employee_middle_initial = $_REQUEST['employee_middle_initial'] ;
+        $employee_address = $_REQUEST['employee_address'] ;
+        $employee_city = $_REQUEST['employee_city'] ;
+        $employee_state = $_REQUEST['employee_state'] ;
+        $employee_zip = $_REQUEST['employee_zip'] ;
+        $employee_ssn = $_REQUEST['employee_ssn'] ;
+        $employee_dob = $_REQUEST['employee_dob'] ;
+        $employee_date_of_hire = $_REQUEST['employee_date_of_hire'] ;
+        $employee_phone = $_REQUEST['employee_phone'] ;
+        $employee_department = $_REQUEST['employee_department'] ;
+        $employee_gender = $_REQUEST['employee_gender'] ;
+        $employee_status = $_REQUEST['employee_status'] ;
+        $occupation_description = $_REQUEST['occupation_description'] ;
+        $employee_marital_status = $_REQUEST['employee_marital_status'] ;
+        $ncci_class_code = $_REQUEST['ncci_class_code'] ;
+        $wage = $_REQUEST['wage'] ;
+        $period = $_REQUEST['period'] ;
+        $days_per_week = $_REQUEST['days_per_week'] ;
+        $salary_continued = $_REQUEST['salary_continued'] ;
+        $full_wages_paid = $_REQUEST['full_wages_paid'] ;
+        $injury_date = $_REQUEST['injury_date'] ;
+        $injury_date_notified_employer = $_REQUEST['injury_date_notified_employer'] ;
+        $injury_date_notified_admin = $_REQUEST['injury_date_notified_admin'] ;
+        $last_day_worked = $_REQUEST['last_day_worked'] ;
+        $date_disability_began = $_REQUEST['date_disability_began'] ;
+        $date_return_to_work = $_REQUEST['date_return_to_work'] ;
+        $date_death = $_REQUEST['date_death'] ;
+        $on_premises = $_REQUEST['on_premises'] ;
+        $injury_address = $_REQUEST['injury_address'] ;
+        $injury_city = $_REQUEST['injury_city'] ;
+        $injury_state = $_REQUEST['injury_state'] ;
+        $injury_zip = $_REQUEST['injury_zip'] ;
+        $injury_country = $_REQUEST['injury_country'] ;
+        $injury_time = $_REQUEST['injury_time'] ;
+        $injury_time_began = $_REQUEST['injury_time_began'] ;
+        $injury_body_part = $_REQUEST['injury_body_part'] ;
+        $injury_nature = $_REQUEST['injury_nature'] ;
+        $injury_code = $_REQUEST['injury_code'] ;
+        $injury_desc = $_REQUEST['injury_desc'] ;
+
+          $to = 'lindseyemaddox@gmail.com';
+          $headers = "From: " . strip_tags($_POST['email']) . "\r\n";
+          $headers .= "Reply-To: ". strip_tags($_POST['email']) . "\r\n";
+          $headers .= "MIME-Version: 1.0\r\n";
+          $headers .= "Content-Type: text/html; charset=ISO-8859-1\r\n";
+          $message = '<html><body>';
+
+          $message .= 'Carrier FEIN: '.$carrier_fein.'<br><hr>';
+          $message .= 'Employer Name: '.$employer_name.'<br>';
+          $message .= 'Employer Address: '.$employer_address.'<br>';
+          $message .= 'Employer City: '.$employer_city.'<br>';
+          $message .= 'Employer State: '.$employer_state.'<br>';
+          $message .= 'Employer Zip: '.$employer_zip.'<br>';
+          $message .= 'Employer FEIN: '.$employer_fein.'<br>';
+          $message .= 'SIC Code: '.$sic_code.'<br>';
+          $message .= 'Employer Phone: '.$employer_phone.'<br><hr>';
+          $message .= 'Employee First Name: '.$employee_first_name.'<br><hr>';
+          $message .= 'Employee Last Name: '.$employee_last_name.'<br><hr>';
+          $message .= 'Employee MI: '.$employee_middle_initial.'<br><hr>';
+          $message .= 'Employee Address: '.$employee_address.'<br>';
+          $message .= 'Employee City: '.$employee_city.'<br>';
+          $message .= 'Employee State: '.$employee_state.'<br>';
+          $message .= 'Employee Zip: '.$employee_zip.'<br>';
+          $message .= 'Employee SSN: '.$employee_ssn.'<br>';
+          $message .= 'Employee DOB: '.$employee_dob.'<br>';
+          $message .= 'Employee Date of Hire: '.$employee_date_of_hire.'<br>';
+          $message .= 'Employee Phone: '.$employee_phone.'<br>';
+          $message .= 'Employee Department: '.$employee_department.'<br>';
+          $message .= 'Employee Gender: '.$employee_gender.'<br>';
+          $message .= 'Employee Status: '.$employee_status.'<br>';
+          $message .= 'Occupation Description: '.$occupation_description.'<br>';
+          $message .= 'Employee Marital Status: '.$employee_marital_status.'<br>';
+          $message .= 'NCCI Class Code: '.$ncci_class_code.'<br>';
+          $message .= 'Wage: '.$wage.'<br>';
+          $message .= 'Period: '.$period.'<br>';
+          $message .= 'Days per Week: '.$days_per_week.'<br>';
+          $message .= 'Salary Continued in Lieu of Compensation: '.$salary_continued.'<br>';
+          $message .= 'Full Wages Paid for Date of Injury: '.$full_wages_paid.'<br><hr>';
+          $message .= 'Date of Injury: '.$injury_date.'<br><hr>';
+          $message .= 'Date Employer was Notified of Injury: '.$injury_date_notified_employer.'<br><hr>';
+          $message .= 'Date Administration was Notified of Injury: '.$injury_date_notified_admin.'<br><hr>';
+          $message .= 'Last Day Worked: '.$last_day_worked.'<br><hr>';
+          $message .= 'Date Disability Began: '.$date_disability_began.'<br><hr>';
+          $message .= 'Date of Return to Work: '.$date_return_to_work.'<br><hr>';
+          $message .= 'Date of Death: '.$date_death.'<br><hr>';
+          $message .= 'Did Injury Occur on Employer Premises? '.$on_premises.'<br><hr>';
+          $message .= 'Injury Address: '.$injury_address.'<br>';
+          $message .= 'Injury City: '.$injury_city.'<br>';
+          $message .= 'Injury State: '.$injury_state.'<br>';
+          $message .= 'Injury Zip: '.$injury_zip.'<br>';
+          $message .= 'Injury Country: '.$injury_country.'<br>';
+          $message .= 'Injury Time: '.$injury_time.'<br>';
+          $message .= 'Injury Time Began: '.$injury_time_began.'<br>';
+          $message .= 'Injury Body Part: '.$injury_body_part.'<br>';
+          $message .= 'Nature of Injury: '.$injury_nature.'<br>';
+          $message .= 'Cause of Injury Code: '.$injury_code.'<br>';
+          $message .= 'Injury Description: '.$injury_desc.'<br><hr>';
+
+          $message .= '</body></html>';
+          $subject = 'Submission: Employers First Report of Work Injury and Illness';
+
+
+    mail($to, $subject, $message, $headers);;
+    echo "<div style='padding: 50px 20px 80px; color: #fff; text-align: center; font-family: open_sansbold_italic;'><label> Thank you for using our form. We will be in contact with you as soon as possible.</label></div>";
+    }
+  }
+else
+  { echo "
+        <form method='post' action=''>
 
 		<p class='required-text'><span class='required'>*</span> = required field</p>
 
@@ -30,14 +183,14 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
 
 		<h2>Claims Administration/Carrier</h2>
 
-	    <div class='floating-placeholder'><input type='text' name='carrier-fein' id='carrier-fein' size='10'><label for='carrier-fein'>Carrier FEIN</label></div>
+	    <div class='floating-placeholder'><input type='text' name='carrier_fein' id='carrier_fein' size='10'><label for='carrier_fein'>Carrier FEIN</label></div>
 
 	    <h2>Employer</h2>
 
-	    <div class='floating-placeholder'><input type='text' required name='employer-name' id='employer-name' size='10'><label for='employer-name'><span class='required'>*</span>Employer Name</label></div>
-	    <div class='floating-placeholder'><input type='text' required name='employer-address' id='employer-address' size='10'><label for='employer-address'><span class='required'>*</span>Employer Address</label></div>
-	    <div class='floating-placeholder'><input type='text' required name='employer-city' id='employer-city' size='10'><label for='employer-city'><span class='required'>*</span>Employer City</label></div>
-        <select name='employer-state' data-placeholder='Employer State...' class='chosen-select'>
+	    <div class='floating-placeholder'><input type='text' required name='employer_name' id='employer_name' size='10'><label for='employer_name'><span class='required'>*</span>Employer Name</label></div>
+	    <div class='floating-placeholder'><input type='text' required name='employer_address' id='employer_address' size='10'><label for='employer_address'><span class='required'>*</span>Employer Address</label></div>
+	    <div class='floating-placeholder'><input type='text' required name='employer_city' id='employer_city' size='10'><label for='employer_city'><span class='required'>*</span>Employer City</label></div>
+        <select name='employer_state' data-placeholder='Employer State...' class='chosen-select'>
             <option value=''></option>
             <option value='alabama'>Alabama</option>
             <option value='alaska'>Alaska</option>
@@ -91,19 +244,19 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
             <option value='wisconsin'>Wisconsin</option>
             <option value='wyoming'>Wyoming</option>
         </select>
-	    <div class='floating-placeholder'><input type='text' required name='employer-zip' id='employer-zip' size='10'><label for='employer-zip'><span class='required'>*</span>Employer Zip</label></div>
-	    <div class='floating-placeholder'><input type='text' required name='employer-fein' id='employer-fein' size='10'><label for='employer-fein'><span class='required'>*</span>Employer FEIN</label></div>
-	    <div class='floating-placeholder'><input type='text' name='sic-code' id='sic-code' size='10'><label for='sic-code'>SIC Code</label></div>
-	    <div class='floating-placeholder'><input type='text' required name='employer-phone' id='employer-phone' size='10'><label for='employer-phone'><span class='required'>*</span>Employer Phone</label></div>
+	    <div class='floating-placeholder'><input type='text' required name='employer_zip' id='employer_zip' size='10'><label for='employer_zip'><span class='required'>*</span>Employer Zip</label></div>
+	    <div class='floating-placeholder'><input type='text' required name='employer_fein' id='employer_fein' size='10'><label for='employer_fein'><span class='required'>*</span>Employer FEIN</label></div>
+	    <div class='floating-placeholder'><input type='text' name='sic_code' id='sic_code' size='10'><label for='sic_code'>SIC Code</label></div>
+	    <div class='floating-placeholder'><input type='text' required name='employer_phone' id='employer_phone' size='10'><label for='employer_phone'><span class='required'>*</span>Employer Phone</label></div>
 
 	    <h2>Employee</h2>
 
-	    <div class='floating-placeholder'><input type='text' required name='employee-last-name' id='employee-last-name' size='10'><label for='employee-last-name'><span class='required'>*</span>Employee Last Name</label></div>
-	    <div class='floating-placeholder'><input type='text' required name='employee-first-name' id='employee-first-name' size='10'><label for='employee-first-name'><span class='required'>*</span>Employee First Name</label></div>
-	    <div class='floating-placeholder'><input type='text' name='employee-middle-initial' id='employee-middle-initial' size='10'><label for='employee-middle-initial'>Employee Middle Initial</label></div>
-	    <div class='floating-placeholder'><input type='text' required name='employee-address' id='employee-address' size='10'><label for='employee-address'><span class='required'>*</span>Employee Address</label></div>
-	    <div class='floating-placeholder'><input type='text' required name='employee-city' id='employee-city' size='10'><label for='employee-city'><span class='required'>*</span>Employee City</label></div>
-        <select name='employee-state' data-placeholder='Employee State...' class='chosen-select'>
+	    <div class='floating-placeholder'><input type='text' required name='employee_last_name' id='employee_last_name' size='10'><label for='employee_last_name'><span class='required'>*</span>Employee Last Name</label></div>
+	    <div class='floating-placeholder'><input type='text' required name='employee_first_name' id='employee_first_name' size='10'><label for='employee_first_name'><span class='required'>*</span>Employee First Name</label></div>
+	    <div class='floating-placeholder'><input type='text' name='employee_middle_initial' id='employee_middle_initial' size='10'><label for='employee_middle_initial'>Employee Middle Initial</label></div>
+	    <div class='floating-placeholder'><input type='text' required name='employee_address' id='employee_address' size='10'><label for='employee_address'><span class='required'>*</span>Employee Address</label></div>
+	    <div class='floating-placeholder'><input type='text' required name='employee_city' id='employee_city' size='10'><label for='employee_city'><span class='required'>*</span>Employee City</label></div>
+        <select name='employee_state' data-placeholder='Employee State...' class='chosen-select'>
             <option value=''></option>
             <option value='alabama'>Alabama</option>
             <option value='alaska'>Alaska</option>
@@ -157,40 +310,40 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
             <option value='wisconsin'>Wisconsin</option>
             <option value='wyoming'>Wyoming</option>
         </select>
-	    <div class='floating-placeholder'><input type='text' required name='employee-zip' id='employee-zip' size='10'><label for='employee-zip'><span class='required'>*</span>Employee Zip</label></div>
-	    <div class='floating-placeholder'><input type='text' required name='employee-ssn' id='employee-ssn' size='10'><label for='employee-ssn'><span class='required'>*</span>Employee Social Security Number</label></div>
-	    <div class='floating-placeholder'><input type='text' required name='employee-dob' id='employee-dob' size='10'><label for='employee-dob'><span class='required'>*</span>Employee Date of Birth</label></div>
-	    <div class='floating-placeholder'><input type='text' required name='employee-date-of-hire' id='employee-date-of-hire' size='10'><label for='employee-date-of-hire'><span class='required'>*</span>Employee Date of Hire</label></div>
-	    <div class='floating-placeholder'><input type='text' required name='employee-phone' id='employee-phone' size='10'><label for='employee-phone'><span class='required'>*</span>Employee Phone (include area code)</label></div>
-	    <div class='floating-placeholder'><input type='text' name='employee-department' id='employee-department' size='10'><label for='employee-department'>Department Regularly Worked</label></div>
+	    <div class='floating-placeholder'><input type='text' required name='employee_zip' id='employee_zip' size='10'><label for='employee_zip'><span class='required'>*</span>Employee Zip</label></div>
+	    <div class='floating-placeholder'><input type='text' required name='employee_ssn' id='employee_ssn' size='10'><label for='employee_ssn'><span class='required'>*</span>Employee Social Security Number</label></div>
+	    <div class='floating-placeholder'><input type='text' required name='employee_dob' id='employee_dob' size='10'><label for='employee_dob'><span class='required'>*</span>Employee Date of Birth</label></div>
+	    <div class='floating-placeholder'><input type='text' required name='employee_date_of_hire' id='employee_date_of_hire' size='10'><label for='employee_date_of_hire'><span class='required'>*</span>Employee Date of Hire</label></div>
+	    <div class='floating-placeholder'><input type='text' required name='employee_phone' id='employee_phone' size='10'><label for='employee_phone'><span class='required'>*</span>Employee Phone (include area code)</label></div>
+	    <div class='floating-placeholder'><input type='text' name='employee_department' id='employee_department' size='10'><label for='employee_department'>Department Regularly Worked</label></div>
 	    <div class='radio-container'>
 	    	<p>Employee Gender</p>
-			<input name='employee-gender' id='employee-gender-male' value='male' checked='' hidden='' type='radio'>
-			<label for='employee-gender-male' class='radio'><span></span>Male</label>
-			<input name='employee-gender' id='employee-gender-female' value='female' hidden='' type='radio'>
-			<label for='employee-gender-female' class='radio'><span></span>Female</label>
-			<input name='employee-gender' id='employee-gender-unknown' value='unknown' hidden='' type='radio'>
-			<label for='employee-gender-unknown' class='radio'><span></span>Unknown</label>
+			<input name='employee_gender' id='employee_gender_male' value='male' checked='' hidden='' type='radio'>
+			<label for='employee_gender_male' class='radio'><span></span>Male</label>
+			<input name='employee_gender' id='employee_gender_female' value='female' hidden='' type='radio'>
+			<label for='employee_gender_female' class='radio'><span></span>Female</label>
+			<input name='employee_gender' id='employee_gender_unknown' value='unknown' hidden='' type='radio'>
+			<label for='employee_gender_unknown' class='radio'><span></span>Unknown</label>
 		</div><!--radio-container-->
-        <select name='employee-status' data-placeholder='Employee Status Code...' class='chosen-select'>
+        <select name='employee_status' data-placeholder='Employee Status Code...' class='chosen-select'>
             <option value=''></option>
-            <option value='apprentice-part-time'>Apprentice: Part-time</option>
-            <option value='apprentice-full-time'>Apprentice: Full-time</option>
+            <option value='apprentice-part_time'>Apprentice: Part-time</option>
+            <option value='apprentice-full_time'>Apprentice: Full-time</option>
             <option value='volunteer'>Volunteer</option>
             <option value='piece-worker'>Piece Worker</option>
             <option value='seasonal'>Seasonal</option>
-            <option value='part-time'>Part-time</option>
-            <option value='full-time'>Full-time / Regular</option>
+            <option value='part_time'>Part-time</option>
+            <option value='full_time'>Full-time / Regular</option>
         </select>
-	    <div class='floating-placeholder'><input type='text' required name='occupation-description' id='occupation-description' size='10'><label for='occupation-description'><span class='required'>*</span>Occupation Description</label></div>
-        <select name='employee-marital-status' data-placeholder='Employee Marital Status...' class='chosen-select'>
+	    <div class='floating-placeholder'><input type='text' required name='occupation_description' id='occupation_description' size='10'><label for='occupation_description'><span class='required'>*</span>Occupation Description</label></div>
+        <select name='employee_marital_status' data-placeholder='Employee Marital Status...' class='chosen-select'>
             <option value=''></option>
             <option value='married'>Married</option>
             <option value='separated'>Separated</option>
             <option value='unmarried-single-divorced'>Unmarried, Single, Divorced</option>
             <option value='unknown'>Unknown</option>
         </select>
-	    <div class='floating-placeholder'><input type='text' name='ncci-class-code' id='ncci-class-code' size='10'><label for='ncci-class-code'>NCCI Class Code</label></div>
+	    <div class='floating-placeholder'><input type='text' name='ncci_class_code' id='ncci_class_code' size='10'><label for='ncci_class_code'>NCCI Class Code</label></div>
 
 	    <h2>Wage</h2>
 
@@ -203,41 +356,41 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
             <option value='bi-weekly'>Bi-Weekly</option>
             <option value='monthly'>Monthly</option>
         </select>
-	    <div class='floating-placeholder'><input type='text' name='days-per-week' id='days-per-week' size='10'><label for='days-per-week'>Number of Days Worked Per Week</label></div>
+	    <div class='floating-placeholder'><input type='text' name='days_per_week' id='days_per_week' size='10'><label for='days_per_week'>Number of Days Worked Per Week</label></div>
 	    <div class='radio-container'>
 	    	<p>Salary Continued in Lieu of Compensation</p>
-			<input name='salary-continued' id='salary-continued-no' value='no' checked='' hidden='' type='radio'>
-			<label for='salary-continued-no' class='radio'><span></span>No</label>
-			<input name='salary-continued' id='salary-continued-yes' value='yes' hidden='' type='radio'>
-			<label for='salary-continued-yes' class='radio'><span></span>Yes</label>
+			<input name='salary-continued' id='salary_continued_no' value='no' checked='' hidden='' type='radio'>
+			<label for='salary_continued_no' class='radio'><span></span>No</label>
+			<input name='salary-continued' id='salary_continued_yes' value='yes' hidden='' type='radio'>
+			<label for='salary_continued_yes' class='radio'><span></span>Yes</label>
 		</div><!--radio-container-->
 	    <div class='radio-container'>
 	    	<p><span class='required'>*</span>Full Wages Paid For Date of Injury</p>
-			<input name='full-wages-paid' id='full-wages-paid-no' value='no' checked='' hidden='' type='radio'>
-			<label for='full-wages-paid-no' class='radio'><span></span>No</label>
-			<input name='full-wages-paid' id='full-wages-paid-yes' value='yes' hidden='' type='radio'>
-			<label for='full-wages-paid-yes' class='radio'><span></span>Yes</label>
+			<input name='full_wages_paid' id='full_wages_paid_no' value='no' checked='' hidden='' type='radio'>
+			<label for='full_wages_paid_no' class='radio'><span></span>No</label>
+			<input name='full_wages_paid' id='full_wages_paid_yes' value='yes' hidden='' type='radio'>
+			<label for='full_wages_paid_yes' class='radio'><span></span>Yes</label>
 		</div><!--radio-container-->
 
 		<h2>Accident/Injury</h2>
 
-	    <div class='floating-placeholder'><input type='text' required name='injury-date' id='injury-date' size='10'><label for='injury-date'><span class='required'>*</span>Date of Injury</label></div>
-	    <div class='floating-placeholder'><input type='text' required name='injury-date-notified-employer' id='injury-date-notified-employer' size='10'><label for='injury-date-notified-employer'><span class='required'>*</span>Date Employer Notified of Injury</label></div>
-	    <div class='floating-placeholder'><input type='text' required name='injury-date-notified-admin' id='injury-date-notified-admin' size='10'><label for='injury-date-notified-admin'><span class='required'>*</span>Date Claim Administrator Notified of Injury</label></div>
-	    <div class='floating-placeholder'><input type='text' required name='last-day-worked' id='last-day-worked' size='10'><label for='last-day-worked'><span class='required'>*</span>Date Last Day Worked</label></div>
-	    <div class='floating-placeholder'><input type='text' required name='date-disibility-began' id='date-disibility-began' size='10'><label for='date-disibility-began'><span class='required'>*</span>Date Disibility Began</label></div>
-	    <div class='floating-placeholder'><input type='text' name='date-return-to-work' id='date-return-to-work' size='10'><label for='date-return-to-work'>Return to Work Date (if applicable)</label></div>
-	    <div class='floating-placeholder'><input type='text' name='date-death' id='date-death' size='10'><label for='date-death'>Date of Death (if applicable)</label></div>
+	    <div class='floating-placeholder'><input type='text' required name='injury_date' id='injury_date' size='10'><label for='injury_date'><span class='required'>*</span>Date of Injury</label></div>
+	    <div class='floating-placeholder'><input type='text' required name='injury_date_notified_employer' id='injury_date_notified_employer' size='10'><label for='injury_date_notified_employer'><span class='required'>*</span>Date Employer Notified of Injury</label></div>
+	    <div class='floating-placeholder'><input type='text' required name='injury_date_notified_admin' id='injury_date_notified_admin' size='10'><label for='injury_date_notified_admin'><span class='required'>*</span>Date Claim Administrator Notified of Injury</label></div>
+	    <div class='floating-placeholder'><input type='text' required name='last_day_worked' id='last_day_worked' size='10'><label for='last_day_worked'><span class='required'>*</span>Date Last Day Worked</label></div>
+	    <div class='floating-placeholder'><input type='text' required name='date_disability_began' id='date_disability_began' size='10'><label for='date_disability_began'><span class='required'>*</span>Date Disibility Began</label></div>
+	    <div class='floating-placeholder'><input type='text' name='date_return_to_work' id='date_return_to_work' size='10'><label for='date_return_to_work'>Return to Work Date (if applicable)</label></div>
+	    <div class='floating-placeholder'><input type='text' name='date_death' id='date_death' size='10'><label for='date_death'>Date of Death (if applicable)</label></div>
 	    <div class='radio-container'>
 	    	<p>Did Injury/Illness Occur on Employer's Premises?</p>
-			<input name='on-premises' id='on-premises-no' value='no' checked='' hidden='' type='radio'>
-			<label for='on-premises-no' class='radio'><span></span>No</label>
-			<input name='on-premises' id='on-premises-yes' value='yes' hidden='' type='radio'>
-			<label for='on-premises-yes' class='radio'><span></span>Yes</label>
+			<input name='on_premises' id='on_premises_no' value='no' checked='' hidden='' type='radio'>
+			<label for='on_premises_no' class='radio'><span></span>No</label>
+			<input name='on_premises' id='on_premises_yes' value='yes' hidden='' type='radio'>
+			<label for='on_premises_yes' class='radio'><span></span>Yes</label>
 		</div><!--radio-container-->
-	    <div class='floating-placeholder'><input type='text' name='injury-address' id='injury-address' size='10'><label for='injury-address'>Address Where Injury Occurred (if other than employer's premises)</label></div>
-	    <div class='floating-placeholder'><input type='text' name='injury-city' id='injury-city' size='10'><label for='injury-city'>City of Injury</label></div>
-        <select name='injury-state' data-placeholder='Injury State...' class='chosen-select'>
+	    <div class='floating-placeholder'><input type='text' name='injury_address' id='injury_address' size='10'><label for='injury_address'>Address Where Injury Occurred (if other than employer's premises)</label></div>
+	    <div class='floating-placeholder'><input type='text' name='injury_city' id='injury_city' size='10'><label for='injury_city'>City of Injury</label></div>
+        <select name='injury_state' data-placeholder='Injury State...' class='chosen-select'>
             <option value=''></option>
             <option value='alabama'>Alabama</option>
             <option value='alaska'>Alaska</option>
@@ -291,21 +444,21 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
             <option value='wisconsin'>Wisconsin</option>
             <option value='wyoming'>Wyoming</option>
         </select>
-	    <div class='floating-placeholder'><input type='text' name='injury-zip' id='injury-zip' size='10'><label for='injury-zip'>Zip of Injury</label></div>
-	    <div class='floating-placeholder'><input type='text' name='injury-country' id='injury-country' size='10'><label for='injury-country'>Country of Injury (if not US)</label></div>
-	    <div class='floating-placeholder'><input type='text' required name='injury-time' id='injury-time' size='10'><label for='injury-time'><span class='required'>*</span>Time of Injury (include AM/PM or note could not be determined)</label></div>
-	    <div class='floating-placeholder'><input type='text' required name='injury-time-began' id='injury-time-began' size='10'><label for='injury-time-began'><span class='required'>*</span>Time Employee Began Work on Injury Date (note AM/PM)</label></div>
-	    <div class='floating-placeholder'><input type='text' required name='injury-body-part' id='injury-body-part' size='10'><label for='injury-body-part'><span class='required'>*</span>Body Part Affected (i.e. Leg, Arm, Wrist)</label></div>
-	    <div class='floating-placeholder'><input type='text' required name='injury-nature' id='injury-nature' size='10'><label for='injury-nature'><span class='required'>*</span>Nature of Injury (i.e. Burn, Cut, Strain)</label></div>
-	    <div class='floating-placeholder'><input type='text' name='injury-code' id='injury-code' size='10'><label for='injury-code'>Cause of Injury Code</label></div>
-	    <textarea class='floating-placeholder' required name='injury-desc' id='injury-desc' size='10' placeholder='How injury or illness occurred. Describe accident including what the employee was doing just before, the part of the body affected and how, and object or substance that directly harmed the employee.'></textarea>
+	    <div class='floating-placeholder'><input type='text' name='injury_zip' id='injury_zip' size='10'><label for='injury_zip'>Zip of Injury</label></div>
+	    <div class='floating-placeholder'><input type='text' name='injury_country' id='injury_country' size='10'><label for='injury_country'>Country of Injury (if not US)</label></div>
+	    <div class='floating-placeholder'><input type='text' required name='injury_time' id='injury_time' size='10'><label for='injury_time'><span class='required'>*</span>Time of Injury (include AM/PM or note could not be determined)</label></div>
+	    <div class='floating-placeholder'><input type='text' required name='injury_time_began' id='injury_time_began' size='10'><label for='injury_time_began'><span class='required'>*</span>Time Employee Began Work on Injury Date (note AM/PM)</label></div>
+	    <div class='floating-placeholder'><input type='text' required name='injury_body_part' id='injury_body_part' size='10'><label for='injury_body_part'><span class='required'>*</span>Body Part Affected (i.e. Leg, Arm, Wrist)</label></div>
+	    <div class='floating-placeholder'><input type='text' required name='injury_nature' id='injury_nature' size='10'><label for='injury_nature'><span class='required'>*</span>Nature of Injury (i.e. Burn, Cut, Strain)</label></div>
+	    <div class='floating-placeholder'><input type='text' name='injury_code' id='injury_code' size='10'><label for='injury_code'>Cause of Injury Code</label></div>
+	    <textarea class='floating-placeholder' required name='injury_desc' id='injury_desc' size='10' placeholder='How injury or illness occurred. Describe accident including what the employee was doing just before, the part of the body affected and how, and object or substance that directly harmed the employee.'></textarea>
 
 	    <h2>Treatment</h2>
 
-	    <div class='floating-placeholder'><input type='text' name='physician-name' id='physician-name' size='10'><label for='physician-name'>Physician Name</label></div>
-	    <div class='floating-placeholder'><input type='text' name='physician-address' id='physician-address' size='10'><label for='physician-address'>Physician Address</label></div>
-	    <div class='floating-placeholder'><input type='text' name='physician-city' id='physician-city' size='10'><label for='physician-city'>Physician City</label></div>
-        <select name='physician-state' data-placeholder='Physician State...' class='chosen-select'>
+	    <div class='floating-placeholder'><input type='text' name='physician_name' id='physician_name' size='10'><label for='physician_name'>Physician Name</label></div>
+	    <div class='floating-placeholder'><input type='text' name='physician_address' id='physician_address' size='10'><label for='physician_address'>Physician Address</label></div>
+	    <div class='floating-placeholder'><input type='text' name='physician_city' id='physician_city' size='10'><label for='physician_city'>Physician City</label></div>
+        <select name='physician_state' data-placeholder='Physician State...' class='chosen-select'>
             <option value=''></option>
             <option value='alabama'>Alabama</option>
             <option value='alaska'>Alaska</option>
@@ -359,7 +512,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
             <option value='wisconsin'>Wisconsin</option>
             <option value='wyoming'>Wyoming</option>
         </select>
-	    <div class='floating-placeholder'><input type='text' name='physician-zip' id='physician-zip' size='10'><label for='physician-zip'>Physician Zip</label></div>
+	    <div class='floating-placeholder'><input type='text' name='physician_zip' id='physician_zip' size='10'><label for='physician_zip'>Physician Zip</label></div>
 
 	    <h3>Initial Treatment</h3>
 
@@ -412,7 +565,9 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
 
 	    <div class='clear'></div>
 
-    </form>
+    </form>";
+      }
+    ?>
 
 </div><!--fb-bio-->
 

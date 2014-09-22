@@ -36,14 +36,18 @@
 
 		<h1>Dr. Wanda Shelton</h1>
 
-		<h2>District 4</h2>
+		<h2>Trustee</h2>
 
-		<h3>Director of Schools for Lincoln County and also serves as Adjunct Professor of Motlow Community College. Dr. Shelton represents District 4 on the Board.</h3>
+		<h3>District 4</h3>
+
+		<br />
 
 		<a class="textlink" href="mailto:wshelton@lcdoe.org">Email Wanda</a>
 
 	</div><!--bio-text-->
 
 	<div class="clear"></div>
+
+	<p>Director of Schools for Lincoln County and also serves as Adjunct Professor of Motlow Community College. Dr. Shelton represents District 4 on the Board.</p>
 
 </div><!--fb-bio-->

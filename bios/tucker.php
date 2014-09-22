@@ -36,14 +36,18 @@
 
 		<h1>Dr. Tony Tucker</h1>
 
-		<h2>District 8</h2>
+		<h2>Trustee</h2>
 
-		<h3>Representing District 8, Dr. Tucker is currently serving as Director of Schools for South Carroll County Special School District and has been a member of the local school board for over twenty years.</h3>
+		<h3>District 8</h3>
+
+		<br />
 
 		<a class="textlink" href="mailto:tony.tucker@tennk12.net">Email Tony</a>
 
 	</div><!--bio-text-->
 
 	<div class="clear"></div>
+
+	<p>Representing District 8, Dr. Tucker is currently serving as Director of Schools for South Carroll County Special School District and has been a member of the local school board for over twenty years.</p>
 
 </div><!--fb-bio-->

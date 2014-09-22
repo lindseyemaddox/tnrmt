@@ -36,14 +36,18 @@
 
 		<h1>David Jones</h1>
 
-		<h2>District 2</h2>
+		<h2>Trustee</h2>
 
-		<h3>A founding member of the Trust. He is past president of the Tennessee School Boards Association and Chairman of the Hancock County Board of Education. He is a Level V School Board Member.  David serves District 2 on the Board of Trustees.</h3>
+		<h3>District 2</h3>
+
+		<br />
 
 		<a class="textlink" href="mailto:djones6@k12tn.net">Email David</a>
 
 	</div><!--bio-text-->
 
 	<div class="clear"></div>
+
+	<p>A founding member of the Trust. He is past president of the Tennessee School Boards Association and Chairman of the Hancock County Board of Education. He is a Level V School Board Member.  David serves District 2 on the Board of Trustees.</p>
 
 </div><!--fb-bio-->

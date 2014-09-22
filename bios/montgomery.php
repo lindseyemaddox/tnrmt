@@ -38,15 +38,16 @@
 
 		<h2>Vice President</h2>
 
-		<h3>NGU / SEC</h3>
+		<h3>Next Generation Underwriters / Safety Engineering Consultants</h3>
 
 		<a class="textlink phone-link" href="tel:16158225454">(615) 822-5454</a>		
 
 		<a class="textlink" href="mailto:tmontgomery@sectn.com">Email Tom</a>
-		<a class="textlink" href="http://www.sectn.com/2012/our-people/tom-montgomery-cpcu-aic/" target="_blank">More About Tom</a>
 
 	</div><!--bio-text-->
 
 	<div class="clear"></div>
+
+	<a class="textlink more" href="http://www.sectn.com/2012/our-people/tom-montgomery-cpcu-aic/" target="_blank">More About Tom</a>
 
 </div><!--fb-bio-->

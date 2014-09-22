@@ -43,10 +43,11 @@
 		<a class="textlink phone-link" href="tel:16158264274">(615) 826-4274</a>
 
 		<a class="textlink" href="mailto:mbilyeu@sectn.com">Email Mark</a>
-		<a class="textlink" href="http://www.sectn.com/2012/our-people/mark-bilyeu-2/" target="_blank">More About Mark</a>
 
 	</div><!--bio-text-->
 
 	<div class="clear"></div>
+
+	<a class="textlink more" href="http://www.sectn.com/2012/our-people/mark-bilyeu-2/" target="_blank">More About Mark</a>
 
 </div><!--fb-bio-->

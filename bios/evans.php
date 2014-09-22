@@ -38,15 +38,16 @@
 
 		<h2>President</h2>
 
-		<h3>NGU / SEC</h3>
+		<h3>Next Generation Underwriters / Safety Engineering Consultants</h3>
 
 		<a class="textlink phone-link" href="tel:16158225454">(615) 822-5454</a>		
 
 		<a class="textlink" href="mailto:jevans@ngutn.com">Email John</a>
-		<a class="textlink" href="http://www.ngutn.com/our-people/john-evans/" target="_blank">More About John</a>
 
 	</div><!--bio-text-->
 
 	<div class="clear"></div>
+
+	<a class="textlink more" href="http://www.ngutn.com/our-people/john-evans/" target="_blank">More About John</a>
 
 </div><!--fb-bio-->

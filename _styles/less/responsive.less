@@ -557,9 +557,15 @@
 	}
 	.fb-bio .textlink {
 		float: none;
-		display: block;
 		border: none;
 		text-decoration: underline;
+		padding-top: 10px;
+		&:hover {
+			border-bottom: none;
+		}
+		&.phone-link {
+			padding-bottom: 20px;
+		}
 	}
 	footer #bottom .back-to-top {
 		display: block;

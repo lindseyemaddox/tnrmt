@@ -38,18 +38,20 @@
 
 		<h2>Claim Representative</h2>
 
+		<h3>Tennessee Risk Management Trust</h3>
+
 		<a class="textlink phone-link" href="tel:16156518625">(615) 651-8625 x340</a>
-
-		<h3>Shannon Bernhart knows that each claim that comes her way is unique and requires special attention. In fact, Shannon spends most of her workday getting to know injured students and their families while providing them with guidance and support after they’ve been involved in accidents.</h3>
-
-		<h3>Many of the students and parents she helps have experienced difficult situations, which is why she understands the value of exercising patience and being able to easily adapt to different circumstances. And her sharp attention to detail helps ensure she gains a solid understanding of the claims she handles to determine the best outcomes for everyone involved.</h3>
-
-		<h3>Shannon, who has several years of experience as an insurance adjuster, began working at TNRMT as a clerical assistant after earning her bachelor’s degree in criminal justice from Austin Peay State University in 2011. And although she’s not a native Southerner, she’s been in Tennessee for quite a while and considers it home. She can usually be found enjoying her free time with her family and expanding her ever-growing scrapbook collection.</h3>
 
 		<a class="textlink" href="mailto:sbernhart@tnrmt.com">Email Shannon</a>
 
 	</div><!--bio-text-->
 
 	<div class="clear"></div>
+
+	<p>Shannon Bernhart knows that each claim that comes her way is unique and requires special attention. In fact, Shannon spends most of her workday getting to know injured students and their families while providing them with guidance and support after they’ve been involved in accidents.</p>
+
+	<p>Many of the students and parents she helps have experienced difficult situations, which is why she understands the value of exercising patience and being able to easily adapt to different circumstances. And her sharp attention to detail helps ensure she gains a solid understanding of the claims she handles to determine the best outcomes for everyone involved.</p>
+
+	<p>Shannon, who has several years of experience as an insurance adjuster, began working at TNRMT as a clerical assistant after earning her bachelor’s degree in criminal justice from Austin Peay State University in 2011. And although she’s not a native Southerner, she’s been in Tennessee for quite a while and considers it home. She can usually be found enjoying her free time with her family and expanding her ever-growing scrapbook collection.</p>
 
 </div><!--fb-bio-->

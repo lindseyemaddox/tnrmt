@@ -247,7 +247,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
     	<div class="text">
     		<h2>Kathy<br />Kinard</h2>
     		<h3>Senior Claims Representative</h3>
-    		<h5>Workers' Compenstation</h5>
+    		<h5>SEC</h5>
     		<span class="icon-info"></span>
     	</div><!--text-->
     </a><!--element-->
@@ -385,7 +385,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
     <a href="/bios/thompson.php" class="fancybox fancybox.iframe element claims tnrmt workers-comp" data-symbol="Hg" data-category="Kubota">
         <img src="/_images/team/thompson.jpg">
         <div class="text">
-            <h2>Sandra<br />Thompson</h2>
+            <h2>Sandra<br /><span>Thompson</span></h2>
             <h3>Senior Claims Representative</h3>
             <h5>TNRMT</h5>
             <span class="icon-info"></span>
