@@ -53,7 +53,7 @@
           $subject = 'Request for Consultation';
 
 
-    mail($to, $subject, $message, $headers);;
+    mail($to, $subject, $message, $headers);
     echo "<div style='padding: 50px 20px 80px; color: #fff; text-align: center; font-family: open_sansbold_italic;'><label> Thank you for using our form. We will be in contact with you as soon as possible.</label></div>";
     }
   }

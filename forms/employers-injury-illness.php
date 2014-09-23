@@ -23,39 +23,6 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
 	<h1>Employer's First Report of Work Injury and Illness</h1>
 
     <?php
-    function spamcheck($field)
-      {
-      //filter_var() sanitizes the e-mail
-      //address using FILTER_SANITIZE_EMAIL
-      $field=filter_var($field, FILTER_SANITIZE_EMAIL);
-    
-      //filter_var() validates the e-mail
-      //address using FILTER_VALIDATE_EMAIL
-      if(filter_var($field, FILTER_VALIDATE_EMAIL))
-        {
-        return TRUE;
-        }
-      else
-        {
-        return FALSE;
-        }
-      }
-    
-    if (isset($_REQUEST['email']))
-      {//if "email" is filled out, proceed
-    
-      //check if the email address is invalid
-      $mailcheck = spamcheck($_REQUEST['email']);
-      if ($mailcheck==FALSE)
-        {
-        echo "Invalid input";
-        }
-      else
-        {//send email
-        $email = $_REQUEST['email'] ;
-        $subject = $_REQUEST['subject'] ;
-        $message = $_REQUEST['message'] ;
-
         $carrier_fein = $_REQUEST['carrier_fein'] ;
         $employer_name = $_REQUEST['employer_name'] ;
         $employer_address = $_REQUEST['employer_address'] ;
@@ -106,15 +73,24 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
         $injury_nature = $_REQUEST['injury_nature'] ;
         $injury_code = $_REQUEST['injury_code'] ;
         $injury_desc = $_REQUEST['injury_desc'] ;
-
+        $physician_name = $_REQUEST['physician_name'] ;
+        $physician_address = $_REQUEST['physician_address'] ;
+        $physician_city = $_REQUEST['physician_city'] ;
+        $physician_state = $_REQUEST['physician_state'] ;
+        $physician_zip = $_REQUEST['physician_zip'] ;
+        $date_prepared = $_REQUEST['date_prepared'] ;
+        $preparers_name = $_REQUEST['preparers_name'] ;
+        $preparers_title = $_REQUEST['preparers_title'] ;
+        $preparers_company_name = $_REQUEST['preparers_company_name'] ;
+        $preparers_phone = $_REQUEST['preparers_phone'] ;
+        if (isset($_POST['submit'])) {
           $to = 'lindseyemaddox@gmail.com';
           $headers = "From: " . strip_tags($_POST['email']) . "\r\n";
           $headers .= "Reply-To: ". strip_tags($_POST['email']) . "\r\n";
           $headers .= "MIME-Version: 1.0\r\n";
           $headers .= "Content-Type: text/html; charset=ISO-8859-1\r\n";
           $message = '<html><body>';
-
-          $message .= 'Carrier FEIN: '.$carrier_fein.'<br><hr>';
+          $message .= 'Carrier FEIN: '.$carrier_fein.'<br><br><hr><br>';
           $message .= 'Employer Name: '.$employer_name.'<br>';
           $message .= 'Employer Address: '.$employer_address.'<br>';
           $message .= 'Employer City: '.$employer_city.'<br>';
@@ -122,10 +98,10 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
           $message .= 'Employer Zip: '.$employer_zip.'<br>';
           $message .= 'Employer FEIN: '.$employer_fein.'<br>';
           $message .= 'SIC Code: '.$sic_code.'<br>';
-          $message .= 'Employer Phone: '.$employer_phone.'<br><hr>';
-          $message .= 'Employee First Name: '.$employee_first_name.'<br><hr>';
-          $message .= 'Employee Last Name: '.$employee_last_name.'<br><hr>';
-          $message .= 'Employee MI: '.$employee_middle_initial.'<br><hr>';
+          $message .= 'Employer Phone: '.$employer_phone.'<br><br><hr><br>';
+          $message .= 'Employee First Name: '.$employee_first_name.'<br>';
+          $message .= 'Employee Last Name: '.$employee_last_name.'<br>';
+          $message .= 'Employee MI: '.$employee_middle_initial.'<br>';
           $message .= 'Employee Address: '.$employee_address.'<br>';
           $message .= 'Employee City: '.$employee_city.'<br>';
           $message .= 'Employee State: '.$employee_state.'<br>';
@@ -144,15 +120,15 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
           $message .= 'Period: '.$period.'<br>';
           $message .= 'Days per Week: '.$days_per_week.'<br>';
           $message .= 'Salary Continued in Lieu of Compensation: '.$salary_continued.'<br>';
-          $message .= 'Full Wages Paid for Date of Injury: '.$full_wages_paid.'<br><hr>';
-          $message .= 'Date of Injury: '.$injury_date.'<br><hr>';
-          $message .= 'Date Employer was Notified of Injury: '.$injury_date_notified_employer.'<br><hr>';
-          $message .= 'Date Administration was Notified of Injury: '.$injury_date_notified_admin.'<br><hr>';
-          $message .= 'Last Day Worked: '.$last_day_worked.'<br><hr>';
-          $message .= 'Date Disability Began: '.$date_disability_began.'<br><hr>';
-          $message .= 'Date of Return to Work: '.$date_return_to_work.'<br><hr>';
-          $message .= 'Date of Death: '.$date_death.'<br><hr>';
-          $message .= 'Did Injury Occur on Employer Premises? '.$on_premises.'<br><hr>';
+          $message .= 'Full Wages Paid for Date of Injury: '.$full_wages_paid.'<br><br><hr><br>';
+          $message .= 'Date of Injury: '.$injury_date.'<br>';
+          $message .= 'Date Employer was Notified of Injury: '.$injury_date_notified_employer.'<br>';
+          $message .= 'Date Administration was Notified of Injury: '.$injury_date_notified_admin.'<br>';
+          $message .= 'Last Day Worked: '.$last_day_worked.'<br>';
+          $message .= 'Date Disability Began: '.$date_disability_began.'<br>';
+          $message .= 'Date of Return to Work: '.$date_return_to_work.'<br>';
+          $message .= 'Date of Death: '.$date_death.'<br>';
+          $message .= 'Did Injury Occur on Employer Premises? '.$on_premises.'<br>';
           $message .= 'Injury Address: '.$injury_address.'<br>';
           $message .= 'Injury City: '.$injury_city.'<br>';
           $message .= 'Injury State: '.$injury_state.'<br>';
@@ -163,19 +139,27 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
           $message .= 'Injury Body Part: '.$injury_body_part.'<br>';
           $message .= 'Nature of Injury: '.$injury_nature.'<br>';
           $message .= 'Cause of Injury Code: '.$injury_code.'<br>';
-          $message .= 'Injury Description: '.$injury_desc.'<br><hr>';
-
+          $message .= 'Injury Description: '.$injury_desc.'<br><br><hr><br>';
+          $message .= 'Physician Name: '.$physician_name.'<br>';
+          $message .= 'Physician Address: '.$physician_address.'<br>';
+          $message .= 'Physician City: '.$physician_city.'<br>';
+          $message .= 'Physician State: '.$physician_state.'<br>';
+          $message .= 'Physician Zip: '.$physician_zip.'<br>';
+          $message .= 'Date Prepared: '.$date_prepared.'<br>';
+          $message .= 'Preparers Name: '.$preparers_name.'<br>';
+          $message .= 'Preparers Title: '.$preparers_title.'<br>';
+          $message .= 'Preparers Company Name: '.$preparers_company_name.'<br>';
+          $message .= 'Preparers Phone: '.$preparers_phone.'<br>';
           $message .= '</body></html>';
           $subject = 'Submission: Employers First Report of Work Injury and Illness';
 
 
-    mail($to, $subject, $message, $headers);;
-    echo "<div style='padding: 50px 20px 80px; color: #fff; text-align: center; font-family: open_sansbold_italic;'><label> Thank you for using our form. We will be in contact with you as soon as possible.</label></div>";
-    }
+    mail($to, $subject, $message, $headers);
+    echo "<div style='padding: 50px 20px 80px; color: #fff; text-align: center; font-family: open_sansbold_italic; color: black;'><label> Thank you for using our form. We will be in contact with you as soon as possible.</label></div>";
   }
 else
   { echo "
-        <form method='post' action=''>
+        <form method='post' action='".$_SERVER['SCRIPT_NAME']."'>
 
 		<p class='required-text'><span class='required'>*</span> = required field</p>
 
@@ -551,17 +535,17 @@ else
 
 		<h2>Other Information</h2>
 
-	    <div class='floating-placeholder'><input type='text' required name='date-prepared' id='date-prepared' size='10'><label for='date-prepared'><span class='required'>*</span>Date Prepared</label></div>
-	    <div class='floating-placeholder'><input type='text' required name='preparers-name' id='preparers-name' size='10'><label for='preparers-name'><span class='required'>*</span>Preparer's Name</label></div>
-	    <div class='floating-placeholder'><input type='text' required name='preparers-title' id='preparers-title' size='10'><label for='preparers-title'><span class='required'>*</span>Preparer's Title</label></div>
-	    <div class='floating-placeholder'><input type='text' required name='preparers-company-name' id='preparers-company-name' size='10'><label for='preparers-company-name'><span class='required'>*</span>Preparer's Company Name</label></div>
-	    <div class='floating-placeholder'><input type='text' required name='preparers-phone' id='preparers-phone' size='10'><label for='preparers-phone'><span class='required'>*</span>Preparer's Phone</label></div>
+	    <div class='floating-placeholder'><input type='text' required name='date_prepared' id='date_prepared' size='10'><label for='date_prepared'><span class='required'>*</span>Date Prepared</label></div>
+	    <div class='floating-placeholder'><input type='text' required name='preparers_name' id='preparers_name' size='10'><label for='preparers_name'><span class='required'>*</span>Preparer's Name</label></div>
+	    <div class='floating-placeholder'><input type='text' required name='preparers_title' id='preparers_title' size='10'><label for='preparers_title'><span class='required'>*</span>Preparer's Title</label></div>
+	    <div class='floating-placeholder'><input type='text' required name='preparers_company_name' id='preparers_company_name' size='10'><label for='preparers_company_name'><span class='required'>*</span>Preparer's Company Name</label></div>
+	    <div class='floating-placeholder'><input type='text' required name='preparers_phone' id='preparers_phone' size='10'><label for='preparers_phone'><span class='required'>*</span>Preparer's Phone</label></div>
 
 		<div id='pot'>If you see this, leave this form field blank and invest in CSS support.
 			<input type='text' name='body' value='' />
 		</div><!--pot-->
 
-	    <button class='submit'>Submit Form</button>
+	    <button class='submit' type='submit' name='submit'>Submit Form</button>
 
 	    <div class='clear'></div>
 
