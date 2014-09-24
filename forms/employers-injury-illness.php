@@ -78,6 +78,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
         $physician_city = $_REQUEST['physician_city'] ;
         $physician_state = $_REQUEST['physician_state'] ;
         $physician_zip = $_REQUEST['physician_zip'] ;
+        $checkbox = $_REQUEST['checkbox'] ;
         $date_prepared = $_REQUEST['date_prepared'] ;
         $preparers_name = $_REQUEST['preparers_name'] ;
         $preparers_title = $_REQUEST['preparers_title'] ;
@@ -145,6 +146,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
           $message .= 'Physician City: '.$physician_city.'<br>';
           $message .= 'Physician State: '.$physician_state.'<br>';
           $message .= 'Physician Zip: '.$physician_zip.'<br>';
+          $message .= 'Medical Treatment: '.$checkbox.'<br>';
           $message .= 'Date Prepared: '.$date_prepared.'<br>';
           $message .= 'Preparers Name: '.$preparers_name.'<br>';
           $message .= 'Preparers Title: '.$preparers_title.'<br>';
@@ -343,9 +345,9 @@ else
 	    <div class='floating-placeholder'><input type='text' name='days_per_week' id='days_per_week' size='10'><label for='days_per_week'>Number of Days Worked Per Week</label></div>
 	    <div class='radio-container'>
 	    	<p>Salary Continued in Lieu of Compensation</p>
-			<input name='salary-continued' id='salary_continued_no' value='no' checked='' hidden='' type='radio'>
+			<input name='salary_continued' id='salary_continued_no' value='no' checked='' hidden='' type='radio'>
 			<label for='salary_continued_no' class='radio'><span></span>No</label>
-			<input name='salary-continued' id='salary_continued_yes' value='yes' hidden='' type='radio'>
+			<input name='salary_continued' id='salary_continued_yes' value='yes' hidden='' type='radio'>
 			<label for='salary_continued_yes' class='radio'><span></span>Yes</label>
 		</div><!--radio-container-->
 	    <div class='radio-container'>
