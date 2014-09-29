@@ -78,14 +78,14 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
         $physician_city = $_REQUEST['physician_city'] ;
         $physician_state = $_REQUEST['physician_state'] ;
         $physician_zip = $_REQUEST['physician_zip'] ;
-        $checkbox = $_REQUEST['checkbox'] ;
+        $treatment = $_REQUEST['treatment'] ;
         $date_prepared = $_REQUEST['date_prepared'] ;
         $preparers_name = $_REQUEST['preparers_name'] ;
         $preparers_title = $_REQUEST['preparers_title'] ;
         $preparers_company_name = $_REQUEST['preparers_company_name'] ;
         $preparers_phone = $_REQUEST['preparers_phone'] ;
         if (isset($_POST['submit'])) {
-          $to = 'lindseyemaddox@gmail.com';
+          $to = 'claims@tnrmt.com,webmaster@tnrmt.com';
           $headers = "From: " . strip_tags($_POST['email']) . "\r\n";
           $headers .= "Reply-To: ". strip_tags($_POST['email']) . "\r\n";
           $headers .= "MIME-Version: 1.0\r\n";
@@ -146,7 +146,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
           $message .= 'Physician City: '.$physician_city.'<br>';
           $message .= 'Physician State: '.$physician_state.'<br>';
           $message .= 'Physician Zip: '.$physician_zip.'<br>';
-          $message .= 'Medical Treatment: '.$checkbox.'<br>';
+          $message .= 'Medical Treatment: '.$treatment.'<br>';
           $message .= 'Date Prepared: '.$date_prepared.'<br>';
           $message .= 'Preparers Name: '.$preparers_name.'<br>';
           $message .= 'Preparers Title: '.$preparers_title.'<br>';
@@ -169,7 +169,8 @@ else
 
 		<h2>Claims Administration/Carrier</h2>
 
-	    <div class='floating-placeholder'><input type='text' name='carrier_fein' id='carrier_fein' size='10'><label for='carrier_fein'>Carrier FEIN</label></div>
+		<label for='carrier_fein' style='color:#fff;'>Carrier FEIN</label>
+	    <div class='floating-placeholder'><input type='text' name='carrier_fein' id='carrier_fein' size='10' placeholder='62-6251137'></div>
 
 	    <h2>Employer</h2>
 
@@ -431,7 +432,6 @@ else
             <option value='wyoming'>Wyoming</option>
         </select>
 	    <div class='floating-placeholder'><input type='text' name='injury_zip' id='injury_zip' size='10'><label for='injury_zip'>Zip of Injury</label></div>
-	    <div class='floating-placeholder'><input type='text' name='injury_country' id='injury_country' size='10'><label for='injury_country'>Country of Injury (if not US)</label></div>
 	    <div class='floating-placeholder'><input type='text' required name='injury_time' id='injury_time' size='10'><label for='injury_time'><span class='required'>*</span>Time of Injury (include AM/PM or note could not be determined)</label></div>
 	    <div class='floating-placeholder'><input type='text' required name='injury_time_began' id='injury_time_began' size='10'><label for='injury_time_began'><span class='required'>*</span>Time Employee Began Work on Injury Date (note AM/PM)</label></div>
 	    <div class='floating-placeholder'><input type='text' required name='injury_body_part' id='injury_body_part' size='10'><label for='injury_body_part'><span class='required'>*</span>Body Part Affected (i.e. Leg, Arm, Wrist)</label></div>
@@ -500,40 +500,23 @@ else
         </select>
 	    <div class='floating-placeholder'><input type='text' name='physician_zip' id='physician_zip' size='10'><label for='physician_zip'>Physician Zip</label></div>
 
-	    <h3>Initial Treatment</h3>
+	    <h3 style='margin-bottom:10px;'>Initial Treatment</h3>
 
-		<ul>
-		  <li>
-		    <label>
-		      <input type='checkbox' name='checkbox' value='1' checked> <span></span> No Medical Treatment
-		    </label>
-		  </li>
-		  <li>
-		    <label>
-		      <input type='checkbox' name='checkbox' value='2'> <span></span> Minor: by Employer
-		    </label>
-		  </li>
-		  <li>
-		    <label>
-		      <input type='checkbox' name='checkbox' value='99'> <span></span> Minor: by Clinic/Hospital
-		    </label>
-		  </li>
-		  <li>
-		    <label>
-		      <input type='checkbox' name='checkbox' value='99'> <span></span> Hospitalized more than 24 hours
-		    </label>
-		  </li>
-		  <li>
-		    <label>
-		      <input type='checkbox' name='checkbox' value='99'> <span></span> Emergency Care
-		    </label>
-		  </li>
-		  <li>
-		    <label>
-		      <input type='checkbox' name='checkbox' value='99'> <span></span> Future Major Medical/Lost Time Anticipated
-		    </label>
-		  </li>
-		</ul>	    
+
+	    <div class='radio-container'>
+			<input name='treatment' id='treatment_none' value='no' checked='' hidden='' type='radio'>
+			<label for='treatment_none' class='radio'><span></span>No Medical Treatment</label>
+			<input name='treatment' id='treatment_minor_employer' value='yes' hidden='' type='radio'>
+			<label for='treatment_minor_employer' class='radio'><span></span>Minor: by Employer</label>
+			<input name='treatment' id='treatment_minor_clinic' value='yes' hidden='' type='radio'>
+			<label for='treatment_minor_clinic' class='radio'><span></span>Minor: by Clinic/Hospital</label>
+			<input name='treatment' id='treatment_hospitalized' value='yes' hidden='' type='radio'>
+			<label for='treatment_hospitalized' class='radio'><span></span>Hospitalized more than 24 hours</label>
+			<input name='treatment' id='treatment_emergency' value='yes' hidden='' type='radio'>
+			<label for='treatment_emergency' class='radio'><span></span>Emergency Care</label>
+			<input name='treatment' id='treatment_future_major' value='yes' hidden='' type='radio'>
+			<label for='treatment_future_major' class='radio'><span></span>Future Major Medical/Lost Time Anticipated</label>
+		</div><!--radio-container-->
 
 		<h2>Other Information</h2>
 

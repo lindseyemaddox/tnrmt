@@ -25,7 +25,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
 
 		<p>Reporting Workers’ Compensation claims promptly is not only essential, it is the law.  Tennessee State Law requires that benefits to the injured worker must begin within 20 days from the time the employer is notified of injury. Delays in reporting can result in fines of up to 20% of the benefits due.  When reporting a workers’ compensation claim, please report only the information given you by the injured worker.  The TNRMT adjuster will contact you to gather additional information.</p>
 
-		<a class="textlink" href="/program/claims">Report a Claim</a>
+		<a class="textlink" href="/forms">Report a Claim</a>
 
 	</section><!--content-->
 

@@ -19,13 +19,13 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
 
 	<section id="content">
 		
-		<h1>Forms</h1>
+		<h1>Claims Reporting</h1>
 
-	    <a href="https://www.stars-web.com/STARSWeb85/EntryPoint.asp?Userid=TNRMT&ClientID=T722&UserPassword=TNRMT" target="_blank" class="forms-list">
+	    <a href="http://www.ngutn.com/student-accident-report/" target="_blank" class="forms-list">
 	      <img src="/_images/icon-form.png">
 	      <div class="text">
-	        <h4>Something on STARSweb</h4>
-	        <h5>current supported browser is something depricated</h5>
+	        <h4>Student Accident</h4>
+	        <h5>Use our temporary form while we update our Claims Reporting System</h5>
 	      </div><!--text-->
 	    </a><!--element-->
 
@@ -33,7 +33,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
 	      <img src="/_images/icon-form.png">
 	      <div class="text">
 	        <h4>Employer's First Report of Work Injury and Illness</h4>
-	        <h5>Tennessee Department of Labor and Workforce Development</h5>
+	        <h5>Report a Workers' Compensation Claim</h5>
 	      </div><!--text-->
 	    </a><!--element-->
 
@@ -41,6 +41,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
 	      <img src="/_images/icon-form.png">
 	      <div class="text">
 	        <h4>Property Liability Automobile Report Form</h4>
+	        <h5>Report a Property, Liability, or Auto Claim</h5>
 	      </div><!--text-->
 	    </a><!--element-->
 

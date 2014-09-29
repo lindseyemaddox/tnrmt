@@ -216,7 +216,7 @@
 	/*------------------------------------*/
 
 	input[type="radio"]:checked + .radio {
-	    color: @grey;
+	    color: #fff;
 	}
 
 	input[type="radio"]:checked + .radio span:before {
@@ -291,10 +291,13 @@ label:hover input[type="checkbox"]:checked + span {
 
 
 .actual-form-page {
-	background-color: #f9f9f9;
+	background-color: @grey;
 	.submit {
 		width: auto;
 		float: right;
+	}
+	h1, h2, h3, .radio-container p, .radio-container label {
+		color: #fff;
 	}
 }
 

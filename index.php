@@ -64,12 +64,12 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
 
 		<div class="article-text">
 
-			<h5>Workers' Compensation Audit – Why Be Afriad?</h5>
-			<p class="by">written by Jeff Mathis</p>
-			<p class="by">August, 2014</p>
-			<p>Most of us on the financial side of business want to run and hide when we hear the word auditor. I know here at NGU Risk Management, I am frequently tempted to do so. It seems that every time I turn around someone wants to audit something...</p>
+			<h5>Inspections of Bleachers and Grandstands are Required</h5>
+			<p class="by">written by Chris Stites</p>
+			<p class="by">September, 2014</p>
+			<p>The Tennessee Risk Management Trust has been fortunate and of course a lot of Atta boys need be extended to our maintenance professionals as we have only experienced a single catastrophic loss in relation to bleacher failure in the...</p>
 
-			<a class="textlink grey fancybox fancybox.iframe" href="/news/14-08-02">Read More</a>
+			<a class="textlink grey fancybox fancybox.iframe" href="/news/14-09-01">Read More</a>
 
 		</div><!--article-text-->
 
