@@ -86,8 +86,8 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
         $preparers_phone = $_REQUEST['preparers_phone'] ;
         if (isset($_POST['submit'])) {
           $to = 'claims@tnrmt.com,webmaster@tnrmt.com';
-          $headers = "From: " . strip_tags($_POST['email']) . "\r\n";
-          $headers .= "Reply-To: ". strip_tags($_POST['email']) . "\r\n";
+          $headers = "From: " . strip_tags($_POST['webmaster@tnrmt.com']) . "\r\n";
+          $headers .= "Reply-To: ". strip_tags($_POST['webmaster@tnrmt.com']) . "\r\n";
           $headers .= "MIME-Version: 1.0\r\n";
           $headers .= "Content-Type: text/html; charset=ISO-8859-1\r\n";
           $message = '<html><body>';
@@ -170,7 +170,7 @@ else
 		<h2>Claims Administration/Carrier</h2>
 
 		<label for='carrier_fein' style='color:#fff;'>Carrier FEIN</label>
-	    <div class='floating-placeholder'><input type='text' name='carrier_fein' id='carrier_fein' size='10' placeholder='62-6251137'></div>
+	    <div class='floating-placeholder'><input type='text' name='carrier_fein' id='carrier_fein' size='10' value='62-6251137' placeholder='62-6251137'></div>
 
 	    <h2>Employer</h2>
 

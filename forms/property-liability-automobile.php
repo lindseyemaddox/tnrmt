@@ -54,8 +54,8 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
         $comments = $_REQUEST['comments'] ;
         if (isset($_POST['submit'])) {
           $to = 'claims@tnrmt.com,webmaster@tnrmt.com';
-          $headers = "From: " . strip_tags($_POST['email']) . "\r\n";
-          $headers .= "Reply-To: ". strip_tags($_POST['email']) . "\r\n";
+          $headers = "From: " . strip_tags($_POST['webmaster@tnrmt.com']) . "\r\n";
+          $headers .= "Reply-To: ". strip_tags($_POST['webmaster@tnrmt.com']) . "\r\n";
           $headers .= "MIME-Version: 1.0\r\n";
           $headers .= "Content-Type: text/html; charset=ISO-8859-1\r\n";
           $message = '<html><body>';
@@ -86,7 +86,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
           $message .= 'Claimants Property Damaged: '.$claimants_property_damaged.'<br>';
           $message .= 'Additional Comments: '.$comments.'<br>';
           $message .= '</body></html>';
-          $subject = 'Request for Consultation';
+          $subject = 'Submission: Property / Liability / Auto';
 
 
     mail($to, $subject, $message, $headers);

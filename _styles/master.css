@@ -2323,6 +2323,7 @@ input.gsc-search-button {
 }
 .form-page .required-text {
   float: right;
+  color: #fff;
 }
 .form-page .radio-container {
   margin-bottom: 20px;
