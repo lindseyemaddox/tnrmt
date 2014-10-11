@@ -21,13 +21,13 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
 		
 		<h1>Claims Reporting</h1>
 
-	    <a href="http://www.ngutn.com/student-accident-report/" target="_blank" class="forms-list">
+	    <div class="forms-list">
 	      <img src="/_images/icon-form.png">
 	      <div class="text">
-	        <h4>Student Accident</h4>
-	        <h5>Use our temporary form while we update our Claims Reporting System</h5>
+	        <h4><a href="https://www.csstars.com/Enterprise/login.cmdx" target="_blank">Student Accident</a></h4>
+	        <h5><a href="/stars-login" class="fancybox fancybox.iframe">Login Information</a></h5>
 	      </div><!--text-->
-	    </a><!--element-->
+	    </div><!--element-->
 
 	    <a href="/forms/employers-injury-illness" class="forms-list">
 	      <img src="/_images/icon-form.png">

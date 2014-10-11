@@ -2543,6 +2543,12 @@ input.gsc-search-button {
 .forms-list .text h4 {
   margin-bottom: 5px;
 }
+.forms-list .text h4 a {
+  color: #626262;
+}
+.forms-list .text h4 a:hover {
+  color: #e9a021;
+}
 .forms-list:hover {
   background-color: #eae9e9;
 }
