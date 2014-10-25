@@ -21,14 +21,11 @@
 	<script src="/_scripts/main-ck.js"></script>
 	<script src="/_scripts/jquery.fancybox.js"></script>
 
-	<title>Amie Alongi | Tennessee Risk Management Trust</title>
-	<meta name="description" content="">
-
 </head>
 
 <body>
 
-<div class="fb-bio">
+<div class="fb-bio stars-login">
 
 	<h1>STARS Enterprise Login</h1>
 	<br />
@@ -37,5 +34,7 @@
 	<h2>User ID: TNRMT</h2>
 
 	<h2>Password: Welcome1</h2>
+	<br />
+	<a href="https://www.csstars.com/Enterprise/login.cmdx" target="_blank" class="textlink">Click to Report a Student Accident</a>
 
 </div><!--fb-bio-->

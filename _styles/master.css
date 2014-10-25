@@ -2552,6 +2552,22 @@ input.gsc-search-button {
 .forms-list:hover {
   background-color: #eae9e9;
 }
+.stars-login h2 {
+  text-transform: none;
+}
+.stars-login a.textlink {
+  color: #e9a021;
+  border-bottom-color: #e9a021;
+}
+.stars-login a.textlink:hover {
+  color: #626262;
+  border-bottom-color: #626262;
+  -webkit-transition: all 400ms ease;
+  -moz-transition: all 400ms ease;
+  -o-transition: all 400ms ease;
+  -ms-transition: all 400ms ease;
+  transition: all 400ms ease;
+}
 /**************** RESPONSIVE *****************/
 @media screen and (max-width: 1400px) {
   #number-groups .three h4 {

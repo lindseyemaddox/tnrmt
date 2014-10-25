@@ -21,15 +21,15 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
 		
 		<h1>Claims Reporting</h1>
 
-	    <div class="forms-list">
+	    <a href="/stars-login" class="fancybox fancybox.iframe forms-list">
 	      <img src="/_images/icon-form.png">
 	      <div class="text">
-	        <h4><a href="https://www.csstars.com/Enterprise/login.cmdx" target="_blank">Student Accident</a></h4>
-	        <h5><a href="/stars-login" class="fancybox fancybox.iframe">Login Information</a></h5>
+	        <h4>Student Accident</h4>
+	        <h5>Report a Student Accident Claim</h5>
 	      </div><!--text-->
-	    </div><!--element-->
+	    </a><!--element-->
 
-	    <a href="/forms/employers-injury-illness" class="forms-list">
+	    <a href="http://claims.tnrmt.com/Claims_Reporting/Employer's_Report_of_Work_Injury_and_Illness/" target="_blank" class="forms-list">
 	      <img src="/_images/icon-form.png">
 	      <div class="text">
 	        <h4>Employer's First Report of Work Injury and Illness</h4>
@@ -37,7 +37,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
 	      </div><!--text-->
 	    </a><!--element-->
 
-	    <a href="/forms/property-liability-automobile" class="forms-list">
+	    <a href="http://claims.tnrmt.com/Claims_Reporting/Property_Liability_Automobile_Report_Form/" target="_blank" class="forms-list">
 	      <img src="/_images/icon-form.png">
 	      <div class="text">
 	        <h4>Property Liability Automobile Report Form</h4>
