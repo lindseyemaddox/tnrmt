@@ -86,9 +86,15 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
         $preparers_phone = $_REQUEST['preparers_phone'] ;
         if (isset($_POST['submit'])) {
 <<<<<<< HEAD
+<<<<<<< HEAD
           $to = 'claims@tnrmt.com, webmaster@tnrmt.com';
           $headers = "From: " . strip_tags($_POST['email']) . "\r\n";
           $headers .= "Reply-To: ". strip_tags($_POST['email']) . "\r\n";
+=======
+          $to = 'claims@tnrmt.com,webmaster@tnrmt.com';
+          $headers = "From: " . strip_tags($_POST['webmaster@tnrmt.com']) . "\r\n";
+          $headers .= "Reply-To: ". strip_tags($_POST['webmaster@tnrmt.com']) . "\r\n";
+>>>>>>> FETCH_HEAD
 =======
           $to = 'claims@tnrmt.com,webmaster@tnrmt.com';
           $headers = "From: " . strip_tags($_POST['webmaster@tnrmt.com']) . "\r\n";

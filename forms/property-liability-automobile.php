@@ -54,9 +54,15 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
         $comments = $_REQUEST['comments'] ;
         if (isset($_POST['submit'])) {
 <<<<<<< HEAD
+<<<<<<< HEAD
           $to = 'claims@tnrmt.com, webmaster@tnrmt.com';
           $headers = "From: " . strip_tags($_POST['email']) . "\r\n";
           $headers .= "Reply-To: ". strip_tags($_POST['email']) . "\r\n";
+=======
+          $to = 'claims@tnrmt.com,webmaster@tnrmt.com';
+          $headers = "From: " . strip_tags($_POST['webmaster@tnrmt.com']) . "\r\n";
+          $headers .= "Reply-To: ". strip_tags($_POST['webmaster@tnrmt.com']) . "\r\n";
+>>>>>>> FETCH_HEAD
 =======
           $to = 'claims@tnrmt.com,webmaster@tnrmt.com';
           $headers = "From: " . strip_tags($_POST['webmaster@tnrmt.com']) . "\r\n";
@@ -93,7 +99,11 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
           $message .= 'Additional Comments: '.$comments.'<br>';
           $message .= '</body></html>';
 <<<<<<< HEAD
+<<<<<<< HEAD
           $subject = 'Submission: Property Liability Automobile Report';
+=======
+          $subject = 'Submission: Property / Liability / Auto';
+>>>>>>> FETCH_HEAD
 =======
           $subject = 'Submission: Property / Liability / Auto';
 >>>>>>> FETCH_HEAD

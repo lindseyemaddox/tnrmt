@@ -9,7 +9,11 @@
         $desc = $_REQUEST['desc'] ;
         if (isset($_POST['submit'])) {
 <<<<<<< HEAD
+<<<<<<< HEAD
           $to = 'kgreenup@ngutn.com';
+=======
+          $to = 'info@tnrmt.com';
+>>>>>>> FETCH_HEAD
 =======
           $to = 'info@tnrmt.com';
 >>>>>>> FETCH_HEAD
