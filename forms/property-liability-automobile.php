@@ -53,9 +53,15 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
         $claimants_property_damaged = $_REQUEST['claimants_property_damaged'] ;
         $comments = $_REQUEST['comments'] ;
         if (isset($_POST['submit'])) {
-          $to = 'lindseyemaddox@gmail.com';
+<<<<<<< HEAD
+          $to = 'claims@tnrmt.com, webmaster@tnrmt.com';
           $headers = "From: " . strip_tags($_POST['email']) . "\r\n";
           $headers .= "Reply-To: ". strip_tags($_POST['email']) . "\r\n";
+=======
+          $to = 'claims@tnrmt.com,webmaster@tnrmt.com';
+          $headers = "From: " . strip_tags($_POST['webmaster@tnrmt.com']) . "\r\n";
+          $headers .= "Reply-To: ". strip_tags($_POST['webmaster@tnrmt.com']) . "\r\n";
+>>>>>>> FETCH_HEAD
           $headers .= "MIME-Version: 1.0\r\n";
           $headers .= "Content-Type: text/html; charset=ISO-8859-1\r\n";
           $message = '<html><body>';
@@ -86,11 +92,15 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
           $message .= 'Claimants Property Damaged: '.$claimants_property_damaged.'<br>';
           $message .= 'Additional Comments: '.$comments.'<br>';
           $message .= '</body></html>';
-          $subject = 'Request for Consultation';
+<<<<<<< HEAD
+          $subject = 'Submission: Property Liability Automobile Report';
+=======
+          $subject = 'Submission: Property / Liability / Auto';
+>>>>>>> FETCH_HEAD
 
 
     mail($to, $subject, $message, $headers);
-    echo "<div style='padding: 50px 20px 80px; color: #fff; text-align: center; font-family: open_sansbold_italic;'><label> Thank you for using our form. We will be in contact with you as soon as possible.</label></div>";
+    echo "<div style='padding: 50px 20px 80px; color: #fff; text-align: center; font-family: open_sansbold_italic; color:black;'><label> Thank you for using our form. We will be in contact with you as soon as possible.</label></div>";
   }
 else
   { echo "
@@ -238,7 +248,7 @@ else
 	    <textarea class='floating-placeholder' required name='injury_desc' id='injury_desc' size='10' placeholder='Brief Description of Incident'></textarea>
 	    <div class='floating-placeholder'><input type='text' required name='incident_location' id='incident_location' size='10'><label for='incident_location'><span class='required'>*</span>Location of Incident</label></div>
 
-	    <h3>If Auto, Insured Driver and Number</h3>
+	    <h3 style='margin-bottom:10px;'>If Auto, Insured Driver and Number</h3>
 
 	    <div class='floating-placeholder'><input type='text' name='driver' id='driver' size='10'><label for='driver'>Driver</label></div>
 	    <div class='floating-placeholder'><input type='text' name='number' id='number' size='10'><label for='number'>Number</label></div>

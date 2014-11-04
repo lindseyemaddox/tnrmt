@@ -55,7 +55,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
   
   <div id="container" class="clearfix resources">
 
-    <a href="/news/14-09-03.php" class="fancybox fancybox.iframe element ">
+    <a href="/news/14-09-03.php" class="fancybox fancybox.iframe element student-accident">
       <img src="/_images/icon-article.png">
       <div class="text">
         <h2>FAQs - Transporting Athletes</h2>
@@ -66,7 +66,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
       </div><!--text-->
     </a><!--element-->
     
-    <a href="/news/14-09-02.php" class="fancybox fancybox.iframe element ">
+    <a href="/news/14-09-02.php" class="fancybox fancybox.iframe element legal">
       <img src="/_images/icon-article.png">
       <div class="text">
         <h2>Jail is a Dangerous Place</h2>
@@ -77,7 +77,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
       </div><!--text-->
     </a><!--element-->
     
-    <a href="/news/14-09-01.php" class="fancybox fancybox.iframe element ">
+    <a href="/news/14-09-01.php" class="fancybox fancybox.iframe element safety">
       <img src="/_images/icon-article.png">
       <div class="text">
         <h2>Inspections of Bleachers and Grandstands are Required</h2>

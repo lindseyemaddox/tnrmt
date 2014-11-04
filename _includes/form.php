@@ -1,4 +1,4 @@
-<form class="form">
+<div class="form">
 
     <h3>Contact Us</h3>
 
@@ -8,7 +8,11 @@
         $phone = $_REQUEST['phone'] ;
         $desc = $_REQUEST['desc'] ;
         if (isset($_POST['submit'])) {
-          $to = 'lindseyemaddox@gmail.com';
+<<<<<<< HEAD
+          $to = 'kgreenup@ngutn.com';
+=======
+          $to = 'info@tnrmt.com';
+>>>>>>> FETCH_HEAD
           $headers = "From: " . strip_tags($_POST['email']) . "\r\n";
           $headers .= "Reply-To: ". strip_tags($_POST['email']) . "\r\n";
           $headers .= "MIME-Version: 1.0\r\n";
@@ -20,7 +24,6 @@
           $message .= 'How May We Help You: '.$desc.'<br>';
           $message .= '</body></html>';
           $subject = 'Request for Consultation';
-
 
     mail($to, $subject, $message, $headers);
     echo "<div style='padding: 50px 20px 80px; color: #fff; text-align: center; font-family: open_sansbold_italic;'><label> Thank you for using our form. We will be in contact with you as soon as possible.</label></div>";
@@ -36,13 +39,14 @@ else
       </form>";
       }
     ?>
-    
-    
-
 
     
+    
 
-</form>
+
+    
+
+</div>
 
 <div class="clear"></div>
 

@@ -875,12 +875,20 @@ input[type='text'],
   font-size: 14px;
   line-height: 2.6em;
   height: 2.6em;
-  margin: 0;
+  margin: 0 0 20px;
   padding: 0;
   -webkit-font-smoothing: antialiased;
-  margin-bottom: 20px;
   background: #fff;
   color: #626262;
+}
+form label {
+  font-family: "open_sansbold", arial, helvetica, sans-serif;
+  font-size: 14px;
+  margin: 0 0 5px;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  color: #626262;
+  display: block;
 }
 /*This cahnges the color of the placeholder when you click into the input*/
 .floating-placeholder input[type='text']:focus + label {
@@ -2315,6 +2323,7 @@ input.gsc-search-button {
 }
 .form-page .required-text {
   float: right;
+  color: #fff;
 }
 .form-page .radio-container {
   margin-bottom: 20px;
@@ -2429,7 +2438,7 @@ input.gsc-search-button {
   background-color: rgba(255, 255, 255, 0.9);
 }
 .form-page input[type="radio"]:checked + .radio {
-  color: #626262;
+  color: #fff;
 }
 .form-page input[type="radio"]:checked + .radio span:before {
   background-color: #e9a021;
@@ -2504,11 +2513,18 @@ input.gsc-search-button {
   border: 1px solid #fff;
 }
 .actual-form-page {
-  background-color: #f9f9f9;
+  background-color: #626262;
 }
 .actual-form-page .submit {
   width: auto;
   float: right;
+}
+.actual-form-page h1,
+.actual-form-page h2,
+.actual-form-page h3,
+.actual-form-page .radio-container p,
+.actual-form-page .radio-container label {
+  color: #fff;
 }
 .forms-list {
   display: block;
@@ -2527,8 +2543,30 @@ input.gsc-search-button {
 .forms-list .text h4 {
   margin-bottom: 5px;
 }
+.forms-list .text h4 a {
+  color: #626262;
+}
+.forms-list .text h4 a:hover {
+  color: #e9a021;
+}
 .forms-list:hover {
   background-color: #eae9e9;
+}
+.stars-login h2 {
+  text-transform: none;
+}
+.stars-login a.textlink {
+  color: #e9a021;
+  border-bottom-color: #e9a021;
+}
+.stars-login a.textlink:hover {
+  color: #626262;
+  border-bottom-color: #626262;
+  -webkit-transition: all 400ms ease;
+  -moz-transition: all 400ms ease;
+  -o-transition: all 400ms ease;
+  -ms-transition: all 400ms ease;
+  transition: all 400ms ease;
 }
 /**************** RESPONSIVE *****************/
 @media screen and (max-width: 1400px) {
