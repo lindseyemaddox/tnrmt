@@ -25,15 +25,8 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
 	      <img src="/_images/icon-form.png">
 	      <div class="text">
 	        <h4>Student Accident</h4>
-<<<<<<< HEAD
-<<<<<<< HEAD
 	        <h5>Report a Student Accident</h5>
-=======
-	        <h5>Report a Student Accident Claim</h5>
->>>>>>> FETCH_HEAD
-=======
-	        <h5>Report a Student Accident Claim</h5>
->>>>>>> FETCH_HEAD
+
 	      </div><!--text-->
 	    </a><!--element-->
 
@@ -48,16 +41,8 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
 	    <a href="http://claims.tnrmt.com/Claims_Reporting/Property_Liability_Automobile_Report_Form/" target="_blank" class="forms-list">
 	      <img src="/_images/icon-form.png">
 	      <div class="text">
-<<<<<<< HEAD
-	        <h4>Property Liability Automobile</h4>
-	        <h5>Property Liability Automobile Report Form</h5>
-=======
 	        <h4>Property Liability Automobile Report Form</h4>
 	        <h5>Report a Property, Liability, or Auto Claim</h5>
-<<<<<<< HEAD
->>>>>>> FETCH_HEAD
-=======
->>>>>>> FETCH_HEAD
 	      </div><!--text-->
 	    </a><!--element-->
 

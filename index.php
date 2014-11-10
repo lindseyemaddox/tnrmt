@@ -37,7 +37,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
 			
 			<h3>40</h3>
 			<h4>Dedicated Employees</h4>
-			<h5>The Trust employees 31 dedicated, highly experienced employees and is governed by a 9 member Board of Trustees.</h5>
+			<h5>The Trust employs 31 dedicated, highly experienced employees and is governed by a 9 member Board of Trustees.</h5>
 
 			<!-- <a class="textlink blue">Read More</a> -->
 
@@ -64,12 +64,12 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
 
 		<div class="article-text">
 
-			<h5>Inspections of Bleachers and Grandstands are Required</h5>
-			<p class="by">written by Chris Stites</p>
-			<p class="by">September, 2014</p>
-			<p>The Tennessee Risk Management Trust has been fortunate and of course a lot of Atta boys need be extended to our maintenance professionals as we have only experienced a single catastrophic loss in relation to bleacher failure in the...</p>
+			<h5>Basics of Inspecting Playgrounds</h5>
+			<p class="by">written by Jason Baggett</p>
+			<p class="by">November, 2014</p>
+			<p>Every year, TNRMT has several reports of playground accidents. Unfortunately, a few of these accidents are simply unavoidable. However, with proper supervision and maintenance, most accidents can be eliminated. Playgrounds are often overlooked...</p>
 
-			<a class="textlink grey fancybox fancybox.iframe" href="/news/14-09-01">Read More</a>
+			<a class="textlink grey fancybox fancybox.iframe" href="/news/14-11-01">Read More</a>
 
 		</div><!--article-text-->
 

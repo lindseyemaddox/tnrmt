@@ -55,6 +55,39 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
   
   <div id="container" class="clearfix resources">
 
+    <a href="/news/14-11-03.php" class="fancybox fancybox.iframe element special-announcements">
+      <img src="/_images/icon-article.png">
+      <div class="text">
+        <h2>TNRMT Gets New Website</h2>
+        <h3>by Kyle Greenup, NGU</h3>
+        <h4 class="issue">Issue - November, 2014</h4>
+        <h5>With help from NGU Risk Management, TNRMT has recently updated www.tnrmt.com.  Changes include a more streamlined navigation, search functions, updated photos & graphics, and mobile web compatibility....</h5>
+        <span class="textlink yellow">Read More</span>
+      </div><!--text-->
+    </a><!--element-->
+    
+    <a href="/news/14-11-02.php" class="fancybox fancybox.iframe element forms">
+      <img src="/_images/icon-article.png">
+      <div class="text">
+        <h2>Manage Your Schedules and More Online</h2>
+        <h3>by Betsey Sullivan, NGU</h3>
+        <h4 class="issue">Issue - November, 2014</h4>
+        <h5>Throughout the year, you will likely have the need to request a change in your entity’s Property Schedule or Auto Schedule, request Builders Risk Coverage, or even request a...</h5>
+        <span class="textlink yellow">Read More</span>
+      </div><!--text-->
+    </a><!--element-->
+    
+    <a href="/news/14-11-01.php" class="fancybox fancybox.iframe element student-accident">
+      <img src="/_images/icon-article.png">
+      <div class="text">
+        <h2>Basics of Inspecting Playgrounds</h2>
+        <h3>by Jason Baggett, TNRMT</h3>
+        <h4 class="issue">Issue - November, 2014</h4>
+        <h5>Every year, TNRMT has several reports of playground accidents. Unfortunately, a few of these accidents are simply unavoidable. However, with proper supervision and maintenance, most...</h5>
+        <span class="textlink yellow">Read More</span>
+      </div><!--text-->
+    </a><!--element-->
+    
     <a href="/news/14-09-03.php" class="fancybox fancybox.iframe element student-accident">
       <img src="/_images/icon-article.png">
       <div class="text">
@@ -646,7 +679,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
 
     <!-------------FORMS-------------->
 
-    <a href="/forms/employers-injury-illness" class="element forms claims-reporting">
+    <a href="http://claims.tnrmt.com/Claims_Reporting/Employer's_Report_of_Work_Injury_and_Illness/" target="_blank" class="element forms claims-reporting">
       <img src="/_images/icon-form.png">
       <div class="text">
         <h2>Employer's First Report of Work Injury and Illness</h2>
@@ -655,7 +688,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
       </div><!--text-->
     </a><!--element-->
 
-    <a href="/forms/property-liability-automobile" class="element forms claims-reporting">
+    <a href="http://claims.tnrmt.com/Claims_Reporting/Property_Liability_Automobile_Report_Form/" target="_blank" class="element forms claims-reporting">
       <img src="/_images/icon-form.png">
       <div class="text">
         <h2>Property Liability Automobile Report Form</h2>
