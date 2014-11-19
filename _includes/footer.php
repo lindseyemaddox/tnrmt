@@ -22,9 +22,13 @@
 				<img src="/_images/icon-meeting.png">
 
 				<h6>next meeting</h6>
+				
+				<p>To Be Announced</p>
+<!--
 				<p>October 20, 2014</p>
 				<p><a href="https://goo.gl/maps/z5xQJ" target="_blank">404 BNA Drive, Nashville, TN 37217</a></p>
 				<p>Time: 1:00 p.m.</p>
+-->
 
 		</div><!--inner-->
 
