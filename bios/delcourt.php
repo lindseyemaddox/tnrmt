@@ -21,7 +21,7 @@
 	<script src="/_scripts/main-ck.js"></script>
 	<script src="/_scripts/jquery.fancybox.js"></script>
 
-	<title>Sandra Thompson | Tennessee Risk Management Trust</title>
+	<title>Sandra Delcourt | Tennessee Risk Management Trust</title>
 	<meta name="description" content="">
 
 </head>
@@ -30,11 +30,11 @@
 
 <div class="fb-bio">
 
-	<img src="/_images/team/thompson.jpg">
+	<img src="/_images/team/delcourt.jpg">
 
 	<div class="bio-text">
 
-		<h1>Sandra Thompson</h1>
+		<h1>Sandra Delcourt</h1>
 
 		<h2>Senior Claims Representative</h2>
 
@@ -42,13 +42,13 @@
 
 		<a class="textlink phone-link" href="tel:16156518625">(615) 651-8625 x240</a>
 
-		<a class="textlink" href="mailto:sthompson@tnrmt.com">Email Sandra</a>
+		<a class="textlink" href="mailto:sdelcourt@tnrmt.com">Email Sandra</a>
 
 	</div><!--bio-text-->
 
 	<div class="clear"></div>
 
-	<p>Sandra Thompson takes pride in her work. And as a Senior Claims Representative for TNRMT, she helps clients fully understand their situations—and more important, she makes them feel at ease knowing their claims will be handled in a professional manner.</p>
+	<p>Sandra Delcourt takes pride in her work. And as a Senior Claims Representative for TNRMT, she helps clients fully understand their situations—and more important, she makes them feel at ease knowing their claims will be handled in a professional manner.</p>
 
 	<p>“My clients know that I will do what it takes to get the job done, and I’ll always do it with a smile,” said Sandra, who is passionate about lifting people up and making them feel good about themselves. “My goal is for clients to be glad they can turn to us when it comes to their insurance needs.” </p>
 
