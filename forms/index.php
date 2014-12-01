@@ -20,6 +20,8 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
 	<section id="content">
 		
 		<h1>Claims Reporting</h1>
+		
+		<h2>Forward all claims documentation such as estimates, medical bills, investigative reports or lawsuits to <a href="mailto:claims@tnrmt.com">claims@tnrmt.com</a></h2>
 
 	    <a href="/stars-login" class="fancybox fancybox.iframe forms-list">
 	      <img src="/_images/icon-form.png">
