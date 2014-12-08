@@ -32,7 +32,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
 	      </div><!--text-->
 	    </a><!--element-->
 
-	    <a href="http://claims.tnrmt.com/Claims_Reporting/Employer's_Report_of_Work_Injury_and_Illness/" target="_blank" class="forms-list">
+	    <a href="http://claims.tnrmt.com/Claims_Reporting/Employer's_Report_of_Work_Injury_and_Illness" target="_blank" class="forms-list">
 	      <img src="/_images/icon-form.png">
 	      <div class="text">
 	        <h4>Employer's First Report of Work Injury and Illness</h4>
@@ -40,7 +40,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
 	      </div><!--text-->
 	    </a><!--element-->
 
-	    <a href="http://claims.tnrmt.com/Claims_Reporting/Property_Liability_Automobile_Report_Form/" target="_blank" class="forms-list">
+	    <a href="http://claims.tnrmt.com/Claims_Reporting/Property_Liability_Automobile_Report_Form" target="_blank" class="forms-list">
 	      <img src="/_images/icon-form.png">
 	      <div class="text">
 	        <h4>Property Liability Automobile Report Form</h4>
