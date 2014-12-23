@@ -55,6 +55,28 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
   
   <div id="container" class="clearfix resources">
 
+    <a href="/news/14-12-02.php" class="fancybox fancybox.iframe element special-announcements membership">
+      <img src="/_images/icon-article.png">
+      <div class="text">
+        <h2>TNRMT Welcomes New Trustees</h2>
+        <h3>by Dr. Phillip Wallace, TNRMT Administrator</h3>
+        <h4 class="issue">Issue - December, 2014</h4>
+        <h5>TNRMT welcomes the following new board members, Dr. Leta Joiner, Director of Stewart County Schools; John Cain, Finance...</h5>
+        <span class="textlink yellow">Read More</span>
+      </div><!--text-->
+    </a><!--element-->
+    
+    <a href="/news/14-12-01.php" class="fancybox fancybox.iframe element claims-reporting membership">
+      <img src="/_images/icon-article.png">
+      <div class="text">
+        <h2>EF 3 Tornado Damage & 96 Short Days Later</h2>
+        <h3>by Chris Stites, Safety Engineering Consulting &amp; Claims Management</h3>
+        <h4 class="issue">Issue - December, 2014</h4>
+        <h5>On April 28, 2014 an EF 3 tornado containing at least 136 mph winds hit South Lincoln Elementary School...</h5>
+        <span class="textlink yellow">Read More</span>
+      </div><!--text-->
+    </a><!--element-->
+    
     <a href="/news/14-11-03.php" class="fancybox fancybox.iframe element special-announcements">
       <img src="/_images/icon-article.png">
       <div class="text">

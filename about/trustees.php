@@ -72,9 +72,9 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
 
 		<div class="trustee">
 			
-			<a href="#"><img src="/_images/trustee_placeholder.jpg"></a>
+			<a href="#"><img src="/_images/trustee-page.jpg"></a>
 
-			<h3><a href="#">Coming<br />Soon</a></h3>
+			<h3><a href="#">Jeff<br />Page</a></h3>
 
 			<a class="district showDistrictFive">District 5</a>
 
@@ -96,9 +96,9 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
 
 		<div class="trustee">
 			
-			<a href="#"><img src="/_images/trustee_placeholder.jpg"></a>
+			<a href="#"><img src="/_images/trustee-cain.jpg"></a>
 
-			<h3><a href="#">Coming<br />Soon</a></h3>
+			<h3><a href="#">John<br />Cain</a></h3>
 
 			<a class="district showDistrictSeven">District 7</a>
 

@@ -113,6 +113,16 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
     	</div><!--text-->
     </a><!--element-->
                        
+    <a href="#" class="fancybox fancybox.iframe element trustee" data-symbol="Hg" data-category="Kubota">
+    	<img src="/_images/team/cain.jpg">
+    	<div class="text">
+    		<h2>John<br />Cain</h2>
+    		<h3>Trustee</h3>
+    		<h5>District 7</h5>
+    		<span class="icon-info"></span>
+    	</div><!--text-->
+    </a><!--element-->
+                       
     <a href="/bios/carmichael.php" class="fancybox fancybox.iframe element trustee " data-symbol="Hg" data-category="Kubota">
     	<img src="/_images/team/carmichael.jpg">
     	<div class="text">
@@ -320,6 +330,16 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
             <h5>NGU</h5>
             <span class="icon-info"></span>
         </div><!--text-->
+    </a><!--element-->
+                       
+    <a href="#" class="fancybox fancybox.iframe element trustee" data-symbol="Hg" data-category="Kubota">
+    	<img src="/_images/team/page.jpg">
+    	<div class="text">
+    		<h2>Jeff<br />Page</h2>
+    		<h3>Trustee</h3>
+    		<h5>District 5</h5>
+    		<span class="icon-info"></span>
+    	</div><!--text-->
     </a><!--element-->
                        
     <a href="/bios/robinson_d.php" class="fancybox fancybox.iframe element customer-service ngu " data-symbol="Hg" data-category="Kubota">

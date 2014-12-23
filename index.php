@@ -64,12 +64,12 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
 
 		<div class="article-text">
 
-			<h5>Basics of Inspecting Playgrounds</h5>
-			<p class="by">written by Jason Baggett</p>
-			<p class="by">November, 2014</p>
-			<p>Every year, TNRMT has several reports of playground accidents. Unfortunately, a few of these accidents are simply unavoidable. However, with proper supervision and maintenance, most accidents can be eliminated. Playgrounds are often overlooked...</p>
+			<h5>EF 3 Tornado Damage & 96 Short Days Later</h5>
+			<p class="by">written by Chris Stites</p>
+			<p class="by">December, 2014</p>
+			<p>On April 28, 2014 an EF 3 tornado containing at least 136 mph winds hit South Lincoln Elementary School in southern Lincoln County, TN. Fortunately no lives were lost inside the school; however, the community did...</p>
 
-			<a class="textlink grey fancybox fancybox.iframe" href="/news/14-11-01">Read More</a>
+			<a class="textlink grey fancybox fancybox.iframe" href="/news/14-12-01">Read More</a>
 
 		</div><!--article-text-->
 
