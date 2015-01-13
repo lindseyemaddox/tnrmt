@@ -2584,6 +2584,10 @@ input.gsc-search-button {
   -ms-transition: all 400ms ease;
   transition: all 400ms ease;
 }
+#gsc-i-id1 {
+  background: none!important;
+  height: 18px!important;
+}
 /**************** RESPONSIVE *****************/
 @media screen and (max-width: 1400px) {
   #number-groups .three h4 {

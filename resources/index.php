@@ -55,6 +55,17 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
   
   <div id="container" class="clearfix resources">
 
+    <a href="/news/15-01-05.php" class="fancybox fancybox.iframe element special-announcements safety">
+      <img src="/_images/icon-article.png">
+      <div class="text">
+        <h2>Cold Weather Preparation</h2>
+        <h3>by Chris Stites, SEC</h3>
+        <h4 class="issue">Issue - January, 2015</h4>
+        <h5>Winter is upon us!  Ready or not, freezing temperatures are here.  The forecast for this week calls for below freezing temperatures...</h5>
+        <span class="textlink yellow">Read More</span>
+      </div><!--text-->
+    </a><!--element-->
+    
     <a href="/news/14-12-02.php" class="fancybox fancybox.iframe element special-announcements membership">
       <img src="/_images/icon-article.png">
       <div class="text">

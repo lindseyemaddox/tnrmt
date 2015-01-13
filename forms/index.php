@@ -21,7 +21,9 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
 		
 		<h1>Claims Reporting</h1>
 		
-		<h2>Forward all claims documentation such as estimates, medical bills, investigative reports or lawsuits to <a href="mailto:claims@tnrmt.com">claims@tnrmt.com</a></h2>
+		<h2>Please forward all Property / Casualty claims documentation to <a href="mailto:pcclaims@tnrmt.com">pcclaims@tnrmt.com</a>.<br/>
+		Please forward all Workers' Compensation claims documentation to <a href="mailto:wcclaims@tnrmt.com">wcclaims@tnrmt.com</a>.<br />
+		Please forward all Student Accident claims documentation to <a href="studentaccident@tnrmt.com">studentaccident@tnrmt.com</a>.</h2>
 
 	    <a href="/stars-login" class="fancybox fancybox.iframe forms-list">
 	      <img src="/_images/icon-form.png">

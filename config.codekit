@@ -596,6 +596,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_images\/team\/cain.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 41074,
+		"inputAbbreviatedPath": "\/_images\/team\/cain.jpg",
+		"outputAbbreviatedPath": "\/_images\/team\/cain.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_images\/team\/carmichael.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -838,6 +849,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_images\/team\/page.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 39474,
+		"inputAbbreviatedPath": "\/_images\/team\/page.jpg",
+		"outputAbbreviatedPath": "\/_images\/team\/page.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_images\/team\/peace.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -1032,6 +1054,17 @@
 		"initialSize": 4073,
 		"inputAbbreviatedPath": "\/_images\/trustee-jones.jpg",
 		"outputAbbreviatedPath": "\/_images\/trustee-jones.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/_images\/trustee-page.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 13425,
+		"inputAbbreviatedPath": "\/_images\/trustee-page.jpg",
+		"outputAbbreviatedPath": "\/_images\/trustee-page.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
@@ -2501,6 +2534,15 @@
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
 		"inputAbbreviatedPath": "\/news\/14-12-02.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/news\/15-01-05.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/news\/15-01-05.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0

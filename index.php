@@ -64,12 +64,12 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
 
 		<div class="article-text">
 
-			<h5>EF 3 Tornado Damage & 96 Short Days Later</h5>
+			<h5>Cold Weather Preparation</h5>
 			<p class="by">written by Chris Stites</p>
-			<p class="by">December, 2014</p>
-			<p>On April 28, 2014 an EF 3 tornado containing at least 136 mph winds hit South Lincoln Elementary School in southern Lincoln County, TN. Fortunately no lives were lost inside the school; however, the community did...</p>
+			<p class="by">January, 2015</p>
+			<p>Winter is upon us!  Ready or not, freezing temperatures are here. The forecast for this week calls for below freezing temperatures across Tennessee. Prepare today so you can avoid injuries and other problems tomorrow....</p>
 
-			<a class="textlink grey fancybox fancybox.iframe" href="/news/14-12-01">Read More</a>
+			<a class="textlink grey fancybox fancybox.iframe" href="/news/15-01-05">Read More</a>
 
 		</div><!--article-text-->
 
