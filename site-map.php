@@ -47,18 +47,12 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
             <li><a href="/forms">Forms</a></li>
             <li><a class="claims-link" href="https://www.stars-web.com/STARSWeb85/EntryPoint.asp?Userid=TNRMT&ClientID=T722&UserPassword=TNRMT" target="_blank">Student Accident Claims Reporting</a>
             	<ul>
-<<<<<<< HEAD
-<<<<<<< HEAD
             		<li><a href="/forms/employers-injury-illness">Employer's First Report of Work Injury and Illness</a></li>
             		<li><a href="/forms/property-liability-automobile">Property Liability Automobile Report Form</a></li>
-=======
             		<li><a href="http://claims.tnrmt.com/Claims_Reporting/Employer's_Report_of_Work_Injury_and_Illness/" target="_blank">Employer's First Report of Work Injury and Illness</a></li>
             		<li><a href="http://claims.tnrmt.com/Claims_Reporting/Property_Liability_Automobile_Report_Form/" target="_blank">Property Liability Automobile Report Form</a></li>
->>>>>>> FETCH_HEAD
-=======
             		<li><a href="http://claims.tnrmt.com/Claims_Reporting/Employer's_Report_of_Work_Injury_and_Illness/" target="_blank">Employer's First Report of Work Injury and Illness</a></li>
             		<li><a href="http://claims.tnrmt.com/Claims_Reporting/Property_Liability_Automobile_Report_Form/" target="_blank">Property Liability Automobile Report Form</a></li>
->>>>>>> FETCH_HEAD
             	</ul>
             </li>
             <li><a href="#">Bios</a>

@@ -8,15 +8,8 @@
         $phone = $_REQUEST['phone'] ;
         $desc = $_REQUEST['desc'] ;
         if (isset($_POST['submit'])) {
-<<<<<<< HEAD
-<<<<<<< HEAD
           $to = 'kgreenup@ngutn.com';
-=======
           $to = 'info@tnrmt.com';
->>>>>>> FETCH_HEAD
-=======
-          $to = 'info@tnrmt.com';
->>>>>>> FETCH_HEAD
           $headers = "From: " . strip_tags($_POST['email']) . "\r\n";
           $headers .= "Reply-To: ". strip_tags($_POST['email']) . "\r\n";
           $headers .= "MIME-Version: 1.0\r\n";

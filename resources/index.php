@@ -55,6 +55,39 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
   
   <div id="container" class="clearfix resources">
 
+    <a href="/news/15-02-03.php" class="fancybox fancybox.iframe element special-announcements safety">
+      <img src="/_images/icon-article.png">
+      <div class="text">
+        <h2>Staying Safe Online in 2015</h2>
+        <h3>by Kyle Greenup, NGU</h3>
+        <h4 class="issue">Issue - February, 2015</h4>
+        <h5>It’s an unfortunate, but true statement. Cybercrime is a trend that will not go away.  It’s just far too lucrative and far too easy for tech savvy criminals. In 2014 alone, large companies...</h5>
+        <span class="textlink yellow">Read More</span>
+      </div><!--text-->
+    </a><!--element-->
+    
+    <a href="/news/15-02-02.php" class="fancybox fancybox.iframe element claims-reporting safety">
+      <img src="/_images/icon-article.png">
+      <div class="text">
+        <h2>Time to Post OSHA 300A Reports</h2>
+        <h3>by Jason Baggett, TNRMT</h3>
+        <h4 class="issue">Issue - February, 2015</h4>
+        <h5>All of our members are required to complete an OSHA 300 Log. The OSHA 300 Log is a record keeping tool designed to track and record workplace injuries. In order to complete an...</h5>
+        <span class="textlink yellow">Read More</span>
+      </div><!--text-->
+    </a><!--element-->
+    
+    <a href="/news/15-02-01.php" class="fancybox fancybox.iframe element student-accident safety">
+      <img src="/_images/icon-article.png">
+      <div class="text">
+        <h2>Concussion Awareness</h2>
+        <h3>by Chris Stites &amp; Jason Baggett</h3>
+        <h4 class="issue">Issue - February, 2015</h4>
+        <h5>No doubt about it, sports are a great way for kids to stay healthy while learning important team-building skills. What are the risks of pushing the limits of speed, strength and endurance? Children, parents and without a doubt...</h5>
+        <span class="textlink yellow">Read More</span>
+      </div><!--text-->
+    </a><!--element-->
+    
     <a href="/news/15-01-05.php" class="fancybox fancybox.iframe element special-announcements safety">
       <img src="/_images/icon-article.png">
       <div class="text">

@@ -64,12 +64,12 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
 
 		<div class="article-text">
 
-			<h5>Cold Weather Preparation</h5>
-			<p class="by">written by Chris Stites</p>
-			<p class="by">January, 2015</p>
-			<p>Winter is upon us!  Ready or not, freezing temperatures are here. The forecast for this week calls for below freezing temperatures across Tennessee. Prepare today so you can avoid injuries and other problems tomorrow....</p>
+			<h5>Time to Post OSHA 300A Reports</h5>
+			<p class="by">written by Jason Baggett</p>
+			<p class="by">February, 2015</p>
+			<p>All of our members are required to complete an OSHA 300 Log. The OSHA 300 Log is a record keeping tool designed to track and record workplace injuries. In order to complete an OSHA....</p>
 
-			<a class="textlink grey fancybox fancybox.iframe" href="/news/15-01-05">Read More</a>
+			<a class="textlink grey fancybox fancybox.iframe" href="/news/15-02-02">Read More</a>
 
 		</div><!--article-text-->
 
