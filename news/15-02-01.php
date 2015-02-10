@@ -11,7 +11,7 @@
 
 	<h1>Concussion Awareness</h1>
 
-	<h2><a class="fancybox fancybox.iframe" href="/bios/stites.php">Chris Stites</a>, Safety Engineer, Loss Control Specialist, Safety Engineering &amp; Claims Management<br /><a class="fancybox fancybox.iframe" href="/bios/stites.php">Jason Baggett</a>, Loss Control Specialist, Tennessee Risk Management Trust</h2>
+	<h2><a class="fancybox fancybox.iframe" href="/bios/stites.php">Chris Stites</a>, Safety Engineer, Loss Control Specialist, Safety Engineering &amp; Claims Management<br /><a class="fancybox fancybox.iframe" href="/bios/baggett.php">Jason Baggett</a>, Loss Control Specialist, Tennessee Risk Management Trust</h2>
 
 	<h3>February, 2015</h3>
 
