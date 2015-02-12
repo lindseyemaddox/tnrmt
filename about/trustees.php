@@ -120,13 +120,13 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
 
 		<div class="trustee">
 			
-			<a class="fancybox fancybox.iframe" href="/bios/carmichael.php"><img src="/_images/trustee-carmichael.jpg"></a>
+			<a class="fancybox fancybox.iframe" href="#"><img src="/_images/trustee-ullrich.jpg"></a>
 
-			<h3><a class="fancybox fancybox.iframe" href="/bios/carmichael.php">Kenny<br />Carmichael</a></h3>
+			<h3><a class="fancybox fancybox.iframe" href="/bios/ullrich.php">Karl<br />Ullrich</a></h3>
 
 			<a class="district showDistrictNine">District 9</a>
 
-			<a class="bio fancybox fancybox.iframe" href="/bios/carmichael.php">Bio</a>
+			<a class="bio fancybox fancybox.iframe" href="/bios/ullrich.php">Bio</a>
 
 		</div><!--trustee-->
 

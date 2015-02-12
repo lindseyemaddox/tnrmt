@@ -123,16 +123,6 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
     	</div><!--text-->
     </a><!--element-->
                        
-    <a href="/bios/carmichael.php" class="fancybox fancybox.iframe element trustee " data-symbol="Hg" data-category="Kubota">
-    	<img src="/_images/team/carmichael.jpg">
-    	<div class="text">
-    		<h2>Kenny<br /><span>Carmichael</span></h2>
-    		<h3>Trustee</h3>
-    		<h5>District 9</h5>
-    		<span class="icon-info"></span>
-    	</div><!--text-->
-    </a><!--element-->
-                       
     <a href="/bios/carnahan.php" class="fancybox fancybox.iframe element finance tnrmt" data-symbol="Hg" data-category="Kubota">
     	<img src="/_images/team/carnahan.jpg">
     	<div class="text">
@@ -420,6 +410,16 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
             <h5>District 8</h5>
             <span class="icon-info"></span>
         </div><!--text-->
+    </a><!--element-->
+                       
+    <a href="/bios/ullrich.php" class="fancybox fancybox.iframe element trustee " data-symbol="Hg" data-category="Kubota">
+    	<img src="/_images/team/ullrich.jpg">
+    	<div class="text">
+    		<h2>Karl<br />Ullrich</h2>
+    		<h3>Trustee</h3>
+    		<h5>District 9</h5>
+    		<span class="icon-info"></span>
+    	</div><!--text-->
     </a><!--element-->
                        
     <a href="/bios/wallace.php" class="fancybox fancybox.iframe element admin tnrmt " data-symbol="Hg" data-category="Kubota">

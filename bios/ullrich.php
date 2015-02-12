@@ -30,11 +30,11 @@
 
 <div class="fb-bio">
 
-	<img src="/_images/team/carmichael.jpg">
+	<img src="/_images/team/ullrich.jpg">
 
 	<div class="bio-text">
 
-		<h1>Kenny Carmichael</h1>
+		<h1>Karl Ullrich</h1>
 
 		<h2>Trustee</h2>
 
@@ -42,12 +42,12 @@
 
 		<br />
 
-		<a class="textlink" href="mailto:secesh61@charter.net">Email Kenny</a>
+		<!-- <a class="textlink" href="mailto:">Email Karl</a> -->
 
 	</div><!--bio-text-->
 
 	<div class="clear"></div>
 
-	<p>A member of the Milan Special School Board, and is currently the Staff Pharmacist of Jackson Madison County Hospital. Kenny represents District 9 on the Board of Trustees.</p>
+	<p>Karl represents District 9 on the Board of Trustees.</p>
 
 </div><!--fb-bio-->

@@ -64,7 +64,6 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
                     <li><a class="fancybox fancybox.iframe" href="/bios/bilyeu">Mark Bilyeu</a></li>
                     <li><a class="fancybox fancybox.iframe" href="/bios/breese">Chelsea Breese</a></li>
                     <li><a class="fancybox fancybox.iframe" href="/bios/brown">Denise Brown</a></li>
-                    <li><a class="fancybox fancybox.iframe" href="/bios/carmichael">Kenny Carmichael</a></li>
                     <li><a class="fancybox fancybox.iframe" href="/bios/carnahan">Alice Carnahan</a></li>
                     <li><a class="fancybox fancybox.iframe" href="/bios/coy">Debra Coy</a></li>
                     <li><a class="fancybox fancybox.iframe" href="/bios/delcourt">Sandra Delcourt</a></li>
@@ -93,6 +92,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
                     <li><a class="fancybox fancybox.iframe" href="/bios/sullivan_b">Betsey Sullivan</a></li>
                     <li><a class="fancybox fancybox.iframe" href="/bios/sullivan">Jackie Sullivan</a></li>
                     <li><a class="fancybox fancybox.iframe" href="/bios/tucker">Tony Tucker</a></li>
+                    <li><a class="fancybox fancybox.iframe" href="/bios/ullrich">Karl Ullrich</a></li>
                     <li><a class="fancybox fancybox.iframe" href="/bios/wallace">Phillip Wallace</a></li>
                     <li><a class="fancybox fancybox.iframe" href="/bios/wiles">Dawn Wiles</a></li>
                 </ul>

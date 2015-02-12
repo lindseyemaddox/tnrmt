@@ -1102,6 +1102,17 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/_images\/trustee-ullrich.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 34452,
+		"inputAbbreviatedPath": "\/_images\/trustee-ullrich.jpg",
+		"outputAbbreviatedPath": "\/_images\/trustee-ullrich.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/_images\/trustee-wallace.jpg": {
 		"fileType": 16384,
 		"ignore": 0,
@@ -2547,11 +2558,29 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
-	"\/news\/15-02-06.php": {
+	"\/news\/15-02-01.php": {
 		"fileType": 8192,
 		"ignore": 0,
 		"ignoreWasSetByUser": 0,
-		"inputAbbreviatedPath": "\/news\/15-02-06.php",
+		"inputAbbreviatedPath": "\/news\/15-02-01.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/news\/15-02-02.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/news\/15-02-02.php",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
+	"\/news\/15-02-03.php": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/news\/15-02-03.php",
 		"outputAbbreviatedPath": "No Output Path",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
