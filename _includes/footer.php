@@ -23,12 +23,12 @@
 
 				<h6>next meeting</h6>
 				
-				<p>To Be Announced</p>
-<!--
-				<p>October 20, 2014</p>
-				<p><a href="https://goo.gl/maps/z5xQJ" target="_blank">404 BNA Drive, Nashville, TN 37217</a></p>
-				<p>Time: 1:00 p.m.</p>
--->
+				<!-- <p>To Be Announced</p> -->
+
+				<p>February 15, 2015</p>
+				<p><a href="http://www.evinsmill.com/" target="_blank">The Lodge at Evins Mill</a></p>
+				<p>Smithville, TN</p>
+				<p>Time: 8:30 a.m.</p>
 
 		</div><!--inner-->
 
