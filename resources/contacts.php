@@ -53,7 +53,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
         </div><!--text-->
     </a><!--element-->
                        
-    <a href="/bios/baggett.php" class="fancybox fancybox.iframe element loss-control sec" data-symbol="Hg" data-category="Kubota">
+    <a href="/bios/baggett.php" class="fancybox fancybox.iframe element loss-control tnrmt" data-symbol="Hg" data-category="Kubota">
     	<img src="/_images/team/baggett.jpg">
     	<div class="text">
     		<h2>Jason<br />Baggett</h2>
@@ -368,6 +368,16 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
             <h2>Dr. Wanda<br />Shelton</h2>
             <h3>Trustee</h3>
             <h5>District 4</h5>
+            <span class="icon-info"></span>
+        </div><!--text-->
+    </a><!--element-->
+                       
+    <a href="/bios/stanley.php" class="fancybox fancybox.iframe element loss-control sec " data-symbol="Hg" data-category="Kubota">
+        <img src="/_images/team/stanley.jpg">
+        <div class="text">
+            <h2>Tom<br />Stanley</h2>
+            <h3>P/C Claims Supervisor</h3>
+            <h5>SEC</h5>
             <span class="icon-info"></span>
         </div><!--text-->
     </a><!--element-->

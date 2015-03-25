@@ -99,7 +99,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
       </div><!--text-->
     </a><!--element-->
     
-    <a href="/news/14-12-02.php" class="fancybox fancybox.iframe element special-announcements membership">
+    <a href="/news/14-12-02.php" class="fancybox fancybox.iframe element special-announcements board-of-trustees">
       <img src="/_images/icon-article.png">
       <div class="text">
         <h2>TNRMT Welcomes New Trustees</h2>

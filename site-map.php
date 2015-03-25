@@ -88,6 +88,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
                     <li><a class="fancybox fancybox.iframe" href="/bios/robinson_d">Donna Robinson</a></li>
                     <li><a class="fancybox fancybox.iframe" href="/bios/salmon">Tad Salmon</a></li>
                     <li><a class="fancybox fancybox.iframe" href="/bios/shelton">Wanda Shelton</a></li>
+                    <li><a class="fancybox fancybox.iframe" href="/bios/stanley">Tom Stanley</a></li>
                     <li><a class="fancybox fancybox.iframe" href="/bios/stites">Chris Stites</a></li>
                     <li><a class="fancybox fancybox.iframe" href="/bios/sullivan_b">Betsey Sullivan</a></li>
                     <li><a class="fancybox fancybox.iframe" href="/bios/sullivan">Jackie Sullivan</a></li>
