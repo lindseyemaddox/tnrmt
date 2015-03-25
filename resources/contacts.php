@@ -372,7 +372,7 @@ require_once($_SERVER['DOCUMENT_ROOT'].'/_includes/header.php'); // header and n
         </div><!--text-->
     </a><!--element-->
                        
-    <a href="/bios/stanley.php" class="fancybox fancybox.iframe element loss-control sec " data-symbol="Hg" data-category="Kubota">
+    <a href="/bios/stanley.php" class="fancybox fancybox.iframe element sec " data-symbol="Hg" data-category="Kubota">
         <img src="/_images/team/stanley.jpg">
         <div class="text">
             <h2>Tom<br />Stanley</h2>
